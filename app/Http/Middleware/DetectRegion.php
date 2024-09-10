@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Stevebauman\Location\Facades\Location;
 
 class DetectRegion
 {
@@ -19,8 +20,14 @@ class DetectRegion
 
         if (!$region) {
             // Use IP geolocation or other detection methods
-            // $region = Geoip::getLocation($request->ip());
-            $region = 'us';
+            if ($request->ip() == '127.0.0.1') {
+				$user_ip = '106.219.159.62';
+			} else {
+				$user_ip = $request->ip();
+			}
+
+            $currentUserInfo =  Location::get($user_ip);
+            $region = strtolower($currentUserInfo->countryCode);
             $request->session()->put('region', $region);
         }
         return $next($request);
