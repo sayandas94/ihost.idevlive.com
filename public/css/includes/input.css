@@ -1,0 +1,158 @@
+input:focus {
+	border-bottom: 1px solid var(--primary) !important;
+	-webkit-box-shadow: 0 1px 0 0 var(--primary) !important;
+	box-shadow: 0 1px 0 0 var(--primary) !important;
+}
+
+input:focus + label {
+	color: var(--primary) !important;
+}
+
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::after {
+	background-color: var(--primary);
+}
+
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::before, [type="radio"].with-gap:checked + span::after {
+	border: 2px solid var(--primary);
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+	background-color: var(--primary-100);
+}
+
+.switch label .lever::before {
+	background-color: rgba(38, 166, 154, 0.15);
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+	background-color: var(--primary);
+}
+
+[type="checkbox"].filled-in:checked + span:not(.lever)::after {
+	border: 2px solid var(--primary);
+	background-color: var(--primary);
+}
+
+.overlay-popup .setup-domain {
+	margin-top: 16px;
+}
+
+.overlay-popup .setup-domain > div {
+	display: flex;
+	column-gap: 16px;
+	width: 400px;
+}
+
+.overlay-popup .setup-domain > div > input {
+	border: 2px solid var(--primary-100) !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border-radius: 8px;
+	padding: 0 16px;
+	width: calc(100% - 32px);
+}
+
+.overlay-popup .setup-domain > div > input::placeholder {
+	opacity: 1;
+}
+
+.overlay-popup .setup-domain > div > input.invalid {
+	border-color: #f44336 !important;
+}
+
+.overlay-popup .setup-domain > div > a {
+	height: 49px;
+	line-height: 49px;
+	position: relative;
+	padding: 0 18px;
+	width: 49px;
+}
+
+.overlay-popup .setup-domain > div > a > img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 18px;
+	width: 18px;
+}
+
+/* Code for custom radio button at select datacenter */
+.radio-wrapper > label {
+	border: 2px solid var(--primary-100);
+	border-radius: 8px;
+	display: flex;
+	height: 300px;
+	width: 230px;
+	padding: 24px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.radio-wrapper > label img {
+	border: 2px solid var(--primary-100);
+	border-radius: 50%;
+	padding: 2px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.radio-wrapper > label span.medium {
+	color: #212121;
+	font-size: 1rem;
+	margin-top: 24px;
+}
+
+.radio-wrapper > input[type='radio']:checked + label {
+	border-color: var(--primary);
+}
+
+.radio-wrapper > input[type='radio']:checked + label img {
+	border-color: var(--primary);
+}
+
+.nameserver-wrapper {
+	position: relative;
+	margin-top: 24px;
+}
+
+.nameserver-wrapper > input[type='text'] {
+	width: calc(100% - 60px) !important;
+}
+
+.nameserver-wrapper > .btn {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #ffffff;
+	z-index: 8;
+	border-radius: 8px;
+	color: #212121
+}
+
+.nameserver-wrapper > .btn:hover {
+	background-color: #eeeeee;
+}
+
+.verification-input-wrapper {
+	display: flex;
+	column-gap: 12px;
+	justify-content: center;
+}
+
+.verification-input-wrapper > .input-field > input.verification-input {
+	border: 1px solid #dfdfdf;
+	aspect-ratio: 1;
+	border-radius: 8px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+}
+
+.verification-input-wrapper > .input-field > input.verification-input:focus {
+	border: 1px solid var(--primary);
+}

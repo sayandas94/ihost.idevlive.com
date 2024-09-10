@@ -1,0 +1,78 @@
+.header-text {
+	font-weight: 600;
+	line-height: 1.3;
+	color: #212121;
+}
+
+.primary-text {
+	color: var(--primary);
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+.medium {
+	font-weight: 500;
+}
+
+.small-text {
+	font-size: 0.85rem;
+}
+
+.regular-text {
+	font-size: 1rem;
+}
+
+a {
+	color: var(--primary);
+}
+
+.hosting-setup-header > a {
+	margin-right: 24px;
+	color: #212121;
+}
+
+.hosting-setup-header > a > i {
+	font-size: 1.2rem;
+}
+
+.hosting-setup-header > a:hover {
+	color: var(--primary);
+}
+
+.truncate-1 {
+	display: -webkit-box;
+	line-clamp: 1;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.truncate-2 {
+	display: -webkit-box;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.truncate-4 {
+	display: -webkit-box;
+	line-clamp: 4;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+footer.page-footer p.medium {
+	color: #212121;
+}
+
+footer p.small-text a {
+	color: #616161 !important;
+}
+
+footer p.small-text a:hover {
+	text-decoration: underline;
+}

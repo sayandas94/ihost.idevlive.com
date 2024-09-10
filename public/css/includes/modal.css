@@ -1,0 +1,73 @@
+.small-modal {
+	width: 500px;
+	background-color: #ffffff;
+}
+
+.small-modal nav {
+	background-color: #ffffff;
+	box-shadow: none;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	border-bottom: 1px solid #eee;
+}
+
+.small-modal nav .nav-wrapper {
+	padding: 0 9px;
+}
+
+.small-modal nav ul.left li a {
+	pointer-events: none;
+	font-weight: 500;
+	color: #212121;
+}
+.small-modal nav ul.right li a.btn {
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+
+.small-modal nav ul.right li a.btn i {
+	font-size: 16px
+}
+
+.small-modal nav ul.right li:hover a.btn {
+	background-color: #ffcdd2
+}
+
+.small-modal nav ul.right li:hover a.btn i {
+	color: #f44336 !important;
+}
+
+.small-modal table tbody tr {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.small-modal table tbody tr:last-child {
+	border-bottom: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.small-modal {
+		width: 90vw;
+	}
+}
+
+/* 
+OVERLAY (POPUP) FOR SETUP HOSTING
+*/
+
+.overlay-popup {
+	position: fixed;
+	top: 0;
+	left: -100vw;
+	height: 100svh;
+	width: 100vw;
+	background-color: #ffffff;
+	z-index: 998;
+	transition: 0.4s;
+	overflow: hidden;
+}
+
+.overlay-popup.active {
+	left: 0;
+}

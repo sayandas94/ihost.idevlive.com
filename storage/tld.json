@@ -1,0 +1,5332 @@
+[
+  {
+    "name": ".xyz",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".shop",
+    "after_discount": 2.99,
+    "before_discount": 29.18,
+    "Stripe Price": 2918,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".biz",
+    "after_discount": 5.69,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".it.com",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com",
+    "after_discount": 10.99,
+    "before_discount": 10.99,
+    "Stripe Price": 1099,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".5G.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".6G.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".abogado",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ac",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".academy",
+    "after_discount": 15.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".accountant",
+    "after_discount": 24.19,
+    "before_discount": 24.19,
+    "Stripe Price": 2419,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".accountants",
+    "after_discount": 18.29,
+    "before_discount": 89.99,
+    "Stripe Price": 8999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".actor",
+    "after_discount": 14.99,
+    "before_discount": 34.89,
+    "Stripe Price": 3489,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".adult",
+    "after_discount": 90.29,
+    "before_discount": 90.29,
+    "Stripe Price": 9029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ae",
+    "after_discount": 34.49,
+    "before_discount": 34.49,
+    "Stripe Price": 3449,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ae.org",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".agency",
+    "after_discount": 5.09,
+    "before_discount": 21.69,
+    "Stripe Price": 2169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ai",
+    "after_discount": 84.09,
+    "before_discount": 84.09,
+    "Stripe Price": 8409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ai.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".airforce",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".am.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".app",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".apartments",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".archi",
+    "after_discount": 15.29,
+    "before_discount": 60.59,
+    "Stripe Price": 6059,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".army",
+    "after_discount": 15.99,
+    "before_discount": 29.99,
+    "Stripe Price": 2999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".art",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".asia",
+    "after_discount": 4.49,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".associates",
+    "after_discount": 15.99,
+    "before_discount": 31.29,
+    "Stripe Price": 3129,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".attorney",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".auction",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".audio",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".auto",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".autos",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".baby",
+    "after_discount": 19.99,
+    "before_discount": 57.79,
+    "Stripe Price": 5779,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".band",
+    "after_discount": 17.49,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bank",
+    "after_discount": 810.29,
+    "before_discount": 810.29,
+    "Stripe Price": 81029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bar",
+    "after_discount": 60.29,
+    "before_discount": 60.29,
+    "Stripe Price": 6029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bargains",
+    "after_discount": 11.49,
+    "before_discount": 27.69,
+    "Stripe Price": 2769,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".beauty",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".beer",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".best",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bet",
+    "after_discount": 9.29,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bible",
+    "after_discount": 47.09,
+    "before_discount": 47.09,
+    "Stripe Price": 4709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bid",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bihar.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bike",
+    "after_discount": 11.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bingo",
+    "after_discount": 45.69,
+    "before_discount": 45.69,
+    "Stripe Price": 4569,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bio",
+    "after_discount": 6.29,
+    "before_discount": 60.59,
+    "Stripe Price": 6059,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".biz.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".biz.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".black",
+    "after_discount": 13.49,
+    "before_discount": 49.09,
+    "Stripe Price": 4909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".blackfriday",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".blog",
+    "after_discount": 3.69,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".blue",
+    "after_discount": 15.49,
+    "before_discount": 18.09,
+    "Stripe Price": 1809,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".boats",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".bond",
+    "after_discount": 3.89,
+    "before_discount": 9.89,
+    "Stripe Price": 989,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".boo",
+    "after_discount": 9.99,
+    "before_discount": 9.99,
+    "Stripe Price": 999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".boston",
+    "after_discount": 12.29,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".boutique",
+    "after_discount": 5.49,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".br.com",
+    "after_discount": 39.89,
+    "before_discount": 39.89,
+    "Stripe Price": 3989,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".broker",
+    "after_discount": 12.29,
+    "before_discount": 26.49,
+    "Stripe Price": 2649,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".build",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".builders",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".business",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".business.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".buzz",
+    "after_discount": 1.49,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ca.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cab",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cafe",
+    "after_discount": 9.49,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cam",
+    "after_discount": 1.79,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".camera",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".camp",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".capital",
+    "after_discount": 9.29,
+    "before_discount": 55.29,
+    "Stripe Price": 5529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".car",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cards",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".care",
+    "after_discount": 18.49,
+    "before_discount": 32.49,
+    "Stripe Price": 3249,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".careers",
+    "after_discount": 36.49,
+    "before_discount": 55.29,
+    "Stripe Price": 5529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cars",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".casa",
+    "after_discount": 7.99,
+    "before_discount": 7.99,
+    "Stripe Price": 799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".case",
+    "after_discount": 2399,
+    "before_discount": 2399,
+    "Stripe Price": 239900,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cash",
+    "after_discount": 12.29,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".casino",
+    "after_discount": 9.29,
+    "before_discount": 132.09,
+    "Stripe Price": 13209,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".catering",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cc",
+    "after_discount": 9.99,
+    "before_discount": 9.99,
+    "Stripe Price": 999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cc.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".center",
+    "after_discount": 7.49,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ceo",
+    "after_discount": 84.29,
+    "before_discount": 84.29,
+    "Stripe Price": 8429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cfd",
+    "after_discount": 1.09,
+    "before_discount": 8.69,
+    "Stripe Price": 869,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".charity",
+    "after_discount": 13.49,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".chat",
+    "after_discount": 9.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cheap",
+    "after_discount": 7.49,
+    "before_discount": 27.69,
+    "Stripe Price": 2769,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".christmas",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".church",
+    "after_discount": 11.99,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".city",
+    "after_discount": 6.49,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".claims",
+    "after_discount": 15.99,
+    "before_discount": 55.29,
+    "Stripe Price": 5529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cleaning",
+    "after_discount": 50.49,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".click",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".clinic",
+    "after_discount": 12.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".clothing",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cloud",
+    "after_discount": 19.99,
+    "before_discount": 19.99,
+    "Stripe Price": 1999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".club",
+    "after_discount": 14.99,
+    "before_discount": 14.99,
+    "Stripe Price": 1499,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cn.com",
+    "after_discount": 17.09,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cn.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".co",
+    "after_discount": 11.09,
+    "before_discount": 29.09,
+    "Stripe Price": 2909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".co.com",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".co.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".co.nl",
+    "after_discount": 6.99,
+    "before_discount": 6.99,
+    "Stripe Price": 699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".co.no",
+    "after_discount": 20.49,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".coach",
+    "after_discount": 12.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".codes",
+    "after_discount": 6.49,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".coffee",
+    "after_discount": 11.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".college",
+    "after_discount": 19.99,
+    "before_discount": 51.99,
+    "Stripe Price": 5199,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com.de",
+    "after_discount": 5.19,
+    "before_discount": 5.19,
+    "Stripe Price": 519,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com.ph",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".com.se",
+    "after_discount": 9.69,
+    "before_discount": 9.69,
+    "Stripe Price": 969,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".community",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".company",
+    "after_discount": 12.09,
+    "before_discount": 12.09,
+    "Stripe Price": 1209,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".compare",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".computer",
+    "after_discount": 15.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".condos",
+    "after_discount": 45.69,
+    "before_discount": 45.69,
+    "Stripe Price": 4569,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".contact",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".construction",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".consulting",
+    "after_discount": 18.29,
+    "before_discount": 36.09,
+    "Stripe Price": 3609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".contractors",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cooking",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cool",
+    "after_discount": 8.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".coop",
+    "after_discount": 77.09,
+    "before_discount": 77.09,
+    "Stripe Price": 7709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".coop.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".country",
+    "after_discount": 30.29,
+    "before_discount": 2399,
+    "Stripe Price": 239900,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".coupons",
+    "after_discount": 5.09,
+    "before_discount": 43.99,
+    "Stripe Price": 4399,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".courses",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".credit",
+    "after_discount": 9.99,
+    "before_discount": 90.09,
+    "Stripe Price": 9009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".creditcard",
+    "after_discount": 150.29,
+    "before_discount": 150.29,
+    "Stripe Price": 15029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cricket",
+    "after_discount": 24.19,
+    "before_discount": 24.19,
+    "Stripe Price": 2419,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cruises",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cs.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".cyou",
+    "after_discount": 1.29,
+    "before_discount": 9.89,
+    "Stripe Price": 989,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dance",
+    "after_discount": 14.69,
+    "before_discount": 21.69,
+    "Stripe Price": 2169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".date",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dating",
+    "after_discount": 18.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".day",
+    "after_discount": 9.99,
+    "before_discount": 9.99,
+    "Stripe Price": 999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".de.com",
+    "after_discount": 17.29,
+    "before_discount": 17.29,
+    "Stripe Price": 1729,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dealer",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".deals",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".degree",
+    "after_discount": 38.69,
+    "before_discount": 38.69,
+    "Stripe Price": 3869,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".delhi.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".delivery",
+    "after_discount": 7.49,
+    "before_discount": 43.99,
+    "Stripe Price": 4399,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".democrat",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dental",
+    "after_discount": 54.09,
+    "before_discount": 54.09,
+    "Stripe Price": 5409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dentist",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".desi",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".design",
+    "after_discount": 48.49,
+    "before_discount": 48.49,
+    "Stripe Price": 4849,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dev",
+    "after_discount": 14.49,
+    "before_discount": 14.49,
+    "Stripe Price": 1449,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".diamonds",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".diet",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".digital",
+    "after_discount": 2.69,
+    "before_discount": 32.49,
+    "Stripe Price": 3249,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".direct",
+    "after_discount": 15.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".directory",
+    "after_discount": 3.29,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".discount",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".DIY",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".doctor",
+    "after_discount": 12.29,
+    "before_discount": 96.09,
+    "Stripe Price": 9609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dog",
+    "after_discount": 6.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".domains",
+    "after_discount": 33.89,
+    "before_discount": 33.89,
+    "Stripe Price": 3389,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".download",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".dr.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".edu.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".earth",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".education",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".email",
+    "after_discount": 5.09,
+    "before_discount": 22.89,
+    "Stripe Price": 2289,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".energy",
+    "after_discount": 11.89,
+    "before_discount": 89.99,
+    "Stripe Price": 8999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".engineer",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".engineering",
+    "after_discount": 14.89,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".enterprises",
+    "after_discount": 9.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".equipment",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".er.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".estate",
+    "after_discount": 9.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".eu.com",
+    "after_discount": 17.29,
+    "before_discount": 17.29,
+    "Stripe Price": 1729,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".events",
+    "after_discount": 13.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".exchange",
+    "after_discount": 11.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".expert",
+    "after_discount": 9.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".exposed",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".express",
+    "after_discount": 7.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fail",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".faith",
+    "after_discount": 12.19,
+    "before_discount": 12.19,
+    "Stripe Price": 1219,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".family",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fan",
+    "after_discount": 42.29,
+    "before_discount": 42.09,
+    "Stripe Price": 4209,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fans",
+    "after_discount": 9.89,
+    "before_discount": 9.89,
+    "Stripe Price": 989,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".farm",
+    "after_discount": 11.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fashion",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".feedback",
+    "after_discount": 360.29,
+    "before_discount": 360.29,
+    "Stripe Price": 36029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".finance",
+    "after_discount": 12.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".financial",
+    "after_discount": 17.49,
+    "before_discount": 43.99,
+    "Stripe Price": 4399,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".firm.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fish",
+    "after_discount": 33.69,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fishing",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fit",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fitness",
+    "after_discount": 7.19,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".flights",
+    "after_discount": 30.49,
+    "before_discount": 45.69,
+    "Stripe Price": 4569,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".florist",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".flowers",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fm",
+    "after_discount": 102.29,
+    "before_discount": 102.29,
+    "Stripe Price": 10229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fo",
+    "after_discount": 57.59,
+    "before_discount": 57.59,
+    "Stripe Price": 5759,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".food",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".football",
+    "after_discount": 20.69,
+    "before_discount": 20.69,
+    "Stripe Price": 2069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".forex",
+    "after_discount": 12.29,
+    "before_discount": 34.79,
+    "Stripe Price": 3479,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".forsale",
+    "after_discount": 14.99,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".forum",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".foundation",
+    "after_discount": 13.49,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".frl",
+    "after_discount": 34.39,
+    "before_discount": 34.39,
+    "Stripe Price": 3439,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fun",
+    "after_discount": 7.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fund",
+    "after_discount": 12.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".furniture",
+    "after_discount": 24.49,
+    "before_discount": 96.29,
+    "Stripe Price": 9629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".futbol",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".fyi",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gallery",
+    "after_discount": 20.69,
+    "before_discount": 20.69,
+    "Stripe Price": 2069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".game",
+    "after_discount": 309.99,
+    "before_discount": 345.29,
+    "Stripe Price": 34529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".games",
+    "after_discount": 12.29,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".garden",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gay",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gb.net",
+    "after_discount": 8.39,
+    "before_discount": 8.39,
+    "Stripe Price": 839,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gd",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gen.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gift",
+    "after_discount": 16.29,
+    "before_discount": 16.29,
+    "Stripe Price": 1629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gifts",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gives",
+    "after_discount": 13.49,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gl",
+    "after_discount": 35.59,
+    "before_discount": 35.59,
+    "Stripe Price": 3559,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".glass",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".global",
+    "after_discount": 38.89,
+    "before_discount": 69.69,
+    "Stripe Price": 6969,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gmbh",
+    "after_discount": 30.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gold",
+    "after_discount": 6.29,
+    "before_discount": 90.09,
+    "Stripe Price": 9009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".golf",
+    "after_discount": 5.09,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gr.com",
+    "after_discount": 14.59,
+    "before_discount": 14.59,
+    "Stripe Price": 1459,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".graphics",
+    "after_discount": 20.69,
+    "before_discount": 20.69,
+    "Stripe Price": 2069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gratis",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".green",
+    "after_discount": 6.29,
+    "before_discount": 60.59,
+    "Stripe Price": 6059,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gripe",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".group",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".guide",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".guitars",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".gujarat.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".guru",
+    "after_discount": 3.99,
+    "before_discount": 32.49,
+    "Stripe Price": 3249,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hair",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".haus",
+    "after_discount": 12.29,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".health",
+    "after_discount": 60.29,
+    "before_discount": 60.29,
+    "Stripe Price": 6029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".healthcare",
+    "after_discount": 55.49,
+    "before_discount": 55.49,
+    "Stripe Price": 5549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".help",
+    "after_discount": 26.69,
+    "before_discount": 26.69,
+    "Stripe Price": 2669,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hiphop",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hiv",
+    "after_discount": 215.09,
+    "before_discount": 215.09,
+    "Stripe Price": 21509,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hockey",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".holdings",
+    "after_discount": 50.69,
+    "before_discount": 50.69,
+    "Stripe Price": 5069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".holiday",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".homes",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".horse",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hospital",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".host",
+    "after_discount": 10.99,
+    "before_discount": 74.99,
+    "Stripe Price": 7499,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hosting",
+    "after_discount": 360.29,
+    "before_discount": 360.29,
+    "Stripe Price": 36029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".house",
+    "after_discount": 12.49,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".hu.net",
+    "after_discount": 31.69,
+    "before_discount": 31.69,
+    "Stripe Price": 3169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".icu",
+    "after_discount": 2.99,
+    "before_discount": 9.89,
+    "Stripe Price": 989,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".immo",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".immobilien",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".in",
+    "after_discount": 7.29,
+    "before_discount": 7.29,
+    "Stripe Price": 729,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".in.net",
+    "after_discount": 7.49,
+    "before_discount": 7.49,
+    "Stripe Price": 749,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".inc",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ind.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".industries",
+    "after_discount": 33.89,
+    "before_discount": 33.89,
+    "Stripe Price": 3389,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".info",
+    "after_discount": 3.99,
+    "before_discount": 21.29,
+    "Stripe Price": 2129,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".info.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".info.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ink",
+    "after_discount": 23.09,
+    "before_discount": 23.09,
+    "Stripe Price": 2309,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".institute",
+    "after_discount": 7.49,
+    "before_discount": 21.69,
+    "Stripe Price": 2169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".insurance",
+    "after_discount": 810.29,
+    "before_discount": 810.29,
+    "Stripe Price": 81029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".insure",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".int.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".international",
+    "after_discount": 9.99,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".internet.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".investments",
+    "after_discount": 17.49,
+    "before_discount": 96.09,
+    "Stripe Price": 9609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".io",
+    "after_discount": 47.09,
+    "before_discount": 47.09,
+    "Stripe Price": 4709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".io.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".irish",
+    "after_discount": 6.29,
+    "before_discount": 16.89,
+    "Stripe Price": 1689,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".jetzt",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".jewelry",
+    "after_discount": 50.69,
+    "before_discount": 50.69,
+    "Stripe Price": 5069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".jp.net",
+    "after_discount": 8.69,
+    "before_discount": 8.69,
+    "Stripe Price": 869,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".jpn.com",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".juegos",
+    "after_discount": 360.29,
+    "before_discount": 360.29,
+    "Stripe Price": 36029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".kaufen",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".KIDS",
+    "after_discount": 21.89,
+    "before_discount": 21.89,
+    "Stripe Price": 2189,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".kim",
+    "after_discount": 9.49,
+    "before_discount": 18.09,
+    "Stripe Price": 1809,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".kitchen",
+    "after_discount": 12.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".land",
+    "after_discount": 13.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lat",
+    "after_discount": 1.99,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".law",
+    "after_discount": 90.29,
+    "before_discount": 90.29,
+    "Stripe Price": 9029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lawyer",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lease",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".legal",
+    "after_discount": 54.29,
+    "before_discount": 54.29,
+    "Stripe Price": 5429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lgbt",
+    "after_discount": 12.29,
+    "before_discount": 51.69,
+    "Stripe Price": 5169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".life",
+    "after_discount": 2.09,
+    "before_discount": 28.89,
+    "Stripe Price": 2889,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lifestyle",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lighting",
+    "after_discount": 20.69,
+    "before_discount": 20.69,
+    "Stripe Price": 2069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".limited",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".limo",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".link",
+    "after_discount": 8.69,
+    "before_discount": 8.69,
+    "Stripe Price": 869,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".live",
+    "after_discount": 3.29,
+    "before_discount": 25.29,
+    "Stripe Price": 2529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".living",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".llc",
+    "after_discount": 9.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".loan",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".loans",
+    "after_discount": 12.29,
+    "before_discount": 89.99,
+    "Stripe Price": 8999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lol",
+    "after_discount": 1.99,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".london",
+    "after_discount": 17.99,
+    "before_discount": 32.69,
+    "Stripe Price": 3269,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".lotto",
+    "after_discount": 129,
+    "before_discount": 1620.29,
+    "Stripe Price": 162029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".love",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ltd",
+    "after_discount": 11.49,
+    "before_discount": 22.89,
+    "Stripe Price": 2289,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".luxe",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".luxury",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".maison",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".makeup",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".management",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".market",
+    "after_discount": 33.89,
+    "before_discount": 33.89,
+    "Stripe Price": 3389,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".marketing",
+    "after_discount": 9.99,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".markets",
+    "after_discount": 6.29,
+    "before_discount": 13.29,
+    "Stripe Price": 1329,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".mba",
+    "after_discount": 12.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".me",
+    "after_discount": 8.69,
+    "before_discount": 17.69,
+    "Stripe Price": 1769,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".me.bh",
+    "after_discount": 16.19,
+    "before_discount": 16.19,
+    "Stripe Price": 1619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".me.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".med.bh",
+    "after_discount": 49.09,
+    "before_discount": 49.09,
+    "Stripe Price": 4909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".media",
+    "after_discount": 6.99,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".melbourne",
+    "after_discount": 60.49,
+    "before_discount": 60.49,
+    "Stripe Price": 6049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".memorial",
+    "after_discount": 42.89,
+    "before_discount": 42.89,
+    "Stripe Price": 4289,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".men",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".mex.com",
+    "after_discount": 12.29,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".miami",
+    "after_discount": 14.69,
+    "before_discount": 24.99,
+    "Stripe Price": 2499,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".mobi",
+    "after_discount": 5.99,
+    "before_discount": 26.69,
+    "Stripe Price": 2669,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".moda",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".moe",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".mom",
+    "after_discount": 1.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".money",
+    "after_discount": 13.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".monster",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".mortgage",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".motorcycles",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".movie",
+    "after_discount": 36.99,
+    "before_discount": 247.49,
+    "Stripe Price": 24749,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".name",
+    "after_discount": 8.19,
+    "before_discount": 8.19,
+    "Stripe Price": 819,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".name.bh",
+    "after_discount": 16.19,
+    "before_discount": 16.19,
+    "Stripe Price": 1619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".navy",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".net",
+    "after_discount": 13.59,
+    "before_discount": 13.59,
+    "Stripe Price": 1359,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".net.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".net.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".net.ph",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".network",
+    "after_discount": 5.49,
+    "before_discount": 25.89,
+    "Stripe Price": 2589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".new",
+    "after_discount": 499,
+    "before_discount": 499,
+    "Stripe Price": 49900,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".news",
+    "after_discount": 9.99,
+    "before_discount": 25.29,
+    "Stripe Price": 2529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ninja",
+    "after_discount": 13.49,
+    "before_discount": 25.29,
+    "Stripe Price": 2529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".observer",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".one",
+    "after_discount": 15.89,
+    "before_discount": 15.89,
+    "Stripe Price": 1589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".online",
+    "after_discount": 6.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ooo",
+    "after_discount": 24.09,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".org",
+    "after_discount": 12.69,
+    "before_discount": 12.69,
+    "Stripe Price": 1269,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".org.bh",
+    "after_discount": 47.99,
+    "before_discount": 47.99,
+    "Stripe Price": 4799,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".org.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".org.ph",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".organic",
+    "after_discount": 15.49,
+    "before_discount": 63.49,
+    "Stripe Price": 6349,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".osaka",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".page",
+    "after_discount": 9.99,
+    "before_discount": 9.99,
+    "Stripe Price": 999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".paris",
+    "after_discount": 38.69,
+    "before_discount": 38.69,
+    "Stripe Price": 3869,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".partners",
+    "after_discount": 18.49,
+    "before_discount": 55.29,
+    "Stripe Price": 5529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".parts",
+    "after_discount": 10.79,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".party",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pet",
+    "after_discount": 9.29,
+    "before_discount": 19.29,
+    "Stripe Price": 1929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pg.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ph",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".photo",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".photography",
+    "after_discount": 13.49,
+    "before_discount": 27.69,
+    "Stripe Price": 2769,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".photos",
+    "after_discount": 13.49,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pics",
+    "after_discount": 1.99,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pictures",
+    "after_discount": 11.09,
+    "before_discount": 11.09,
+    "Stripe Price": 1109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pink",
+    "after_discount": 9.29,
+    "before_discount": 18.09,
+    "Stripe Price": 1809,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pizza",
+    "after_discount": 12.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".place",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".plumbing",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".plus",
+    "after_discount": 9.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".poker",
+    "after_discount": 9.29,
+    "before_discount": 49.09,
+    "Stripe Price": 4909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".porn",
+    "after_discount": 90.29,
+    "before_discount": 90.29,
+    "Stripe Price": 9029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".post.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".press",
+    "after_discount": 9.99,
+    "before_discount": 56.59,
+    "Stripe Price": 5659,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pro.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".productions",
+    "after_discount": 9.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".promo",
+    "after_discount": 12.29,
+    "before_discount": 19.29,
+    "Stripe Price": 1929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".property",
+    "after_discount": 120.29,
+    "before_discount": 120.29,
+    "Stripe Price": 12029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".properties",
+    "after_discount": 9.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".protection",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pub",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".pw",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".qpon",
+    "after_discount": 24.19,
+    "before_discount": 24.19,
+    "Stripe Price": 2419,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".quest",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".racing",
+    "after_discount": 12.19,
+    "before_discount": 12.19,
+    "Stripe Price": 1219,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".radio.am",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".radio.fm",
+    "after_discount": 14.69,
+    "before_discount": 14.69,
+    "Stripe Price": 1469,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".realty",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".recipes",
+    "after_discount": 7.19,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".red",
+    "after_discount": 9.29,
+    "before_discount": 18.09,
+    "Stripe Price": 1809,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rehab",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".reise",
+    "after_discount": 79.49,
+    "before_discount": 79.49,
+    "Stripe Price": 7949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".reisen",
+    "after_discount": 17.09,
+    "before_discount": 17.09,
+    "Stripe Price": 1709,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".reit",
+    "after_discount": 1200.29,
+    "before_discount": 1200.29,
+    "Stripe Price": 120029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rent",
+    "after_discount": 19.99,
+    "before_discount": 51.99,
+    "Stripe Price": 5199,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rentals",
+    "after_discount": 6.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".repair",
+    "after_discount": 9.49,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".report",
+    "after_discount": 7.49,
+    "before_discount": 19.29,
+    "Stripe Price": 1929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".republican",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rest",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".restaurant",
+    "after_discount": 13.99,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".review",
+    "after_discount": 12.19,
+    "before_discount": 12.19,
+    "Stripe Price": 1219,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".reviews",
+    "after_discount": 48.29,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rip",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rocks",
+    "after_discount": 6.29,
+    "before_discount": 15.69,
+    "Stripe Price": 1569,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rodeo",
+    "after_discount": 8.99,
+    "before_discount": 8.99,
+    "Stripe Price": 899,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".rsvp",
+    "after_discount": 9.99,
+    "before_discount": 9.99,
+    "Stripe Price": 999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ru.com",
+    "after_discount": 71.09,
+    "before_discount": 71.09,
+    "Stripe Price": 7109,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".run",
+    "after_discount": 3.99,
+    "before_discount": 20.49,
+    "Stripe Price": 2049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sa.com",
+    "after_discount": 179.09,
+    "before_discount": 179.09,
+    "Stripe Price": 17909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".saarland",
+    "after_discount": 20.69,
+    "before_discount": 20.69,
+    "Stripe Price": 2069,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sale",
+    "after_discount": 6.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".salon",
+    "after_discount": 49.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sarl",
+    "after_discount": 26.09,
+    "before_discount": 26.09,
+    "Stripe Price": 2609,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sbs",
+    "after_discount": 1.09,
+    "before_discount": 7.49,
+    "Stripe Price": 749,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".school",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".schule",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".science",
+    "after_discount": 12.19,
+    "before_discount": 12.19,
+    "Stripe Price": 1219,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".se.net",
+    "after_discount": 31.69,
+    "before_discount": 31.69,
+    "Stripe Price": 3169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".security",
+    "after_discount": 2400.29,
+    "before_discount": 2400.29,
+    "Stripe Price": 240029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".select",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".services",
+    "after_discount": 7.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sex",
+    "after_discount": 90.29,
+    "before_discount": 90.29,
+    "Stripe Price": 9029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sexy",
+    "after_discount": 2999.99,
+    "before_discount": 2999.99,
+    "Stripe Price": 299999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sh",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".shabaka",
+    "after_discount": 12.49,
+    "before_discount": 12.49,
+    "Stripe Price": 1249,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".shoes",
+    "after_discount": 36.99,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".shopping",
+    "after_discount": 27.89,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".show",
+    "after_discount": 11.49,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".singles",
+    "after_discount": 9.99,
+    "before_discount": 27.69,
+    "Stripe Price": 2769,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".site",
+    "after_discount": 5.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ski",
+    "after_discount": 24.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".skin",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".soccer",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".social",
+    "after_discount": 8.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".software",
+    "after_discount": 15.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".solar",
+    "after_discount": 46.29,
+    "before_discount": 46.29,
+    "Stripe Price": 4629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".solutions",
+    "after_discount": 9.29,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".space",
+    "after_discount": 3.99,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".storage",
+    "after_discount": 599.99,
+    "before_discount": 599.99,
+    "Stripe Price": 59999,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".store",
+    "after_discount": 10.99,
+    "before_discount": 46.29,
+    "Stripe Price": 4629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".stream",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".studio",
+    "after_discount": 13.49,
+    "before_discount": 28.89,
+    "Stripe Price": 2889,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".study",
+    "after_discount": 30.49,
+    "before_discount": 30.49,
+    "Stripe Price": 3049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".style",
+    "after_discount": 17.99,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sucks",
+    "after_discount": 238.99,
+    "before_discount": 238.99,
+    "Stripe Price": 23899,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".supplies",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".supply",
+    "after_discount": 19.49,
+    "before_discount": 19.49,
+    "Stripe Price": 1949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".support",
+    "after_discount": 7.49,
+    "before_discount": 21.69,
+    "Stripe Price": 2169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".surf",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".surgery",
+    "after_discount": 42.89,
+    "before_discount": 42.89,
+    "Stripe Price": 4289,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".sydney",
+    "after_discount": 60.29,
+    "before_discount": 60.29,
+    "Stripe Price": 6029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".systems",
+    "after_discount": 14.99,
+    "before_discount": 25.29,
+    "Stripe Price": 2529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tattoo",
+    "after_discount": 36.29,
+    "before_discount": 36.29,
+    "Stripe Price": 3629,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tax",
+    "after_discount": 12.49,
+    "before_discount": 55.29,
+    "Stripe Price": 5529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".taxi",
+    "after_discount": 9.29,
+    "before_discount": 50.49,
+    "Stripe Price": 5049,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".team",
+    "after_discount": 5.49,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tech",
+    "after_discount": 8.99,
+    "before_discount": 48.29,
+    "Stripe Price": 4829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".technology",
+    "after_discount": 7.49,
+    "before_discount": 24.09,
+    "Stripe Price": 2409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tennis",
+    "after_discount": 51.89,
+    "before_discount": 51.89,
+    "Stripe Price": 5189,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".theater",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".theatre",
+    "after_discount": 600.29,
+    "before_discount": 600.29,
+    "Stripe Price": 60029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tickets",
+    "after_discount": 420.29,
+    "before_discount": 420.29,
+    "Stripe Price": 42029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tienda",
+    "after_discount": 49.49,
+    "before_discount": 49.49,
+    "Stripe Price": 4949,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tips",
+    "after_discount": 11.49,
+    "before_discount": 25.29,
+    "Stripe Price": 2529,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tires",
+    "after_discount": 84.29,
+    "before_discount": 84.29,
+    "Stripe Price": 8429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".today",
+    "after_discount": 3.49,
+    "before_discount": 21.69,
+    "Stripe Price": 2169,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tools",
+    "after_discount": 9.99,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tours",
+    "after_discount": 9.99,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".town",
+    "after_discount": 7.49,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".toys",
+    "after_discount": 15.49,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".trade",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".trading",
+    "after_discount": 15.89,
+    "before_discount": 15.89,
+    "Stripe Price": 1589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".training",
+    "after_discount": 11.49,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".travel",
+    "after_discount": 24.29,
+    "before_discount": 114.09,
+    "Stripe Price": 11409,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".travel.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tv",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".tv.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".uk.com",
+    "after_discount": 26.69,
+    "before_discount": 26.69,
+    "Stripe Price": 2669,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".uk.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".uk.net",
+    "after_discount": 26.69,
+    "before_discount": 26.69,
+    "Stripe Price": 2669,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".university",
+    "after_discount": 48.49,
+    "before_discount": 48.49,
+    "Stripe Price": 4849,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".uno",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".up.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".us",
+    "after_discount": 4.49,
+    "before_discount": 8.09,
+    "Stripe Price": 809,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".us.com",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".us.in",
+    "after_discount": 5.49,
+    "before_discount": 5.49,
+    "Stripe Price": 549,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".us.org",
+    "after_discount": 18.29,
+    "before_discount": 18.29,
+    "Stripe Price": 1829,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vacations",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vana",
+    "after_discount": 2399,
+    "before_discount": 2399,
+    "Stripe Price": 239900,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vegas",
+    "after_discount": 46.19,
+    "before_discount": 46.19,
+    "Stripe Price": 4619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ventures",
+    "after_discount": 12.29,
+    "before_discount": 43.99,
+    "Stripe Price": 4399,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vet",
+    "after_discount": 32.69,
+    "before_discount": 32.69,
+    "Stripe Price": 3269,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vg",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".viajes",
+    "after_discount": 42.29,
+    "before_discount": 42.29,
+    "Stripe Price": 4229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".video",
+    "after_discount": 10.99,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".villas",
+    "after_discount": 42.89,
+    "before_discount": 42.89,
+    "Stripe Price": 4289,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vin",
+    "after_discount": 6.29,
+    "before_discount": 49.29,
+    "Stripe Price": 4929,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vip",
+    "after_discount": 14.99,
+    "before_discount": 14.99,
+    "Stripe Price": 1499,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vision",
+    "after_discount": 30.29,
+    "before_discount": 30.29,
+    "Stripe Price": 3029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vodka",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vote",
+    "after_discount": 24.29,
+    "before_discount": 72.09,
+    "Stripe Price": 7209,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".voyage",
+    "after_discount": 45.89,
+    "before_discount": 45.89,
+    "Stripe Price": 4589,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".vu",
+    "after_discount": 60.29,
+    "before_discount": 60.29,
+    "Stripe Price": 6029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".watch",
+    "after_discount": 8.99,
+    "before_discount": 33.69,
+    "Stripe Price": 3369,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".webcam",
+    "after_discount": 12.19,
+    "before_discount": 12.19,
+    "Stripe Price": 1219,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".website",
+    "after_discount": 4.99,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".wedding",
+    "after_discount": 26.99,
+    "before_discount": 26.99,
+    "Stripe Price": 2699,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".wiki",
+    "after_discount": 22.09,
+    "before_discount": 22.09,
+    "Stripe Price": 2209,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".win",
+    "after_discount": 4.99,
+    "before_discount": 6.19,
+    "Stripe Price": 619,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".wine",
+    "after_discount": 6.29,
+    "before_discount": 43.99,
+    "Stripe Price": 4399,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".work",
+    "after_discount": 8.99,
+    "before_discount": 8.99,
+    "Stripe Price": 899,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".works",
+    "after_discount": 5.69,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".world",
+    "after_discount": 2.09,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".ws",
+    "after_discount": 24.29,
+    "before_discount": 24.29,
+    "Stripe Price": 2429,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".wtf",
+    "after_discount": 6.99,
+    "before_discount": 27.89,
+    "Stripe Price": 2789,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".xxx",
+    "after_discount": 90.29,
+    "before_discount": 90.29,
+    "Stripe Price": 9029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".yachts",
+    "after_discount": 1.99,
+    "before_discount": 12.29,
+    "Stripe Price": 1229,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".yoga",
+    "after_discount": 60.29,
+    "before_discount": 60.29,
+    "Stripe Price": 6029,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".za.com",
+    "after_discount": 179.09,
+    "before_discount": 179.09,
+    "Stripe Price": 17909,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  },
+  {
+    "name": ".zone",
+    "after_discount": 6.29,
+    "before_discount": 30.09,
+    "Stripe Price": 3009,
+    "Duration": "12 Months",
+    "Locale": "us",
+    "Currency Symbol": "$",
+    "Currency Letter": "USD"
+  }
+]

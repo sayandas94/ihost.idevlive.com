@@ -1,0 +1,187 @@
+.btn, .btn-large, .btn-floating, .btn-flat {
+	text-transform: none;
+	box-shadow: none !important;
+	position: relative;
+}
+
+.btn.primary.solid {
+	background-color: var(--primary);
+	color: #ffffff;
+}
+
+.btn-large.primary.solid:hover::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+}
+
+/* .btn.primary.solid:hover, .btn-large.primary.solid:hover {
+	background-color: #424cda !important;
+} */
+
+.btn.primary.hover {
+	background-color: #ffffff !important;
+	border: 2px solid var(--primary);
+	color: var(--primary);
+	line-height: 32px;
+}
+
+.btn.primary.hover:hover {
+	background-color: var(--primary) !important;
+	color: #ffffff;
+}
+
+.btn-large.primary.hover {
+	background-color: #ffffff !important;
+	border: 2px solid var(--primary);
+	color: var(--primary);
+	line-height: 50px;
+	font-weight: 500;
+}
+
+.btn-large.primary.hover:hover {
+	background-color: var(--primary) !important;
+	color: #ffffff;
+}
+
+.btn.primary.hover.disabled, .btn-large.primary.hover.disabled {
+	background-color: #dfdfdf !important;
+	border-color: #dfdfdf;
+}
+
+.btn.danger.hover {
+	background-color: #ffffff;
+	color: #f44336;
+}
+
+.btn.danger.hover:hover {
+	background-color: #ffebee;
+}
+
+.btn-flat:hover {
+	background-color: #e0e0e0;
+}
+
+.select-duration-btn {
+	background-color: #eeeeee;
+	border-radius: 8px;
+	padding: 0 12px;
+	color: #212121;
+}
+
+.select-duration-btn:hover {
+	background-color: #e0e0e0;
+}
+
+.select-duration-btn:focus {
+	background-color: #e0e0e0 !important;
+}
+
+.cart-delete-btn {
+	height: 25px;
+	width: 25px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.cart-delete-btn:hover {
+	background-color: #ffebee !important;
+}
+
+.cart-delete-btn > i.material-symbols-rounded {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f44336;
+}
+
+.small-modal .modal-footer > button.btn-flat:hover {
+	background-color: transparent !important;
+}
+
+.toast-action:hover {
+	background-color: transparent !important;
+}
+
+.btn-flat.primary {
+	background-color: #ffffff !important;
+	color: var(--primary) !important;
+	font-weight: 600;
+	border-radius: 8px;
+}
+
+.btn-flat.primary:hover {
+	background-color: var(--primary-200) !important;
+}
+
+.btn-flat.default {
+	background-color: #eeeeee;
+	color: #212121;
+	border-radius: 8px;
+}
+
+.btn-flat.default:hover {
+	background-color: #e0e0e0;
+}
+
+.disabled-btn {
+	cursor: default;
+	pointer-events: none;
+	color: #dfdfdf !important;
+	background-color: #dfdfdf !important;
+	position: relative;
+}
+
+.disabled-btn > .preloader-wrapper.tiny {
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 8px);
+}
+
+.spinner-primary-only {
+	border-color: var(--primary);
+}
+
+/* Disabled button with loader inside it */
+.btn.primary.solid.disabled {
+	color: #dfdfdf !important;
+	position: relative;
+}
+
+.btn.primary.solid.disabled > .preloader-wrapper.tiny {
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 8px);
+}
+
+.spinner-primary-only {
+	border-color: var(--primary);
+}
+
+.price-card a.btn-large.primary.hover.full-width, .add-to-cart-btn-style {
+	position: relative;
+}
+
+.price-card a.btn-large.primary.hover.full-width.disabled, .add-to-cart-btn-style.disabled {
+	color: #dfdfdf !important;
+	background-color: #dfdfdf !important;
+	border: none !important;
+}
+
+.price-card a.btn-large.primary.hover.full-width.disabled > .preloader-wrapper.tiny, .add-to-cart-btn-style > .preloader-wrapper.tiny {
+	position: absolute;
+	top: 18px;
+	left: calc(50% - 12px);
+	height: 16px;
+	width: 16px;
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Free_SSL_1);
+      }
+
+      .cls-2, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #011839;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #011839;
+      }
+
+      .cls-4 {
+        fill: #5059cd;
+        stroke: #5059cd;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-Free_SSL_1">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Free_SSL_1" data-name="Free SSL – 1" class="cls-1">
+    <rect class="cls-7" width="30" height="30"/>
+    <g id="Rectangle_18" data-name="Rectangle 18" class="cls-2" transform="translate(1 7)">
+      <path class="cls-5" d="M0,0H28a0,0,0,0,1,0,0V18a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z"/>
+      <path class="cls-6" d="M2,1H26a1,1,0,0,1,1,1V18a3,3,0,0,1-3,3H4a3,3,0,0,1-3-3V2A1,1,0,0,1,2,1Z"/>
+    </g>
+    <path id="Subtraction_1" data-name="Subtraction 1" class="cls-3" d="M-430-78h-28v-5a4.005,4.005,0,0,1,4-4h20a4,4,0,0,1,4,4v5Zm-17.5-6a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5,1.5,1.5,0,0,0,1.5-1.5A1.5,1.5,0,0,0-447.5-84Zm-5,0a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5,1.5,1.5,0,0,0,1.5-1.5A1.5,1.5,0,0,0-452.5-84Z" transform="translate(459 88)"/>
+    <path id="lock_FILL1_wght400_GRAD0_opsz48" class="cls-4" d="M8.75,12.5A.747.747,0,0,1,8,11.75V6.325a.747.747,0,0,1,.75-.75h.875v-1.2a2.29,2.29,0,0,1,.694-1.681,2.384,2.384,0,0,1,3.362,0,2.29,2.29,0,0,1,.694,1.681v1.2h.875a.747.747,0,0,1,.75.75V11.75a.747.747,0,0,1-.75.75ZM12,10a.939.939,0,0,0,.681-.275.893.893,0,0,0,.281-.662.984.984,0,0,0-.281-.681.911.911,0,0,0-1.362,0,.984.984,0,0,0-.281.681.893.893,0,0,0,.281.662A.939.939,0,0,0,12,10ZM10.375,5.575h3.25v-1.2a1.625,1.625,0,1,0-3.25,0Z" transform="translate(3 11)"/>
+  </g>
+</svg>

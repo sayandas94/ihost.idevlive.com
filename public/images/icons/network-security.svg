@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Network_Security);
+      }
+
+      .cls-2 {
+        fill: #011839;
+      }
+
+      .cls-3 {
+        fill: #5059cd;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Network_Security">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Network_Security" data-name="Network Security" class="cls-1">
+    <rect class="cls-4" width="30" height="30"/>
+    <g id="secure" transform="translate(-1 -1.963)">
+      <path id="Path_29" data-name="Path 29" class="cls-2" d="M6.05,13.5a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Z"/>
+      <path id="Path_30" data-name="Path 30" class="cls-2" d="M13,13.5H11a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z"/>
+      <path id="Path_31" data-name="Path 31" class="cls-2" d="M6.05,20.5a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Z"/>
+      <path id="Path_32" data-name="Path 32" class="cls-2" d="M10,21.5a1,1,0,0,0,1,1h4a1,1,0,0,0,0-2H11A1,1,0,0,0,10,21.5Z"/>
+      <path id="Path_33" data-name="Path 33" class="cls-2" d="M17,24H3V19H13.59a1,1,0,0,0,0-2H3V12H13a1,1,0,0,0,0-2H2a1,1,0,0,0-1,1V25a1,1,0,0,0,1,1H17a1,1,0,0,0,0-2Z"/>
+      <path id="Path_34" data-name="Path 34" class="cls-3" d="M30.27,8l-7-2a1,1,0,0,0-.54,0l-7,2A1,1,0,0,0,15,9v5.38a12.54,12.54,0,0,0,7.61,11.54,1,1,0,0,0,.78,0A12.54,12.54,0,0,0,31,14.38V9A1,1,0,0,0,30.27,8Zm-7.45,9.41a1,1,0,0,1-1.43,0l-1.61-1.66a1,1,0,0,1,0-1.42h0a1,1,0,0,1,1.42,0l.89.91,2.67-2.76a1,1,0,0,1,1.42,0h0a1,1,0,0,1,0,1.42Z"/>
+    </g>
+  </g>
+</svg>
