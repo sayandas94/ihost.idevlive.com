@@ -98,7 +98,7 @@
 							</tr>
 							<tr style="border-bottom: none;">
 								<td class="small-text flexbox" style="align-items: center;">
-									<img src="http://ihost.idevlive.test/images/icons/lock-black.svg" alt="" width="20" style="margin-right: 15px">
+									<img src="{{ asset('images/icons/lock-black.svg') }}" alt="" width="20" style="margin-right: 15px">
 									<span>Free SSL</span>
 								</td>
 							</tr>
