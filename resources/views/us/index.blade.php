@@ -92,25 +92,25 @@
 					<table>
 						<tr style="border-bottom: none">
 							<td class="small-text">
-								<img src="http://ihost.idevlive.test/images/icons/browser-dual.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								<img src="{{ asset('images/icons/browser-dual.svg') }}" alt="" width="20" class="left" style="margin-right: 24px">
 								100 Websites
 							</td>
 						</tr>
 						<tr style="border-bottom: none">
 							<td class="small-text">
-								<img src="http://ihost.idevlive.test/images/icons/hdd.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								<img src="{{ asset('images/icons/hdd.svg') }}" alt="" width="20" class="left" style="margin-right: 24px">
 								100 GB SSD
 							</td>
 						</tr>
 						<tr style="border-bottom: none">
 							<td class="small-text">
-								<img src="http://ihost.idevlive.test/images/icons/lock-black.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								<img src="{{ asset('images/icons/lock-black.svg') }}" alt="" width="20" class="left" style="margin-right: 24px">
 								Free SSL Certificates
 							</td>
 						</tr>
 						<tr style="border-bottom: none">
 							<td class="small-text">
-								<img src="http://ihost.idevlive.test/images/icons/247-support.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								<img src="{{ asset('images/icons/247-support.svg') }}" alt="" width="20" class="left" style="margin-right: 24px">
 								24/7 Support
 							</td>
 						</tr>

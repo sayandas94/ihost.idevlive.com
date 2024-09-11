@@ -74,25 +74,25 @@
 						<tbody>
 							<tr style="border-bottom: none;">
 								<td class="small-text flexbox" style="align-items: center;">
-									<img src="http://ihost.idevlive.test/images/icons/browser-dual.svg" alt="" width="20" style="margin-right: 15px">
+									<img src="{{ asset('images/icons/browser-dual.svg') }}" alt="" width="20" style="margin-right: 15px">
 									<span>1 Website</span>
 								</td>
 							</tr>
 							<tr style="border-bottom: none;">
 								<td class="small-text flexbox" style="align-items: center;">
-									<img src="http://ihost.idevlive.test/images/icons/247-support.svg" alt="" width="20" style="margin-right: 15px">
+									<img src="{{ asset('images/icons/247-support.svg') }}" alt="" width="20" style="margin-right: 15px">
 									<span>24/7 Support</span>
 								</td>
 							</tr>
 							<tr style="border-bottom: none;">
 								<td class="small-text flexbox" style="align-items: center;">
-									<img src="http://ihost.idevlive.test/images/icons/browser.svg" alt="" width="20" style="margin-right: 15px">
+									<img src="{{ asset('images/icons/browser.svg') }}" alt="" width="20" style="margin-right: 15px">
 									<span>Unmetered Bandwidth</span>
 								</td>
 							</tr>
 							<tr style="border-bottom: none;">
 								<td class="small-text flexbox" style="align-items: center;">
-									<img src="http://ihost.idevlive.test/images/icons/hdd.svg" alt="" width="20" style="margin-right: 15px">
+									<img src="{{ asset('images/icons/hdd.svg') }}" alt="" width="20" style="margin-right: 15px">
 									<span>200 MB Storage</span>
 								</td>
 							</tr>
