@@ -300,6 +300,7 @@ Route::group(['prefix' => 'in'], function () {
 	Route::view('/', 'in.index');
 	Route::view('domains', 'in.domains');
 	Route::view('domain-transfer', 'in.domain-transfer');
+	Route::view('domain-name-extensions', 'in.domain-name-extensions');
 	Route::view('whois', 'in.whois');
 	Route::view('hosting', 'in.hosting');
 	Route::view('hosting', 'in.hosting');
