@@ -363,7 +363,8 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l6 offset-l1 sticky-top-128 hide-on-small-only">
-				<img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/14ff5e6e-1708-43e0-56af-22891e3cdf00/public" class="responsive-img" alt="best web hosting for beginners" class="responsive-img" loading="lazy" />
+				{{-- <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/14ff5e6e-1708-43e0-56af-22891e3cdf00/public" class="responsive-img" alt="best web hosting for beginners" class="responsive-img" loading="lazy" /> --}}
+				<img src="{{ asset('images/website/wordpress hosting page- 24x7 support.jpg') }}" class="responsive-img" alt="best web hosting for beginners" 
 			</div>
 		</div>
 	</div>

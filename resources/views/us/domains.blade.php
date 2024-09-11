@@ -328,7 +328,7 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l7 sticky-top top-128">
-				<img src="{{asset('images/website/let-there-be-speed.avif')}}"
+				{{-- <img src="{{asset('images/website/let-there-be-speed.avif')}}"
 					srcset="{{asset('images/website/let-there-be-speed-320w.avif')}} 320w,
 						{{asset('images/website/let-there-be-speed-640w.avif')}} 640w,
 						{{asset('images/website/let-there-be-speed-1024w.avif')}} 1024w,
@@ -340,7 +340,8 @@
 					loading="lazy"
 					alt="domain name discount"
 					class="responsive-img"
-				/>
+				/> --}}
+				<img src="{{ asset('images/website/manage-your-domain.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

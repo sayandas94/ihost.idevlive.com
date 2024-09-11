@@ -64,28 +64,43 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col s12 m6 l5 center-align">
-				<div class="card-panel z-depth-0" style="border: 1px solid var(--primary-100); margin-bottom: 0; border-radius: 8px">
+			<div class="col s12 m6 l5">
+				<div class="card-panel z-depth-0" style="border: 1px solid var(--primary-100); margin-bottom: 0; border-radius: 8px; width: 390px">
 					<h5>Basic</h5>
-					<p class="small-text grey-text text-darken-2">An economical, 25 GB plan with free matching domain, free email and 1 free SSL, everything to get you started<br>(with terms of 12/mo. or longer).</p>
-					<h4><b>₹ 49.00 / Mo</b></h4>
-					<p class="small-text grey-text text-darken-1">Rs 149.00 / Mo when you renew</p>
+					<p class="small-text grey-text text-darken-2">A hosting plan for a single website, the best plan to get started and build your online presence on the web.</p>
+					<h4><b>₹ 25.00 / Mo</b></h4>
+					<p class="small-text grey-text text-darken-1">Rs 25.00 / Mo when you renew</p>
 					<table class="bordered centered">
 						<tbody>
-							<tr>
-								<td>1 Website</td>
-							</tr>
-							<tr>
-								<td>24/7 Support</td>
-							</tr>
-							<tr>
-								<td>Unmetered Bandwidth</td>
-							</tr>
-							<tr>
-								<td>50 GB Storage</td>
+							<tr style="border-bottom: none;">
+								<td class="small-text flexbox" style="align-items: center;">
+									<img src="http://ihost.idevlive.test/images/icons/browser-dual.svg" alt="" width="20" style="margin-right: 15px">
+									<span>1 Website</span>
+								</td>
 							</tr>
 							<tr style="border-bottom: none;">
-								<td>Free SSL</td>
+								<td class="small-text flexbox" style="align-items: center;">
+									<img src="http://ihost.idevlive.test/images/icons/247-support.svg" alt="" width="20" style="margin-right: 15px">
+									<span>24/7 Support</span>
+								</td>
+							</tr>
+							<tr style="border-bottom: none;">
+								<td class="small-text flexbox" style="align-items: center;">
+									<img src="http://ihost.idevlive.test/images/icons/browser.svg" alt="" width="20" style="margin-right: 15px">
+									<span>Unmetered Bandwidth</span>
+								</td>
+							</tr>
+							<tr style="border-bottom: none;">
+								<td class="small-text flexbox" style="align-items: center;">
+									<img src="http://ihost.idevlive.test/images/icons/hdd.svg" alt="" width="20" style="margin-right: 15px">
+									<span>200 MB Storage</span>
+								</td>
+							</tr>
+							<tr style="border-bottom: none;">
+								<td class="small-text flexbox" style="align-items: center;">
+									<img src="http://ihost.idevlive.test/images/icons/lock-black.svg" alt="" width="20" style="margin-right: 15px">
+									<span>Free SSL</span>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -95,7 +110,7 @@
 				<h2 class="header-text" style="margin-top: 0; font-size: 2.92rem">Most Affordable Hosting Plan Available In The Market</h2>
 				<p>Get on-board with India's most relaible and affordable web hosting platform. Introducing iHost, where you can find most affordable web hosting solutions for your online business. Low price doesn't always mean low quality. Experience this with iHost today!</p>
 				<br>
-				<a href="{{url('web-hosting')}}" class="btn-large primary hover round">Get Started</a>
+				<a href="{{url('web-hosting')}}" class="btn-large primary hover" style="border-radius: 200px"><i class="material-symbols-rounded right">arrow_forward</i>Get Started</a>
 			</div>
 		</div>
 	</div>
@@ -126,7 +141,7 @@
 
 						<tr>
 							<td>
-								<img src="{{ asset('images/icons/memory.svg') }}" alt="" height="24" width="24">
+								<img src="{{ asset('images/icons/cpu.svg') }}" alt="" height="24" width="24">
 							</td>
 							<td>
 								<span class="semi-bold">High-Performance Hardware</span>
@@ -178,7 +193,7 @@
 			</div>
 
 			<div class="col s12 m6 l7 sticky-top top-128 hide-on-small-only">
-				<img
+				{{-- <img
 					src="{{ url('images/website/let-there-be-speed.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -189,7 +204,8 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="best hosting for website" />
+					alt="best hosting for website" /> --}}
+					<img src="{{ asset('images/website/let-there-be-speed.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
@@ -199,7 +215,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12 m6 l7 sticky-top top-128 hide-on-small-only">
-				<img
+				{{-- <img
 					src="{{ url('images/website/host-your-website.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -210,7 +226,8 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="best web hosting for beginners" />
+					alt="best web hosting for beginners" /> --}}
+					<img src="{{ asset('images/website/host-your-website.jpg') }}" alt="" class="responsive-img">
 			</div>
 			<div class="hide-on-med-and-up">
 				<img src="{{ asset('images/website/host-your-website-320w.png') }}" alt="buy hosting for small business" class="responsive-img" loading="lazy">
@@ -336,7 +353,7 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l7 sticky-top top-128">
-				<img
+				{{-- <img
 					src={{ asset('images/website/something-extra.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -346,7 +363,8 @@
 					sizes="(max-width: 320px) 280px,
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px"
-					alt="best hosting for ecommerce website india" />
+					alt="best hosting for ecommerce website india" /> --}}
+					<img src="{{ asset('images/website/something-extra.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
@@ -615,7 +633,7 @@
 		<div class="features-wrapper">
 			<div class="card-panel features-card" style="align-items: center;">
 				<img src="{{ asset('images/icons/cpu.svg') }}" alt="cheap website hosting" width="30" loading="lazy">
-				<p class="semi-bold">High Performance CPU</p>
+				<p class="semi-bold">High Performance Hardware</p>
 				<a href="#high-performance-cpu" class="btn-flat primary features-btn">Read more</a>
 				<div class="content" id="high-performance-cpu">
 					<p>Don't let sluggish performance hold your website back. iHost equips your site with a powerful CPU, ensuring it can handle demanding applications and traffic spikes with ease. You'll enjoy a significant boost in website responsiveness, keeping your visitors engaged and coming back for more.</p>

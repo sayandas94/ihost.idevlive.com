@@ -65,15 +65,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12 m6 l5">
-				<div class="card-panel z-depth-0" style="border: 2px solid var(--primary-100); margin-bottom: 0; border-radius: 8px">
+				<div class="card-panel z-depth-0" style="border: 2px solid var(--primary-100); margin-bottom: 0; border-radius: 8px; width: 390px">
 					<h5 class="medium">Premium Web Hosting</h5>
-					<p class="grey-text text-darken-2">An economical, 100 GB plan with free matching domain, free email and free SSL, everything to get you started.</p>
+					<p class="grey-text text-darken-2 small-text" style="margin-bottom: 24px">An economical, 100 GB plan with free matching domain, free email and free SSL, everything to get you started.</p>
 					<span class="small-text">Starting from</span>
-					<h3 class="medium" style="margin-bottom: 0">$ 2.00
+					<h3 class="medium" style="margin-bottom: 0; margin-top: 8px">$ 2.00
 						<span class="small-text">/Mo</span></h3>
 					<p class="small-text grey-text text-darken-1">$ 8.00 / Mo when you renew</p>
 					<br>
-					<p class="medium small-text grey-text" style="margin-bottom: 16px">
+					{{-- <p class="medium small-text grey-text" style="margin-bottom: 16px">
 						<img src="http://ihost.idevlive.test/images/icons/browser.svg" alt="" width="20" class="left" style="margin-right: 24px">
 						100 Websites
 					</p>
@@ -88,7 +88,33 @@
 					<p class="medium small-text grey-text" style="margin-bottom: 16px">
 						<img src="http://ihost.idevlive.test/images/icons/247-support.svg" alt="" width="20" class="left" style="margin-right: 24px">
 						24/7 Support
-					</p>
+					</p> --}}
+					<table>
+						<tr style="border-bottom: none">
+							<td class="small-text">
+								<img src="http://ihost.idevlive.test/images/icons/browser-dual.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								100 Websites
+							</td>
+						</tr>
+						<tr style="border-bottom: none">
+							<td class="small-text">
+								<img src="http://ihost.idevlive.test/images/icons/hdd.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								100 GB SSD
+							</td>
+						</tr>
+						<tr style="border-bottom: none">
+							<td class="small-text">
+								<img src="http://ihost.idevlive.test/images/icons/lock-black.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								Free SSL Certificates
+							</td>
+						</tr>
+						<tr style="border-bottom: none">
+							<td class="small-text">
+								<img src="http://ihost.idevlive.test/images/icons/247-support.svg" alt="" width="20" class="left" style="margin-right: 24px">
+								24/7 Support
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 			<div class="col s12 m6 l6 offset-m1 offset-l1 center-on-small-only sticky-top-0">
@@ -178,7 +204,7 @@
 			</div>
 
 			<div class="col s12 m6 l7 sticky-top top-128 hide-on-small-only">
-				<img
+				{{-- <img
 					src="{{ url('images/website/let-there-be-speed.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -189,7 +215,8 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="best hosting for website" />
+					alt="best hosting for website" /> --}}
+					<img src="{{ asset('images/website/let-there-be-speed.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
@@ -199,7 +226,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12 m6 l7 sticky-top top-128 hide-on-small-only">
-				<img
+				{{-- <img
 					src="{{ url('images/website/host-your-website.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -210,7 +237,8 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="best web hosting for beginners" />
+					alt="best web hosting for beginners" /> --}}
+					<img src="{{ asset('images/website/host-your-website.jpg') }}" alt="" class="responsive-img">
 			</div>
 			<div class="hide-on-med-and-up">
 				<img src="{{ asset('images/website/host-your-website-320w.png') }}" alt="buy hosting for small business" class="responsive-img" loading="lazy">
@@ -338,7 +366,7 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l7 sticky-top top-128">
-				<img
+				{{-- <img
 					src={{ asset('images/website/something-extra.avif') }}"
 					class="responsive-img"
 					loading="lazy"
@@ -348,7 +376,8 @@
 					sizes="(max-width: 320px) 280px,
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px"
-					alt="best hosting for ecommerce website india" />
+					alt="best hosting for ecommerce website india" /> --}}
+				<img src="{{ asset('images/website/something-extra.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
