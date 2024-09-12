@@ -44,7 +44,7 @@
 			</ul>
 
 			<ul class="right">
-				<li><a href="{{url('cart')}}" class="btn"><i class="material-symbols-outlined">shopping_basket</i></a></li>
+				<li><a href="{{url('cart')}}" class="btn" style="padding: 0 16px; border-radius: 2px"><i class="material-symbols-outlined">shopping_basket</i></a></li>
 				@if (session()->has('token'))
 				<li><a href="{{url('user/dashboard')}}" class="btn primary hover">Dashboard</a></li>
 				@else
