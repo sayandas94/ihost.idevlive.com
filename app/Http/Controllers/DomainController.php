@@ -17,13 +17,27 @@ class DomainController extends Controller
 				'status' => false,
 				'message' => 'Invalid domain name.',
 				'data' => [
-					'domain_name' => ['Invalid domain name']
+					'error' => ['domain_name' => ['Please enter a valid domain name.']]
 				]
 			]);
 		}
 
 		# break the domain into different parts
 		$domainParts = explode('.', $request->domain_name);
+
+		# get the domain name part and remove the extension from the array
+		$domain = $domainParts[0];
+
+		# check if the domain is empty or not
+		if (empty($domain)) {
+			return response()->json([
+				'status' => false,
+				'message' => 'Invalid domain name.',
+				'data' => [
+					'error' => ['domain_name' => ['Please enter a valid domain name.']]
+				]
+			]);
+		}
 
 		# remove the domain name and keep the extension from the array
 		$extension_array = array_slice($domainParts, 1);
