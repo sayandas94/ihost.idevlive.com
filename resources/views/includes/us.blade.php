@@ -4,6 +4,7 @@
 		$flag = match($region) {
 			'in' => asset('images/country-flags/india.png'),
 			'us' => asset('images/country-flags/united-states.png'),
+			default => asset('images/country-flags/united-states.png')
 		};
 
 		return $flag;
