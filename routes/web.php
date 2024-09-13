@@ -296,7 +296,7 @@ Route::group(['prefix' => 'us'], function () {
 	Route::view('hosting', 'us.hosting');
 });
 
-Route::group(['prefix' => 'in'], function () {
+Route::group(['prefix' => 'in', 'middleware' => DetectRegion::class], function () {
 	Route::view('/', 'in.index');
 	Route::view('domains', 'in.domains');
 	Route::view('domain-transfer', 'in.domain-transfer');
