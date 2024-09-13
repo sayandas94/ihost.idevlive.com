@@ -29,6 +29,11 @@
 		<div class="nav-wrapper container">
 			<a href="{{ url('') }}" class="brand-logo left" style="left: 0.5rem"><i class="material-symbols-outlined left">storage</i>iHost</a>
 			<ul class="left hide-on-med-and-down">
+				<li class="location-selector">
+					<a href="#location-modal" class="modal-trigger">
+						<img src="{{ asset('images/country-flags/united-states.png') }}" alt="" width="32" height="32">
+					</a>
+				</li>
 				<li class="group-nav-item">
 					<a href="{{url('domains')}}" class="btn">Domains</a><a href="#domain-options" class="btn" data-id="menu-dropdown"><i class="material-symbols-outlined">keyboard_arrow_down</i></a>
 				</li>
@@ -38,9 +43,9 @@
 				<li class="group-nav-item">
 					<a href="{{url('emails')}}" class="btn">Emails</a><a href="#email-options" class="btn" data-id="menu-dropdown"><i class="material-symbols-outlined">keyboard_arrow_down</i></a>
 				</li>
-				<li class="group-nav-item">
+				{{-- <li class="group-nav-item">
 					<a href="{{url('help-center')}}" class="btn">Help Center</a><a href="#help-options" class="btn" data-id="menu-dropdown"><i class="material-symbols-outlined">keyboard_arrow_down</i></a>
-				</li>
+				</li> --}}
 			</ul>
 
 			<ul class="right">
@@ -80,8 +85,8 @@
 					<p class="medium">Help Center</p>
 					<p class="small-text"><a href="{{ url('customer-support') }}">Customer Support</a></p>
 					<p class="small-text"><a href="{{ url('report-abuse') }}">Report Abuse</a></p>
-					<p class="small-text"><a href="https://blogs.idevlive.com" target="_blank">Blog</a></p>
 					<p class="small-text"><a href="{{ url('tutorials') }}">Tutorials</a></p>
+					<p class="small-text"><a href="{{ url('help-center') }}">All Options</a></p>
 				</div>
 				<div class="col s6 m6 l2">
 					<p class="medium">About Us</p>
@@ -92,6 +97,7 @@
 				</div>
 				<div class="col s6 m6 l2">
 					<p class="medium">Information</p>
+					<p class="small-text"><a href="https://blogs.idevlive.com" target="_blank">Blog</a></p>
 					<p class="small-text"><a href="{{ url('sitemap.xml') }}">Sitemap</a></p>
 					<!-- <p class="small-text"><a href="#!">Cookies</a></p> -->
 					<p class="small-text"><a href="{{ url('payment-methods') }}">Payment Methods</a></p>
