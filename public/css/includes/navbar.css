@@ -16,7 +16,26 @@ nav.main-nav a.brand-logo > i.material-symbols-outlined {
 }
 
 nav.main-nav ul.left {
-	margin-left: 148px;
+	margin-left: 130px;
+}
+
+nav.main-nav ul.left li.location-selector:hover a {
+	background-color: #ffffff !important;
+}
+
+nav.main-nav ul.left li.location-selector a {
+	line-height: 5.8;
+	max-height: 64px;
+}
+
+nav.main-nav ul.left li.location-selector img {
+	border: 2px solid var(--primary-100);
+	border-radius: 50%;
+	padding: 3px;
+}
+
+nav.main-nav ul.left li.location-selector:hover img {
+	border-color: var(--primary);
 }
 
 nav.main-nav ul.left li.group-nav-item {
