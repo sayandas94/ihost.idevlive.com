@@ -50,23 +50,33 @@ export const LoadingBtn = (button, state) => {
  * 6. popular domains render
  */
 
-export const DomainSuggestionRender = (data, currency) => {
-	const tables = document.querySelectorAll('[data-id="domain-suggestion-table"]')
-	tables.forEach(table => {
-		table.innerHTML = ''
-		data.forEach(domain => {
-			table.innerHTML += `<tr>
-				<td>
-					<span class="medium">${ domain.domainName }</span>
-					<br>
-					<span class="medium small-text grey-text">${ currency } ${ domain.price.toFixed(2) } for the first year</span>
-				</td>
-				<td>
-					<a href="#!" class="btn-flat primary" style="font-weight: 500">Add to cart</a>
+export const DomainSuggestionRender = (data, currency, loader) => {
+	const tables = document.querySelectorAll('[data-id="domain-suggestion-table"] tbody')
+	if (loader === true) { // show results
+		tables.forEach(table => {
+			table.innerHTML = ''
+			data.forEach(domain => {
+				table.innerHTML += `<tr>
+					<td>
+						<span class="medium">${ domain.domainName }</span>
+						<br>
+						<span class="medium small-text grey-text">${ currency } ${ domain.price.toFixed(2) } for the first year</span>
+					</td>
+					<td>
+						<a href="#!" class="btn-flat primary" style="font-weight: 500">Add to cart</a>
+					</td>
+				</tr>`
+			})
+		})
+	} else { // show loading screen
+		tables.forEach(table => {
+			table.innerHTML = `<tr>
+				<td style="text-align: left">
+					<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
 				</td>
 			</tr>`
 		})
-	})
+	}
 }
 
 export const UnavailableDomainRender = (data) => {
@@ -84,7 +94,8 @@ export const AvailableDomainRender = (data, currency) => {
 		if (data.discount_info.percent_off != null) { // discount is in form of percent
 
 		} else { // discount is in form of amount
-			document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="badge off" style="margin-left: 0; font-weight: 500 !important; float: left">${ currency } ${ (data.discount_info.amount_off / 100).toFixed(2) }</span><br><span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
+			// document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="badge off" style="margin-left: 0; font-weight: 500 !important; float: left">${ currency } ${ (data.discount_info.amount_off / 100).toFixed(2) } off</span><br><span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
+			document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
 			document.querySelector('[data-id="domain-price"]').innerText = ((data.unit_amount - data.discount_info.amount_off) / 100).toFixed(2)
 		}
 	} else { // there is no discount. show the normal unit amount

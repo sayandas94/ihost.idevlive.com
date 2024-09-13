@@ -253,126 +253,16 @@
 <section class="center-align">
 	<div class="container">
 		<h3 class="header-text">Some note-worthy features to make your life easy</h3>
-		<br><br>
-		{{-- <div class="row">
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/easy-setup.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">Easy Setup</p>
-					<div class="content-wrapper" id="easy-setup">
-						<div class="content">
-							<p>Simple domain set up. You don't need any technical skills.</p>
-							<a href="#easy-setup" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#easy-setup" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/auto-renew.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">Auto Renew</p>
-					<div class="content-wrapper" id="auto-renewal">
-						<div class="content">
-							<p>Renew your domain automatically and eliminate the risk of loosing it.</p>
-							<a href="#auto-renewal" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#auto-renewal" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/domain-monitor.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">Domain Monitoring</p>
-					<div class="content-wrapper" id="domain-monitoring">
-						<div class="content">
-							<p>Real-time monitoring to make sure you're always up and running.</p>
-							<a href="#domain-monitoring" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#domain-monitoring" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/dns-management.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">DNS Management</p>
-					<div class="content-wrapper" id="dns-management">
-						<div class="content">
-							<p>Manage the DNS records for your domain in one place.</p>
-							<a href="#dns-management" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#dns-management" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/domain-theft.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">Domain Theft Protection</p>
-					<div class="content-wrapper" id="theft-protection">
-						<div class="content">
-							<p>Protect your domain from unauthorize transfer with our inbuilt theft protection.</p>
-							<a href="#theft-protection" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#theft-protection" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/247-support.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">24/7 Customer Support</p>
-					<div class="content-wrapper" id="customer-support">
-						<div class="content">
-							<p>Support executives are there round the clock so that your business doesn't stop.</p>
-							<a href="#customer-support" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#customer-support" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/domain-privacy.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">Free Privacy Protection</p>
-					<div class="content-wrapper" id="privacy-protection">
-						<div class="content">
-							<p>Get free WHOIS privacy protection with every domain for life.</p>
-							<a href="#privacy-protection" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#privacy-protection" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-
-			<div class="col s12 m4 l3">
-				<div class="card-panel features-box">
-					<img src="{{asset('images/icons/domain-extensions.svg')}}" alt="" width="50" loading="lazy">
-					<p class="medium">100+ Domain Extensions</p>
-					<div class="content-wrapper" id="domain-extensions">
-						<div class="content">
-							<p>Shop from an exclusive list of 100+ domain TLDs to suit your needs.</p>
-							<a href="#domain-extensions" class="btn danger hover medium" data-id="close_feature" style="border-radius: 8px" data-id="read_more_feature">Close</a>
-						</div>
-					</div>
-					<a href="#domain-extensions" class="btn-flat primary hover" data-id="read_more_feature">Read more</a>
-				</div>
-			</div>
-		</div> --}}
+		
+		<br>
+		<br>
+		
 		<div class="features-wrapper">
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/domain-setup.svg') }}" alt="free ssl for website" width="30" height="30">
 				{{-- <img src="{{ asset('images/icons/browser-outline.svg') }}" alt="free ssl for website" width="30" height="30"> --}}
 				<p class="semi-bold">Easy Setup</p>
-				<a href="#feature-domain-setup" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-domain-setup" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-domain-setup">
 					<img src="{{ asset('images/icons/domain-setup.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Simple domain set up. You don't need any technical skills.</p>
@@ -382,7 +272,7 @@
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/theft-protection.svg') }}" alt="free ssl for website" width="30" height="30">
 				<p class="semi-bold">Domain Theft Protection</p>
-				<a href="#feature-domain-theft" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-domain-theft" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-domain-theft">
 					<img src="{{ asset('images/icons/theft-protection.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Protect your domain from unauthorize transfer with our inbuilt theft protection.</p>
@@ -392,7 +282,7 @@
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/ssl-icon.svg') }}" alt="free ssl for website" width="30" height="30">
 				<p class="semi-bold">Free Privacy Protection</p>
-				<a href="#feature-privacy-protection" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-privacy-protection" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-privacy-protection">
 					<img src="{{ asset('images/icons/ssl-icon.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Get free WHOIS privacy protection with every domain for life.</p>
@@ -402,7 +292,7 @@
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/activity-outline-primary.svg') }}" alt="free ssl for website" width="30" height="30">
 				<p class="semi-bold">Domain Monitoring</p>
-				<a href="#feature-domain-monitoring" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-domain-monitoring" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-domain-monitoring">
 					<img src="{{ asset('images/icons/activity-outline-primary.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Real-time monitoring to make sure you're always up and running.</p>
@@ -412,7 +302,7 @@
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/247-support.svg') }}" alt="free ssl for website" width="30" height="30">
 				<p class="semi-bold">24/7 Support</p>
-				<a href="#feature-customer-support" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-customer-support" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-customer-support">
 					<img src="{{ asset('images/icons/247-support.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Support executives are there round the clock so that your business doesn't stop.</p>
@@ -422,7 +312,7 @@
 			<div class="card-panel features-card" style="align-items: center">
 				<img src="{{ asset('images/icons/domain-extensions.svg') }}" alt="free ssl for website" width="30" height="30">
 				<p class="semi-bold">500+ Domain Extensions</p>
-				<a href="#feature-domain-extension" class="btn-flat primary features-btn">Read more</a>
+				<a href="#feature-domain-extension" class="btn-flat primary features-btn" data-selector="features.btn">Read more</a>
 				<div class="content" id="feature-domain-extension">
 					<img src="{{ asset('images/icons/domain-extensions.svg') }}" alt="free ssl for website" width="30" height="30">
 					<p>Shop from an exclusive list of 500+ domain TLDs to suit your needs.</p>
@@ -507,5 +397,5 @@
 @endsection
 
 @section('script')
-<script type="text/javascript" src="{{ asset('js/web/domain.js') }}"></script>
+<script type="module" src="{{ asset('js/web/domain.js') }}"></script>
 @endsection

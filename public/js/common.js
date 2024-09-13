@@ -69,13 +69,17 @@ const currency = (url) => {
 const get = async (url) => {
 	try {
 		const response = await fetch (url)
-		
-		if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`)
+			return
+		}
 		
 		const data = await response.json()
 		return data
 	} catch (error) {
-		console.log(error)
+		console.error(error)
+		return
 	}
 }
 
@@ -88,12 +92,16 @@ const post = async (form) => {
 				'accept': 'application/json'
 			}
 		})
-		if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`)
+			return
+		}
 			
 		const data = await response.json()
 		return data
 	} catch (error) {
 		console.log(error)
+		return
 	}
 }
 
