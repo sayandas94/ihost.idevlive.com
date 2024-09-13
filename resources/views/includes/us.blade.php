@@ -1,3 +1,14 @@
+<?php
+	function country_flag($region)
+	{
+		$flag = match($region) {
+			'in' => asset('images/country-flags/india.png'),
+			'us' => asset('images/country-flags/united-states.png'),
+		};
+
+		return $flag;
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,11 +40,11 @@
 		<div class="nav-wrapper container">
 			<a href="{{ url('') }}" class="brand-logo left" style="left: 0.5rem"><i class="material-symbols-outlined left">storage</i>iHost</a>
 			<ul class="left hide-on-med-and-down">
-				<li class="location-selector">
+				{{-- <li class="location-selector">
 					<a href="#location-modal" class="modal-trigger">
 						<img src="{{ asset('images/country-flags/united-states.png') }}" alt="" width="32" height="32">
 					</a>
-				</li>
+				</li> --}}
 				<li class="group-nav-item">
 					<a href="{{url('domains')}}" class="btn">Domains</a><a href="#domain-options" class="btn" data-id="menu-dropdown"><i class="material-symbols-outlined">keyboard_arrow_down</i></a>
 				</li>
@@ -49,6 +60,11 @@
 			</ul>
 
 			<ul class="right">
+				<li class="location-selector">
+					<a href="#location-modal" class="modal-trigger">
+						<img src="{{ country_flag(session()->get('region')) }}" alt="" width="32" height="32">
+					</a>
+				</li>
 				<li><a href="{{url('cart')}}" class="btn" style="padding: 0 16px; border-radius: 2px"><i class="material-symbols-outlined">shopping_basket</i></a></li>
 				@if (session()->has('token'))
 				<li><a href="{{url('user/dashboard')}}" class="btn primary hover">Dashboard</a></li>

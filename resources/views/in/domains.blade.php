@@ -17,21 +17,15 @@
 				<br>
 
 				<div class="card-panel domain-wrapper">
-					<form action="{{ url('domain/search') }}" method="post" name="domain-search-form" autocomplete="off">
+					<form action="{{ url('domain/search') }}" method="post" name="domain-search-form" autocomplete="off" id="DomainSearchForm">
 						@csrf
-						<input type="hidden" name="locale" value="{{ session()->get('region') }}">
+						<input type="hidden" name="locale" value="in">
 						<input type="text" name="domain_name" placeholder="Search for that perfect domain name">
-						<button name="submit-btn">
+						<button name="submit-btn" value="submit">
 							<img src="{{ asset('images/icons/search.svg') }}" alt="">
 						</button>
 					</form>
 				</div>
-				
-				{{-- <form action="{{ url('api/domain/search') }}" class="card-panel domain-container" name="domain-search-form" method="POST" autocomplete="off">
-					@csrf
-					<input type="text" class="domain-search-input" name="domain-search-input" placeholder="Search for that perfect domain name" autocomplete="off">
-					<button class="btn z-depth-0 transparent black-text" name="submit-btn" value="submit-btn" style="padding: 0 16px"><i class="material-icons">search</i></button>
-				</form> --}}
 			</div>
 		</div>
 	</div>
@@ -44,22 +38,6 @@
 		scroll-behavior: smooth;
 	}
 
-	/* .slider-controls {
-		position: relative;
-	}
-
-	.controls {
-		position: absolute;
-		height: 100%;
-		width: calc(100% + 120px);
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	} */
-
 	.slider-wrapper > .card-panel {
 		box-shadow: none;
 		border-radius: 8px;
@@ -68,6 +46,13 @@
 		height: 400px;
 		border: 2px solid var(--primary-100);
 		min-width: 30% !important;
+		text-align: center;
+	}
+
+	.slider-wrapper [data-id="price-wrapper"].flexbox {
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	@media only screen and (max-width: 600px) {
@@ -81,51 +66,35 @@
 	$domains = [
 		[
 			'tld' => '.info',
-			'content' => 'Great for information and resources.',
-			'registration_fee' => 3.99,
-			'renewal_fee' => 21.99
+			'content' => 'Great for information and resources.'
 		],
 		[
-			'tld' => '.com',
-			'content' => 'The most popular domain extension.',
-			'registration_fee' => 10.99,
-			'renewal_fee' => 10.99
+			'tld' => '.agency',
+			'content' => 'Ideal for digital marketing agencies.'
 		],
 		[
 			'tld' => '.online',
-			'content' => 'Suitable for a strong online presence.',
-			'registration_fee' => 6.99,
-			'renewal_fee' => 30.29
+			'content' => 'Suitable for a strong online presence.'
 		],
 		[
 			'tld' => '.cloud',
-			'content' => 'Ideal for cloud services and solutions.',
-			'registration_fee' => 3.99,
-			'renewal_fee' => 22.99
+			'content' => 'Ideal for cloud services and solutions.'
 		],
 		[
 			'tld' => '.shop',
-			'content' => 'Perfect for e-commerce websites.',
-			'registration_fee' => 2.99,
-			'renewal_fee' => 29.18
+			'content' => 'Perfect for e-commerce websites.'
 		],
 		[
 			'tld' => '.io',
-			'content' => 'Popular with tech startups & developers.',
-			'registration_fee' => 12.99,
-			'renewal_fee' => 39.99
+			'content' => 'Popular with tech startups & developers.'
 		],
 		[
 			'tld' => '.icu',
-			'content' => 'Short for “I See You,” versatile use.',
-			'registration_fee' => 4.99,
-			'renewal_fee' => 9.99
+			'content' => 'Short for “I See You,” versatile use.'
 		],
 		[
-			'tld' => '.pro',
-			'content' => 'Professional domain for experts.',
-			'registration_fee' => 7.99,
-			'renewal_fee' => 12.99
+			'tld' => '.ai',
+			'content' => 'Websites related to Artificial Intelegence.'
 		]
 	];
 @endphp
@@ -141,8 +110,9 @@
 				<h1 class="semi-bold">{{ $domain['tld'] }}</h1>
 				<p>{{ $domain['content'] }}</p>
 				<br>
-				<h6 class="grey-text small-text" style="text-decoration: line-through;">$ {{ $domain['renewal_fee'] }} / Yr</h6>
-				<h4 class="medium">$ {{ $domain['registration_fee'] }} / Yr</h4>
+				<div class="flexbox" data-id="price-wrapper">
+					<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
+				</div>
 			</div>
 			@endforeach
 		</div>
@@ -153,73 +123,6 @@
 				<a href="#!" class="btn-flat primary" style="margin-top: 24px" id="next-tld"><i class="material-symbols-outlined">keyboard_arrow_right</i></a>
 			</div>
 		</div>
-		{{-- <div class="carousel carousel-slider center" data-indicators="true" style="height: 450px">
-			<div class="carousel-fixed-item center">
-				<!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
-			</div>
-			<div class="carousel-item white" href="#one!" style="padding-left: 10px; padding-right: 10px">
-				<div class="row">
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.info</h1>
-							<p>Show your clients you do business in the .info</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 21.29</h6>
-							<h4>$ 3.99 / Yr</h4>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.tech</h1>
-							<p>Recommended extension for technology related projects.</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 49.29</h6>
-							<h4>$ 8.99 / Yr</h4>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.shop</h1>
-							<p>Show your clients you do business in the .shop</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 29.18</h6>
-							<h4>$ 2.99 / Yr</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item white" href="#two!" style="padding-left: 10px; padding-right: 10px">
-				<div class="row">
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.com</h1>
-							<p>Build trust with this best-known domain.</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 10.99</h6>
-							<h4>$ 10.99 / Yr</h4>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.online</h1>
-							<p>It's a great alternative to .com. Broad, generic and universal.</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 30.29</h6>
-							<h4>$ 6.99 / Yr</h4>
-						</div>
-					</div>
-					<div class="col s12 m6 l4">
-						<div class="card-panel features-box" style="min-height: 400px">
-							<h1 class="semi-bold">.live</h1>
-							<p>Perfect for fresh and real-time content</p>
-							<br>
-							<h6 class="grey-text small-text" style="text-decoration: line-through;">$ 25.29</h6>
-							<h4>$ 3.29 / Yr</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> --}}
 	</div>
 </section>
 
@@ -597,153 +500,11 @@
 	</div>
 </section>
 
-<div id="configure-domain-name" class="overlay-popup" style="overflow: auto">
-	<nav class="overlay-header">
-		<div class="nav-wrapper container">
-			<a href="#!" class="brand-logo medium black-text">Configure Domain</a>
-			<ul class="right">
-				<li><a href="#configure-domain-name" class="btn-flat" data-id="close-popup"><i class="material-symbols-rounded">close</i></a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="overlay-body">
-		<div class="container">
-			<div class="row">
-				<div class="col s12">
-					<ul class="tabs">
-						<li class="tab col s3">
-							<a href="#results" class="active">
-								{{-- <img class="inactive" src="{{ asset('images/icons/search.svg') }}" alt="domain name search" /> --}}
-								Results
-							</a>
-						</li>
-						<li class="tab col s3">
-							<a href="#history">
-								{{-- <img class="inactive" src="{{ asset('images/icons/history.svg') }}" alt="domain name search" /> --}}
-								History
-							</a>
-						</li>
-					</ul>
-				</div>
-				
-				<div class="col s12" id="results">
-					<br><br>
-					<div class="col s12 m6 7">
-						<div class="card-panel" style="box-shadow: none; border: 2px solid var(--primary-100); margin-top: 0">
-							<h6 class="medium" style="margin-top: 0" data-id="domain-name">idevlives<span class="primary-text">.com</span></h6>
-							<h5 class="semi-bold" data-id="subtotal">
-								<span data-id="currency"></span> <span data-id="domain-price"></span>
-								<span class="small-text">for first year</span>
-							</h5>
-							<p class="small-text grey-text">Renews on <span data-id="renewal_data">{{ date('M j, Y', strtotime('+1 year')) }}</span> for <span data-id="currency"></span> <span data-id="renewal-price"></span></p>
-							
-							<div data-id="gyaan-container"></div>
-
-							<div class="divider" style="margin: 36px 0"></div>
-
-							<p class="header-text">Similar domain suggestions</p>
-		
-							<table class="domain-suggestion-table" data-id="domain-suggestion-table">
-								<tbody></tbody>
-							</table>
-						</div>
-		
-						{{-- <br>
-		
-						<p class="header-text">Similar domain suggestions</p>
-		
-						<table class="domain-suggestion-table" data-id="domain-suggestion-table">
-							<tbody></tbody>
-						</table> --}}
-					</div>
-		
-					<div class="col m5 l4 offset-m1 offset-l1 hide-on-small-only sticky-top top-128">
-						{{-- <form action="{{ url('cart/add') }}" method="post" name="configure-domain-name"> --}}
-						<form action="{{ url('cart/add-item') }}" method="post" name="configure-domain-name">
-							@csrf
-							<input type="hidden" name="locale" value="{{ session()->get('region') }}">
-							<input type="hidden" name="price_id">
-							{{-- <input type="hidden" name="product_id"> --}}
-							<input type="hidden" name="domain_name">
-							<button class="btn-large primary hover full-width" name="submit-btn" value="submit">Add to cart</button>
-							<br><br>
-							<p class="medium regular">Select Term Length</p>
-							<div class="flexbox space-between" style="align-items: center">
-								<a class="dropdown-trigger btn-flat grey lighten-3" href="#!" data-target="term-length"><i class="material-icons right">keyboard_arrow_down</i>1 Year</a>
-								<p class="right">for <span data-id="currency"></span> <span data-id="domain-price"></p>
-							</div>
-			
-							<br><div class="divider"></div>
-			
-							<div class="flexbox space-between" style="align-items: center">
-								<p class="medium regular">Add Privacy Protection</p>
-								
-								<div class="switch">
-									<label>
-										Off
-										<input type="checkbox" name="privacy_protection" checked />
-										<span class="lever"></span>
-										On
-									</label>
-								</div>
-							</div>
-			
-							<h6 class="small-text">Protects your contact information from fraud and prevents email spam. iHost privacy protection is free of cost.</h6>
-			
-							<br><div class="divider"></div>
-			
-							<div class="flexbox space-between" style="align-items: center">
-								<p class="medium regular">Add Domain Lock</p>
-								
-								<div class="switch">
-									<label>
-										Off
-										<input type="checkbox" name="domain_lock" checked />
-										<span class="lever"></span>
-										On
-									</label>
-								</div>
-							</div>
-			
-							<h6 class="small-text">If your business is built on your domain, you need protection. Add the domain lock feature for free so that your domain is not transfered without autorisation.</h6>
-			
-							<br><div class="divider"></div>
-			
-							<div class="flexbox space-between" style="align-items: center">
-								<p class="medium">Auto-renew</p>
-								
-								<div class="switch">
-									<label>
-										Off
-										<input type="checkbox" name="auto_renew" checked />
-										<span class="lever"></span>
-										On
-									</label>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<div class="col s12" id="history">
-					<br><br>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-<ul class="dropdown-content" id="term-length">
-	<li><a href="#!">1 Year</a></li>
-	<li><a href="#!">2 Years</a></li>
-	<li><a href="#!">3 Years</a></li>
-	<li><a href="#!">5 Years</a></li>
-</ul>
+@include('components.OverlayDomainTrue')
+@include('components.overlay-domain-false')
 
 @endsection
 
 @section('script')
-<script type="text/javascript" src="{{ asset('js/web/domain.js') }}"></script>
+<script type="module" src="{{ asset('js/web/domain.js') }}" ></script>
 @endsection

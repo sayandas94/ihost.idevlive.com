@@ -41,6 +41,15 @@ table.hosting > tbody > tr > td:last-child {
 	color: #9e9e9e;
 }
 
+table.domain-suggestion-table > tbody > tr > td:first-child {
+	padding-left: 0;
+	text-transform: lowercase;
+}
+
+table.domain-suggestion-table > tbody > tr > td:last-child {
+	text-align: right;
+}
+
 table.domain-suggestion-table > tbody > tr:last-child {
 	border-bottom: none;
 }
