@@ -31,7 +31,7 @@
 			<ul class="left hide-on-med-and-down">
 				<li class="location-selector">
 					<a href="#location-modal" class="modal-trigger">
-						<img src="{{ asset('images/country-flags/united-states.png') }}" alt="" width="32" height="32">
+						<img src="{{ asset('images/country-flags/india.png') }}" alt="" width="32" height="32">
 					</a>
 				</li>
 				<li class="group-nav-item">
