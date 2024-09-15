@@ -133,6 +133,24 @@ nav.main-nav ul.right li > a.btn.primary.hover {
 	border-radius: 4px;
 }
 
+nav.main-nav ul.right li a.cart-btn {
+	position: relative;
+}
+
+/* nav.main-nav ul.right li a.cart-btn::after {
+	content: '1';
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: var(--primary);
+	top: 2px;
+	right: 8px;
+	color: white;
+	font-size: 8px;
+	line-height: 12px;
+} */
+
 /*
 CODE FOR FULL WIDTH DROPDOWN 
 */

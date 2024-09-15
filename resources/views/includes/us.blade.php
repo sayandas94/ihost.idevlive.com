@@ -18,8 +18,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>@yield('title')</title>
 
-	<!-- Icon -->
-	<link rel="icon" href="https://ihost.idevlive.com/assets/favicon.ico" type="image/x-icon">
+	<!-- Favicon -->
+	<link rel="icon" id="favicon" href="{{ asset('images/favicon-dark.ico') }}" type="image/x-icon">
 
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -33,6 +33,14 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<!-- Material Symbols Sharp -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+	<script>
+		const DarkTheme = window.matchMedia('(prefers-color-scheme: dark)')
+		
+		if (DarkTheme.matches === true) {
+			document.querySelector('#favicon').href = 'http://ihost.idevlive.test/images/favicon-light.ico'
+		}
+	</script>
 </head>
 <body>
 	<script>0</script>

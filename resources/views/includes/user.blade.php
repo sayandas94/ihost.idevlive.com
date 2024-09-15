@@ -9,8 +9,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<link type="text/css" rel="stylesheet" href="{{ asset('css/stylesheet.css') }}"  media="screen,projection"/>
 
-		<!-- Icon -->
-		<link rel="icon" href="https://ihost.idevlive.com/assets/favicon.ico" type="image/x-icon">
+		<!-- Favicon -->
+		<link rel="icon" id="favicon" href="{{ asset('images/favicon-dark.ico') }}" type="image/x-icon">
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -35,6 +35,14 @@
 		{{-- <meta property="og:url" content="{{ $page }}" /> --}}
 		<meta property="og:description" content="Take your business online with iHost, a web hosting platform and domain registration. Buy domains, web hosting and enjoy award-winning support." />
 		<meta property="og:site_name" content="iHost" />
+
+		<script>
+			const DarkTheme = window.matchMedia('(prefers-color-scheme: dark)')
+			
+			if (DarkTheme.matches === true) {
+				document.querySelector('#favicon').href = 'http://ihost.idevlive.test/images/favicon-light.ico'
+			}
+		</script>
 	</head>
 
 	<body>
