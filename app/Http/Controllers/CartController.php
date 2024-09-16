@@ -51,7 +51,9 @@ class CartController extends Controller
 
 
 			$cart_data = (object) [
+				'product_id' => $product_info->product_id,
 				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
 				'product_name' => $product_info->product_name,
 				'category' => $product_info->category,
 				'unit_amount' => $price_info->unit_amount,
@@ -63,7 +65,9 @@ class CartController extends Controller
 			];
 		} else {
 			$cart_data = (object) [
+				'product_id' => $product_info->product_id,
 				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
 				'product_name' => $product_info->product_name,
 				'category' => $product_info->category,
 				'unit_amount' => $price_info->unit_amount,
