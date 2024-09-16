@@ -37,7 +37,7 @@ class CartController extends Controller
 			# check if the domain for the same name already exists in the cart or not
 			if ($request->session()->get('cart.contents')) {
 				foreach ($request->session()->get('cart.contents') as $key => $value) {
-					if ($request->domain_name == $value->domain_name) {
+					if (property_exists($value, 'domain_name') && $request->domain_name == $value->domain_name) {
 						return response()->json([
 							'status' => false,
 							'message' => 'This domain name is already added in the cart.',
