@@ -331,6 +331,7 @@ Route::view('cart', 'cart');
 Route::post('cart/add-item', [CartController::class, 'add_item']);
 Route::post('cart/add', [CartController::class, 'insert']);
 Route::get('cart/remove/{id?}', [CartController::class, 'remove']);
+Route::post('cart/update-cart', [CartController::class, 'update']);
 
 Route::group(['middleware' => DetectRegion::class], function () {
 	Route::view('sign-up', 'register');
