@@ -35,9 +35,8 @@ form.addEventListener('submit', async (e) => {
 	}
 
 	const response = await post(form)
-
+	
 	if (!response.status) {
-		console.log(response)
 		for (const key in response.data) {
 			form[key].classList.add('invalid')
 			// M.toast({
