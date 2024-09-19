@@ -8,156 +8,6 @@ use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
-	public function add_item(Request $request)
-	{
-		$response = $this->curl_get('ihost/cart/product-info?id=' . $request->price_id);
-		
-		if (!$response->status) {
-			return response()->json($response);
-		}
-		
-
-		$product_info = $response->data->product_info;
-		$price_info = $response->data->price_info;
-
-		if (!$request->session()->get('cart.currency_iso_3')) {
-			$request->session()->put('cart.currency_iso_3', $price_info->currency);
-		}
-		else {
-			if ($request->session()->get('cart.currency_iso_3') != $price_info->currency) {
-				return response()->json([
-					'status' => false,
-					'message' => 'There is already an item in your cart in different<br>currency. Remove that first to add this one.',
-					'data' => []
-				]);
-			}
-		}
-
-		if ($product_info->category == 'Domain') {
-			# check if the domain for the same name already exists in the cart or not
-			if ($request->session()->get('cart.contents')) {
-				foreach ($request->session()->get('cart.contents') as $key => $value) {
-					if (property_exists($value, 'domain_name') && $request->domain_name == $value->domain_name) {
-						return response()->json([
-							'status' => false,
-							'message' => 'This domain name is already added in the cart.',
-							'data' => [
-								'error' => ['This domain name is already added in the cart.']
-							]
-						]);
-					}
-				}
-			}
-
-
-			$cart_data = (object) [
-				'product_id' => $product_info->product_id,
-				'price_id' => $price_info->price_id,
-				'region' => $price_info->region,
-				'product_name' => $product_info->product_name,
-				'category' => $product_info->category,
-				'unit_amount' => $price_info->unit_amount,
-				'duration_text' => $price_info->duration_text,
-				'currency' => $price_info->currency,
-				'domain_name' => $request->domain_name,
-				'auto_renew' => $request->auto_renew,
-				'discount_id' => $price_info->discount_id
-			];
-		} else {
-			$cart_data = (object) [
-				'product_id' => $product_info->product_id,
-				'price_id' => $price_info->price_id,
-				'region' => $price_info->region,
-				'product_name' => $product_info->product_name,
-				'category' => $product_info->category,
-				'unit_amount' => $price_info->unit_amount,
-				'duration_text' => $price_info->duration_text,
-				'currency' => $price_info->currency,
-				'auto_renew' => $request->auto_renew,
-				'discount_id' => $price_info->discount_id
-			];
-		}
-
-		if ($price_info->discount_id) {
-			$cart_data->discount_info = $price_info->discount_info;
-			if ($price_info->discount_type == 'percent') {
-				$cart_data->sale_price = $price_info->unit_amount - ($price_info->unit_amount * ($price_info->discount_info->percent_off / 100));
-			}
-			
-			if ($price_info->discount_type == 'amount') {
-				$cart_data->sale_price = $price_info->unit_amount - $price_info->discount_info->amount_off;
-			}
-		} else {
-			$cart_data->sale_price = $price_info->unit_amount;
-		}
-
-		$request->session()->push('cart.contents', $cart_data);
-		$request->session()->push('cart.sub_total', $cart_data->sale_price);
-		$request->session()->push('cart.discount', $cart_data->unit_amount - $cart_data->sale_price);
-
-		if (!$request->session()->get('currency')) {
-
-			switch ($price_info->currency) {
-				case 'inr':
-					$currency = '₹';
-					break;
-				case 'usd':
-					$currency = '$';
-					break;
-				
-				default:
-					$currency = '$';
-					break;
-			}
-
-			$request->session()->put('cart.currency', $currency);
-		}
-
-		return response()->json([
-			'status' => true,
-			'message' => '<p>Item added to the cart.</p>',
-			'data' => ['url' => 'cart', 'response' => $response]
-		]);
-	}
-	
-	public function insert(Request $request)
-	{
-		$product_validation = $this->curl_get('ihost/cart/validate?id=' . $request->product_id);
-
-		if (!$product_validation->status) {
-			return response()->json($product_validation);
-		}
-
-		if ($product_validation->data->category == 'Domain') {
-			$product_validation->data->domain_name = $request->domain_name;
-
-			// YAHA PE MUJHE CHECK KARNA HAI KI DOMAIN ALREADY CART MEI EXIST KARTA HAI YA NAHI
-			if ($request->session()->get('cart.contents')) {
-				foreach ($request->session()->get('cart.contents') as $key => $value) {
-					if ($request->domain_name == $value->domain_name) {
-						return response()->json([
-							'status' => false,
-							'message' => 'This domain name is already added in the cart.',
-							'data' => [
-								'error' => ['This domain name is already added in the cart.']
-							]
-						]);
-					}
-				}
-			}
-		}
-
-		$request->session()->push('cart.contents', $product_validation->data);
-		$request->session()->push('cart.sub_total', $product_validation->data->after_discount);
-		$request->session()->push('cart.discount', $product_validation->data->before_discount - $product_validation->data->after_discount);
-
-		return response()->json([
-			'status' => true,
-			'message' => '<p>Item added to the cart.</p>',
-			'data' => ['url' => 'cart']
-		]);
-	}
-
 	public function remove($id = null)
 	{
 		if ($id == null) {
@@ -172,18 +22,12 @@ class CartController extends Controller
 
 		array_splice($cart_contents, $id, 1);
 
-		session()->forget(['cart.contents', 'cart.sub_total', 'cart.discount', 'cart.currency', 'cart.currency_iso_3']);
+		session()->forget('cart');
 
-		if (count($cart_contents) > 0) {
-			session()->put('cart.contents', $cart_contents);
-			session()->put('cart.currency_iso_3', $cart_contents[0]->currency);
-			$this->set_currency($cart_contents[0]->currency);
-
-			foreach ($cart_contents as $key => $value) {
-				// session()->push('cart.sub_total', $value->sale_price);
-				// session()->push('cart.discount', $value->unit_amount - $value->sale_price);
-				session()->push('cart.sub_total', $value->sale_price);
-				session()->push('cart.discount', $value->unit_amount - $value->sale_price);
+		if ($cart_contents > 0) {
+			foreach ($cart_contents as $item) {
+				$this->set_currency($item->currency);
+				$this->insert($item);
 			}
 		}
 
@@ -192,24 +36,6 @@ class CartController extends Controller
 			'message' => '<p>Product removed from cart.</p>',
 			'data' => ['cart_url' => url('cart')]
 		]);
-	}
-
-	private function set_currency($currency_iso_3)
-	{
-		switch ($currency_iso_3) {
-			case 'inr':
-				$currency = '₹';
-				break;
-			case 'usd':
-				$currency = '$';
-				break;
-			
-			default:
-				$currency = '$';
-				break;
-		}
-
-		session()->put('cart.currency', $currency);
 	}
 
 	public function create_invoice(Request $request)
@@ -250,5 +76,224 @@ class CartController extends Controller
 		}
 
 		return response()->json($delivery);
+	}
+
+	public function add_item(Request $request)
+	{
+		$validate_product = $this->validate_product($request->price_id);
+
+		if ($validate_product === false) {
+			return response()->json([
+				'status' => false,
+				'message' => 'This product can\'t be validated',
+				'data' => []
+			]);
+		}
+
+		$product_info = $validate_product['product_info'];
+		$price_info = $validate_product['price_info'];
+
+		# Setting the currency if not set
+		$this->set_currency($price_info->currency);
+
+		# Preparing the cart data
+		# Also check for domain with same name in the cart
+		if ($product_info->category == 'Domain') {
+			# Check for existing domain name
+			if ($this->check_existing_domain($request->domain_name)) {
+				return response()->json([
+					'status' => false,
+					'message' => 'This domain name is already added in the cart',
+					'data' => ['error' => ['This domain name is already added in the cart']]
+				]);
+			}
+
+			$cart_data = $this->discounts($price_info, (object) [
+				'product_id' => $product_info->product_id,
+				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
+				'product_name' => $product_info->product_name,
+				'category' => $product_info->category,
+				'unit_amount' => $price_info->unit_amount,
+				'duration_text' => $price_info->duration_text,
+				'currency' => $price_info->currency,
+				'domain_name' => $request->domain_name,
+				'auto_renew' => $request->auto_renew,
+				'discount_id' => $price_info->discount_id
+			]);
+		} else {	
+			$cart_data = $this->discounts($price_info, (object) [
+				'product_id' => $product_info->product_id,
+				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
+				'product_name' => $product_info->product_name,
+				'category' => $product_info->category,
+				'unit_amount' => $price_info->unit_amount,
+				'duration_text' => $price_info->duration_text,
+				'currency' => $price_info->currency,
+				'auto_renew' => $request->auto_renew,
+				'discount_id' => $price_info->discount_id
+			]);
+		}
+
+		if (!$this->insert($cart_data)) {
+			return response()->json([
+				'status' => false,
+				'message' => 'Can\'t add item to the cart',
+				'data' => []
+			]);
+		}
+
+		return response()->json([
+			'status' => true,
+			'message' => '<p>Item added to the cart.</p>',
+			'data' => ['url' => 'cart']
+		]);
+	}
+
+	protected function validate_product($price_id)
+	{
+		$response = $this->curl_get('ihost/cart/product-info?id=' . $price_id);
+
+		if ( !$response->status ) {
+			return false;
+		}
+
+		$info = [
+			'product_info' => $response->data->product_info,
+			'price_info' => $response->data->price_info
+		];
+
+		return $info;
+	}
+
+	protected function set_currency($iso)
+	{
+		if (session()->get('cart.currency')) {
+			return false;
+		}
+
+		$symbol = match($iso) {
+			'inr' => '₹',
+			'usd' => '$',
+			'default' => '$'
+		};
+
+		$currency = [
+			'iso' => $iso,
+			'symbol' => $symbol
+		];
+
+		session()->put('cart.currency', $currency);
+	}
+
+	protected function check_existing_domain($domain_name)
+	{
+		if (session()->get('cart.contents')) {
+			foreach (session()->get('cart.contents') as $item) {
+				if (property_exists($item, 'domain_name') && $domain_name == $item->domain_name) {
+					return false;
+				}
+			}
+		}
+	}
+
+	protected function discounts($price_info, $cart_data)
+	{
+		if ($price_info->discount_id) {
+			$cart_data->discount_info = $price_info->discount_info;
+
+			if ($price_info->discount_type == 'percent') {
+				$cart_data->sale_price = $price_info->unit_amount - ($price_info->unit_amount * ($price_info->discount_info->percent_off / 100));
+			}
+			
+			if ($price_info->discount_type == 'amount') {
+				$cart_data->sale_price = $price_info->unit_amount - $price_info->discount_info->amount_off;
+			}
+
+		} else {
+			$cart_data->sale_price = $price_info->unit_amount;
+		}
+
+		return $cart_data;
+	}
+
+	protected function insert($cart_data)
+	{
+		session()->push('cart.contents', $cart_data);
+
+		$cart_items = session()->get('cart.contents');
+		
+		$sub_total = [];
+		$discount = [];
+
+		foreach($cart_items as $item)
+		{
+			array_push($sub_total, $item->sale_price);
+			array_push($discount, $item->unit_amount - $item->sale_price);
+		}
+
+		session()->put('cart.sub_total', array_sum($sub_total));
+		session()->put('cart.discount', array_sum($discount));
+
+		return true;
+	}
+
+	public function update(Request $request)
+	{
+		$validate_product = $this->validate_product($request->price_id);
+
+		if ($validate_product === false) {
+			return response()->json([
+				'status' => false,
+				'message' => 'This product can\'t be validated',
+				'data' => []
+			]);
+		}
+
+		$product_info = $validate_product['product_info'];
+		$price_info = $validate_product['price_info'];
+
+		if ($product_info->category == 'Domain') {
+			$cart_data = $this->discounts($price_info, (object) [
+				'product_id' => $product_info->product_id,
+				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
+				'product_name' => $product_info->product_name,
+				'category' => $product_info->category,
+				'unit_amount' => $price_info->unit_amount,
+				'duration_text' => $price_info->duration_text,
+				'currency' => $price_info->currency,
+				'domain_name' => $request->domain_name,
+				'auto_renew' => $request->auto_renew,
+				'discount_id' => $price_info->discount_id
+			]);
+		} else {	
+			$cart_data = $this->discounts($price_info, (object) [
+				'product_id' => $product_info->product_id,
+				'price_id' => $price_info->price_id,
+				'region' => $price_info->region,
+				'product_name' => $product_info->product_name,
+				'category' => $product_info->category,
+				'unit_amount' => $price_info->unit_amount,
+				'duration_text' => $price_info->duration_text,
+				'currency' => $price_info->currency,
+				'auto_renew' => $request->auto_renew,
+				'discount_id' => $price_info->discount_id
+			]);
+		}
+
+		$cart_contents = session()->get('cart.contents');
+		array_splice($cart_contents, $request->index, 1);
+		session()->forget('cart');
+		array_splice($cart_contents, $request->index, 1, [$cart_data]);
+
+		foreach ($cart_contents as $item) {
+			$this->set_currency($item->currency);
+			$this->insert($item);
+		}
+
+		return true;
+		
 	}
 }
