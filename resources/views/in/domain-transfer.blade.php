@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="col s12 m6 l7">
-				<img src="{{ asset('images/website/domain-transfer.avif') }}" alt="" class="responsive-img">
+				<img src="{{ asset('images/website/transfer-your-domains-in-a-bliss.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

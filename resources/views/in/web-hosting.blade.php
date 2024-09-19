@@ -316,7 +316,7 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l7 sticky-top top-128">
-				<img src="{{ asset('images/website/host-your-website.avif') }}" class="responsive-img"
+				{{-- <img src="{{ asset('images/website/host-your-website.avif') }}" class="responsive-img"
 					srcset="{{ asset('images/website/host-your-website-320w.avif') }} 320w,
 					{{ asset('images/website/host-your-website-640w.avif') }} 640w,
 					{{ asset('images/website/host-your-website-1024w.avif') }} 1024w,
@@ -325,7 +325,8 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="website hosting" class="responsive-img" loading="lazy" />
+					alt="website hosting" class="responsive-img" loading="lazy" /> --}}
+					<img src="{{ asset('images/website/now-manage-your-website-with-style!.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

@@ -31,7 +31,7 @@
 				</div> --}}
 			</div>
 			<div class="col s12 m6 l7">
-				<img src="{{ asset('images/website/domain-extensions.avif') }}" alt="" class="responsive-img">
+				<img src="{{ asset('images/website/domain-extensions.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
