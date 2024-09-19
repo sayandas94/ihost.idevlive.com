@@ -17,7 +17,7 @@
 				<p>Every guide is trained and excited to work with you, whether you need help with a password reset or you're looking for a team to build your complete web presence.</p>
 			</div>
 			<div class="col m6 l7 hide-on-small-only">
-				<img src="{{ asset('images/website/customer-support.avif') }}" alt="" class="responsive-img">
+				<img src="{{ asset('images/website/customer-support.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
