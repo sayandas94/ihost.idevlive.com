@@ -41,10 +41,7 @@
 				</div>
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{ asset('images/website/whois-lookup-1024w.png') }}" alt="" class="responsive-img"> --}}
-				<div class="card-panel grey z-depth-0" style="aspect-ratio: 1.3">
-
-				</div>
+				<img src="{{ asset('images/website/whois-lookup.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
@@ -104,10 +101,7 @@
 			</div>
 
 			<div class="col m6 l6 offset-l1 hide-on-small-only">
-				<div class="card-panel z-depth-0 grey lighten-3 flexbox" style="aspect-ratio: 1.4; flex-direction: column; align-items: center; justify-content: center">
-					<p>Some image card will come here...</p>
-					<p>Width: 481.5px<br>Height: 344px</p>
-				</div>
+				<img src="{{ asset('images/website/what-is-whois-lookup.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
