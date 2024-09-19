@@ -21,9 +21,7 @@
 				<p>Enjoy an exclusive <a href="https://ihost.idevlive.com/refund-policy" class="primary-text semi-bold">30 days money back</a> gurantee on all hosting purchases.</p> --}}
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{asset('images/website/banner.avif')}}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" /> --}}
-				{{-- <img src="{{asset('images/website/screenshot-rocks.png')}}" alt="" class="responsive-img"> --}}
-				<img src="{{asset('images/website/web-hosting-banner-2.jpg')}}" alt="" class="responsive-img">
+				<img src="{{asset('images/website/web-hosting-banner.jpg')}}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

@@ -14,9 +14,7 @@
 				<a href="#plans" class="btn-large primary solid medium" style="border-radius: 4px"><i class="material-symbols-outlined right">arrow_forward</i>See Plans & Pricing</a>
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{asset('images/website/banner.avif')}}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" /> --}}
-				{{-- <img src="{{asset('images/website/screenshot-rocks.png')}}" alt="" class="responsive-img"> --}}
-				<img src="{{asset('images/website/web-hosting-banner-2.jpg')}}" alt="" class="responsive-img">
+				<img src="{{asset('images/website/web-hosting-banner.jpg')}}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
