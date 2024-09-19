@@ -120,6 +120,11 @@
 	background-color: var(--primary-200) !important;
 }
 
+.btn-flat.primary.disabled {
+	background-color: #dfdfdf !important;
+	color: #9f9f9f !important;
+}
+
 .btn-flat.default {
 	background-color: #eeeeee;
 	color: #212121;
