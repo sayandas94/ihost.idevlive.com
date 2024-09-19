@@ -329,18 +329,24 @@
 		<div class="row">
 			<div class="col s12 m6 l4">
 				<div class="card-panel z-depth-0">
+					<img src="{{ asset('images/website/amazing-offers.jpg') }}" alt="" class="responsive-img">
+
 					<p class="semi-bold">Amazing offers</p>
 					<p class="small-text">Take advantage of amazing offers on domain names. Start by searching for your preffered domain name and comparing their prices and promotions. Look for different offers on the domain extension you want, as well as features like easy domain management and protections.</p>
 				</div>
 			</div>
 			<div class="col s12 m6 l4">
 				<div class="card-panel z-depth-0">
+					<img src="{{ asset('images/website/instant-setup.jpg') }}" alt="" class="responsive-img">
+
 					<p class="semi-bold">Instant setup</p>
 					<p class="small-text">When you're ready to launch your website or start your online business, you want to get started as quickly and efficiently as possible. One of the key steps in the process is setting up your domain name. Fortunately, with instant domain setup, you can get up and running in no time at all.</p>
 				</div>
 			</div>
 			<div class="col s12 m6 l4">
 				<div class="card-panel z-depth-0">
+					<img src="{{ asset('images/website/free-privacy-protection.jpg') }}" alt="" class="responsive-img">
+
 					<p class="semi-bold">Free privacy protection</p>
 					<p class="small-text">When you register a domain name, your personal information is required to be publicly available through the WHOIS database. Take advantage of free privacy protection, with iHost as it offers this service as part of their domain registration package. It's totally free for lifetime.</p>
 				</div>
