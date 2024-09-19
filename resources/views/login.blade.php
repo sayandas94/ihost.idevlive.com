@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="input-field col s12">
-				<input type="text" name="email" id="email-address" value="sayan.das94@gmail.com">
+				<input type="text" name="email" id="email-address">
 				<label for="email-address">Email Address</label>
 			</div>
 
@@ -47,7 +47,7 @@
 			<div class="input-field col s12 flexbox space-between" style="align-items: center">
 				<p>
 					<label>
-						<input type="checkbox" name="remember_me" />
+						<input type="checkbox" name="remember_me" checked />
 						<span>Remember Me</span>
 					</label>
 				</p>
