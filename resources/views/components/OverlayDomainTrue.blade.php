@@ -29,22 +29,24 @@
 				
 				<div class="col s12" id="results">
 					<br><br>
-					<div class="col s12 m6 7">
+					<div class="col s12 m6 l7">
 						<div class="card-panel" style="box-shadow: none; border: 2px solid var(--primary-100); margin-top: 0">
-							<h6 class="medium" style="margin-top: 0" data-id="available.domain.name">
-								idevlives
-								<span class="primary-text">.com</span>
-							</h6>
+							<div data-id="main-price-wrapper" style="position: relative">
+								<div class="LoadingWrapper hide" style="position: absolute; background-color: white; top: 0; left: 0; height: 100%; width: 100%">
+									<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
+								</div>
+								<h6 class="medium" style="margin-top: 0; text-transform: lowercase" data-id="available.domain.name"></h6>
 							
-							<p data-id="discount-info-wrapper" class="medium"></p>
+								<p data-id="discount-info-wrapper" class="medium"></p>
+								
+								<h5 class="semi-bold" data-id="subtotal">
+									<span data-id="currency"></span> <span data-id="domain-price"></span>
+									<span class="small-text" data-id="duration.elaborate">for first year</span>
+								</h5>
+								<p class="small-text grey-text" data-id="renewal_wrapper">Renews on <span data-id="renewal.date"></span> for <span data-id="currency"></span> <span data-id="renewal-price"></span></p>
+							</div>
 							
-							<h5 class="semi-bold" data-id="subtotal">
-								<span data-id="currency"></span> <span data-id="domain-price"></span>
-								<span class="small-text">for first year</span>
-							</h5>
-							<p class="small-text grey-text" data-id="renewal_wrapper">Renews on <span data-id="renewal.date">{{ date('M j, Y', strtotime('+1 year')) }}</span> for <span data-id="currency"></span> <span data-id="renewal-price"></span></p>
-							
-							<div data-id="gyaan-container"></div>
+							{{-- <div data-id="gyaan-container"></div> --}}
 
 							<div class="divider" style="margin: 36px 0"></div>
 
@@ -69,15 +71,37 @@
 							{{-- <input type="hidden" name="price_id"> --}}
 							{{-- <input type="hidden" name="product_id"> --}}
 							<input type="hidden" name="domain_name">
-							<input type="hidden" name="duration">
+							{{-- <input type="hidden" name="duration"> --}}
+							<input type="hidden" name="price_id">
 							<button class="btn-large primary hover full-width" name="submit-btn" value="submit">Add to cart</button>
 							<br><br>
 							<p class="medium regular">Select Term Length</p>
 							<table class="hosting" data-id="domain-price-table">
 								<tbody>
 									<tr>
-										<td style="text-align: left">
+										{{-- <td style="text-align: left">
 											<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
+										</td> --}}
+										<td>
+											<a
+											href="#!"
+											class="btn select-duration-btn"
+											data-product=""
+											data-domain=""
+											data-region="{{ session()->get('region') }}"
+											data-target="domain-duration">
+											<i class="material-icons right">keyboard_arrow_down</i>
+											1 Year
+											</a>
+
+											<ul id="domain-duration" class="dropdown-content duration-dropdown" style="border-radius: 8px"></ul>
+										</td>
+										<td>
+											<div data-id="domain-price-wrapper">
+												<span class="medium medium" style="text-decoration: line-through">Rs 1099.00</span>
+												<br>
+												<span class="medium black-text regular-text">Rs 319.00</span>
+											</div>
 										</td>
 									</tr>
 								</tbody>

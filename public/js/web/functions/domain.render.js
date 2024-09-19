@@ -35,7 +35,7 @@ export const LoadingBtn = (button, state) => {
 		button.innerHTML += '<div class="preloader-wrapper tiny active" style="position: absolute; top: calc(50% - 8px); left: calc(50% - 8px)"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>'
 	} else {
 		button.classList.remove('disabled')
-		button.removeChild(document.querySelector('.preloader-wrapper'))
+		button.removeChild(button.lastElementChild)
 	}
 }
 
@@ -63,7 +63,7 @@ export const DomainSuggestionRender = (data, currency, loader) => {
 						<span class="medium small-text grey-text">${ currency } ${ domain.price.toFixed(2) } for the first year</span>
 					</td>
 					<td>
-						<a href="#!" class="btn-flat primary" style="font-weight: 500">Add to cart</a>
+						<a href="#!" class="btn-flat primary" data-id="domain.suggestion.add" data-domain="${ domain.domainName }" style="font-weight: 500">Add to cart</a>
 					</td>
 				</tr>`
 			})
@@ -84,58 +84,92 @@ export const UnavailableDomainRender = (data) => {
 	document.querySelector('[data-id="unavailable.domain.name"]').innerText = data.name
 }
 
-export const AvailableDomainRender = (data, currency) => {
-	document.querySelector('[data-id="available.domain.name"]').innerText = data.name
-	document.querySelectorAll('[data-id="currency"]').forEach(element => {
-		element.innerText = currency
-	})
+export const AvailableDomainRender = (data, loading) => {
+	if (loading === true) {
+		document.querySelector('[data-id="main-price-wrapper"] .LoadingWrapper').classList.remove('hide')
+	} else {
+		document.querySelector('[data-id="main-price-wrapper"] .LoadingWrapper').classList.add('hide')
+		let currency
+		switch (data.currency) {
+			case 'inr':
+				currency = '₹'
+				break;
 
-	if (data.discount_info != false) {
-		if (data.discount_info.percent_off != null) { // discount is in form of percent
-
-		} else { // discount is in form of amount
-			// document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="badge off" style="margin-left: 0; font-weight: 500 !important; float: left">${ currency } ${ (data.discount_info.amount_off / 100).toFixed(2) } off</span><br><span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
-			document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
-			document.querySelector('[data-id="domain-price"]').innerText = ((data.unit_amount - data.discount_info.amount_off) / 100).toFixed(2)
+			case 'usd':
+				currency = '$'
+				break;
+		
+			default:
+				currency = '$'
+				break;
 		}
-	} else { // there is no discount. show the normal unit amount
-		document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = ''
-		document.querySelector('[data-id="domain-price"]').innerText = (data.unit_amount / 100).toFixed(2)
-	}
 
-	document.querySelector('[data-id="renewal-price"]').innerText = (data.unit_amount / 100).toFixed(2)
+		document.querySelector('[data-id="available.domain.name"]').innerText = (data.name) ? data.name : document.querySelector('#AddToCart')['domain_name'].value
+		document.querySelectorAll('[data-id="currency"]').forEach(element => {
+			element.innerText = currency
+		})
+
+		if (data.discount_info != null) {
+			if (data.discount_info.percent_off != null) { // discount is in form of percent
+
+			} else { // discount is in form of amount
+				document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = `<span class="grey-text" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`
+				document.querySelector('[data-id="domain-price"]').innerText = ((data.unit_amount - data.discount_info.amount_off) / 100).toFixed(2)
+			}
+		} else { // there is no discount. show the normal unit amount
+			document.querySelector('[data-id="discount-info-wrapper"]').innerHTML = ''
+			document.querySelector('[data-id="domain-price"]').innerText = (data.unit_amount / 100).toFixed(2)
+		}
+
+		let DurationElaborate
+		switch (data.duration) {
+			case 12:
+				DurationElaborate = 'for first year'
+				break;
+			case 24:
+				DurationElaborate = 'for two years'
+				break;
+			case 36:
+				DurationElaborate = 'for three years'
+				break;
+			case 60:
+				DurationElaborate = 'for five years'
+				break;
+			default:
+				DurationElaborate = 'for first year'
+				break;
+		}
+
+		document.querySelector('[data-id="duration.elaborate"]').innerText = DurationElaborate
+		document.querySelector('[data-id="renewal.date"]').innerText = data.renewal
+		document.querySelector('[data-id="renewal-price"]').innerText = (data.unit_amount / 100).toFixed(2)
+	}
 }
 
-export const TermLengthRender = (data, status) => {
+export const DomainPriceWrapper = (data, loading) => {
+	if (loading === true) {
+		document.querySelector('[data-id="domain-price-wrapper"]').innerHTML = '<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>'
+	} else {
+		let currency
+		switch (data.currency) {
+			case 'inr':
+				currency = '₹'
+				break;
 
-	if (status === true) { // render the term length
-		document.querySelector('[data-id="domain-price-table"] tbody').innerHTML = ''
-		data.prices.forEach((item, index) => {
-			document.querySelector('[data-id="domain-price-table"] tbody').innerHTML += `<tr>
-				<td>
-					<label>
-						<input
-							type="radio"
-							name="price_id"
-							class="with-gap"
-							data-price="${ item.unit_amount }"
-							data-renewal="${ item.renewal_date }"
-							data-selector="term-length"
-							value="${ item.price_id }"
-							${ (index == 0) ? 'checked' : '' }
-						/>
-						<span>
-							${ item.duration }
-						</span>
-					</label>
-				</td>
-				<td>
-					${ data.currency } ${ item.unit_amount }/Yr
-				</td>
-			</tr>`
-		})
-	} else { // show loading screen
-		document.querySelector('[data-id="domain-price-table"] tbody').innerHTML = '<tr><td style="text-align: left"><div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div></td></tr>'		
+			case 'usd':
+				currency = '$'
+				break;
+		
+			default:
+				currency = '$'
+				break;
+		}
+
+		if (data.discount_info != null) {
+			document.querySelector('[data-id="domain-price-wrapper"]').innerHTML = `<span class="medium medium" style="text-decoration: line-through">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span><br><span class="medium black-text regular-text">${ currency } ${ ((data.unit_amount - data.discount_info.amount_off) / 100).toFixed(2) }</span>`			
+		} else {
+			document.querySelector('[data-id="domain-price-wrapper"]').innerHTML = `<span class="medium black-text regular-text">${ currency } ${ (data.unit_amount / 100).toFixed(2) }</span>`			
+		}
 	}
 }
 
@@ -156,4 +190,19 @@ export const PopularDomainRender = (data) => {
 			<span class="medium" style="font-size: 1rem">for first year</span>
 		</h4>`
 	})
+}
+
+export const DropdownRender = (elem, data) => {
+	elem.innerHTML = ''
+
+	for (const key in data.response) {
+		if (Object.prototype.hasOwnProperty.call(data.response, key)) {
+			const PriceInfo = data.response[key];
+			if (PriceInfo == null) {
+				elem.innerHTML += `<li><a href="#!" class="select_domain_duration" data-id="term-length" data-product="${ data.parent.product_id }" data-region="${ data.parent.region }" data-duration="${ key }" data-domain="${ data.parent.domain }" data-price>${ key }</a></li>`
+			} else {
+				elem.innerHTML += `<li><a href="#!" class="select_domain_duration" data-id="term-length" data-price="${ PriceInfo.price_id }">${ key }</a></li>`
+			}
+		}
+	}
 }
