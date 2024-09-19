@@ -513,9 +513,7 @@
 				<p>Affordable web hosting is a great way for individuals and small businesses to get their website online without breaking the bank. With so many web hosting providers available, it can be difficult to know where to start. iHost provides you with web hosting packages that are easy on your wallet without compromising with the reliability.</p>
 			</div>
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/web-affordability.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 
@@ -523,9 +521,7 @@
 
 		<div class="flex-row align-center gap-48">
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/web-security.jpg') }}" alt="" class="responsive-img">
 			</div>
 
 			<div class="col l6">
@@ -542,9 +538,7 @@
 				<p>Reliable web hosting is essential for any website owner who wants to ensure that their website is always available to their visitors. With iHost's advanced cache system, servers will provide a stable and fast platform for your website, with minimal downtime or interruptions so that your website is always live and visible to your users.</p>
 			</div>
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/web-reliability.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

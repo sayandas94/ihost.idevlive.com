@@ -527,7 +527,7 @@
 				</table>
 			</div>
 			<div class="col s12 m6 l7 sticky-top top-128">
-				<img src="{{ asset('images/website/host-your-website.avif') }}" class="responsive-img"
+				{{-- <img src="{{ asset('images/website/host-your-website.avif') }}" class="responsive-img"
 					srcset="{{ asset('images/website/host-your-website-320w.avif') }} 320w,
 					{{ asset('images/website/host-your-website-640w.avif') }} 640w,
 					{{ asset('images/website/host-your-website-1024w.avif') }} 1024w,
@@ -536,244 +536,12 @@
 					(max-width: 640px) 600px,
 					(max-width: 1024px) 960px,
 					1920px"
-					alt="website hosting" class="responsive-img" loading="lazy" />
+					alt="website hosting" class="responsive-img" loading="lazy" /> --}}
+					<img src="{{ asset('images/website/now-manage-your-website-with-style!.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>
 </section>
-
-{{-- <section class="center-align">
-	<div class="container">
-		<h3 class="header-text">Detailed tech specs for all shared hosting plans</h3>
-		<br><br>
-		<table class="highlight responsive-table feature-comparision-table centered">
-			<thead class="white sticky-top top-128">
-				<tr style="">
-					<th>Plans Features</th>
-					<th>Economy</th>
-					<th>Premium</th>
-					<th>Enterprise</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Websites</td>
-					<td>100</td>
-					<td>100</td>
-					<td>200</td>
-				</tr>
-				<tr>
-					<td>SSD Storage</td>
-					<td>100 GB</td>
-					<td>200 GB</td>
-					<td>200 GB</td>
-				</tr>
-				<tr>
-					<td>Bandwidth</td>
-					<td>100 GB</td>
-					<td>100 GB</td>
-					<td>400 GB</td>
-				</tr>
-				<tr>
-					<td>MySQL Database</td>
-					<td>5</td>
-					<td>5</td>
-					<td>10</td>
-				</tr>
-				<tr>
-					<td>Free Domain Registration</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Free SSL Certificate</td>
-					<td>Unlimited</td>
-					<td>Unlimited</td>
-					<td>Unlimited</td>
-				</tr>
-				<tr>
-					<td>Free Backup</td>
-					<td>-</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Email Accounts</td>
-					<td>10</td>
-					<td>20</td>
-					<td>40</td>
-				</tr>
-				<tr>
-					<td>99.9% Uptime Gurantee</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>24/7 Support</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>iPanel</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Webmail Access</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>DNS Management</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Subdomains per account</td>
-					<td>2</td>
-					<td>10</td>
-					<td>100</td>
-				</tr>
-				<tr>
-					<td>Parked Domains</td>
-					<td>1</td>
-					<td>10</td>
-					<td>100</td>
-				</tr>
-				<tr>
-					<td>FTP Accounts</td>
-					<td>1</td>
-					<td>10</td>
-					<td>10</td>
-				</tr>
-				<tr>
-					<td>Inodes</td>
-					<td>200 000</td>
-					<td>400 000</td>
-					<td>600 000</td>
-				</tr>
-				<tr>
-					<td>FTP Over SSL</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>File Manager</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Remote MySQL</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>phpMyAdmin</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Cache Manager</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>SSH Access</td>
-					<td>-</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Cronjobs</td>
-					<td>2</td>
-					<td>10</td>
-					<td>100</td>
-				</tr>
-				<tr>
-					<td>Curl & Curl SSL</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Hotlink Protection</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>GIT</td>
-					<td>Yes</td>
-					<td>Yes</td>
-					<td>Yes</td>
-				</tr>
-				<tr>
-					<td>Database size</td>
-					<td>3 GB</td>
-					<td>3 GB</td>
-					<td>3 GB</td>
-				</tr>
-				<tr>
-					<td>CPU Cores</td>
-					<td>1 Core</td>
-					<td>2 Cores</td>
-					<td>4 Cores</td>
-				</tr>
-				<tr>
-					<td>RAM</td>
-					<td>1 GB</td>
-					<td>2 GB</td>
-					<td>4 GB</td>
-				</tr>
-				<tr>
-					<td>Entry processes</td>
-					<td>10</td>
-					<td>20</td>
-					<td>30</td>
-				</tr>
-				<tr class="hide-on-small-only" style="border-bottom: none">
-					<td></td>
-					<td>
-						<br>
-						<a href="#configure-web-hosting" class="btn-large primary hover round modal-trigger" style="width: calc(100% - 50px)" data-plan="Economy Hosting">Add to cart</a>
-					</td>
-					<td>
-						<br>
-						<a href="#configure-web-hosting" class="btn-large primary hover round modal-trigger" style="width: calc(100% - 50px)" data-plan="Premium Hosting">Add to cart</a>
-					</td>
-					<td>
-						<br>
-						<a href="#configure-web-hosting" class="btn-large primary hover round modal-trigger" style="width: calc(100% - 50px)" data-plan="Enterprise Hosting">Add to cart</a>
-					</td>
-				</tr>
-
-				<tr class="hide-on-med-and-up">
-					<td></td>
-					<td>
-						<a href="#configure-web-hosting" class="modal-trigger" style="width: calc(100% - 50px)" data-plan="Economy Hosting">Add to cart</a>
-					</td>
-					<td>
-						<a href="#configure-web-hosting" class="modal-trigger" style="width: calc(100% - 50px)" data-plan="Premium Hosting">Add to cart</a>
-					</td>
-					<td>
-						<a href="#configure-web-hosting" class="modal-trigger" style="width: calc(100% - 50px)" data-plan="Enterprise Hosting">Add to cart</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</section> --}}
 
 <!-- TESTIMONIAL SECTION (START) -->
 <section class="scrollspy" id="testimonials">
@@ -945,26 +713,6 @@
 	<div class="container">
 		<h3 class="header-text">What makes iHost you best choice for web hosting</h3>
 		<br><br>
-		{{-- <div class="row">
-			<div class="col s12 m4">
-				<div class="card-panel z-depth-0">
-					<p class="semi-bold">Affordability</p>
-					<p class="small-text">Affordable web hosting is a great way for individuals and small businesses to get their website online without breaking the bank. With so many web hosting providers available, it can be difficult to know where to start. iHost provides you with web hosting packages that are easy on your wallet without compromising with the reliability.</p>
-				</div>
-			</div>
-			<div class="col s12 m4">
-				<div class="card-panel z-depth-0">
-					<p class="semi-bold">Security</p>
-					<p class="small-text">Web hosting security is an essential aspect of website management that can protect your website from security breaches, data theft, and other cyber threats. When it comes to web hosting, security should be a top priority. With that in mind, iHost servers are configured with best security pratices to protect your website from attackers.</p>
-				</div>
-			</div>
-			<div class="col s12 m4">
-				<div class="card-panel z-depth-0">
-					<p class="semi-bold">Reliability</p>
-					<p class="small-text">Reliable web hosting is essential for any website owner who wants to ensure that their website is always available to their visitors. With iHost's advanced cache system, servers will provide a stable and fast platform for your website, with minimal downtime or interruptions so that your website is always live and visible to your users.</p>
-				</div>
-			</div>
-		</div> --}}
 
 		<div class="flex-row align-center gap-48">
 			<div class="col l6 left-align">
@@ -972,9 +720,6 @@
 				<p>Affordable web hosting is a great way for individuals and small businesses to get their website online without breaking the bank. With so many web hosting providers available, it can be difficult to know where to start. iHost provides you with web hosting packages that are easy on your wallet without compromising with the reliability.</p>
 			</div>
 			<div class="col l6">
-				{{-- <div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div> --}}
 				<img src="{{ asset('images/website/web-affordability.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
@@ -1000,9 +745,6 @@
 				<p>Reliable web hosting is essential for any website owner who wants to ensure that their website is always available to their visitors. With iHost's advanced cache system, servers will provide a stable and fast platform for your website, with minimal downtime or interruptions so that your website is always live and visible to your users.</p>
 			</div>
 			<div class="col l6">
-				{{-- <div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div> --}}
 				<img src="{{ asset('images/website/web-reliability.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
