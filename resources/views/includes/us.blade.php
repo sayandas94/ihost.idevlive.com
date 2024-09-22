@@ -34,6 +34,9 @@
 	<!-- Material Symbols Sharp -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+	<meta name="keywords" content="@yield('keywords')">
+	<meta name="description" content="@yield('description')">
+
 	<script>
 		const DarkTheme = window.matchMedia('(prefers-color-scheme: dark)')
 		

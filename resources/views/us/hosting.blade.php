@@ -1,8 +1,18 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'Web Hosting Plans in the USA - Reliable & Affordable | iHost')
+
+@section('keywords', 'web hosting USA, affordable hosting plans, shared hosting USA, VPS hosting USA, cloud hosting USA, iHost hosting')
+@section('description', 'Explore iHost’s reliable and affordable web hosting plans in the USA. Choose from shared, VPS, or cloud hosting solutions tailored for your needs.')
 
 @section('content')
+
+<h1 class="hide">Affordable Web Hosting Plans for the USA</h1>
+<h2 class="hide">Choose Your Web Hosting Plan</h2>
+<h2 class="hide">Shared vs. VPS Hosting</h2>
+<h2 class="hide">Cloud Hosting Solutions in the USA</h2>
+<h2 class="hide">Why Choose iHost for Hosting?</h2>
+
 <section>
 	<div class="container">
 		<div class="row">
@@ -25,8 +35,7 @@
 				</p>
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{asset('images/website/vps.avif')}}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" /> --}}
-				<div class="card-panel grey lighten-1 z-depth-0" style="aspect-ratio: 1.6"></div>
+				<img src="{{asset('images/website/hosting-banner.jpg')}}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" />
 			</div>
 		</div>
 	</div>

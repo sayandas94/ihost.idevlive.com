@@ -1,6 +1,9 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Reset Password')
+@section('title', 'Recover Password - Reset iHost Account Password')
+
+@section('keywords', 'password reset, forgot password, account recovery, secure password')
+@section('description', 'Easily recover or reset your iHost account password for web hosting, domains, or email services using our secure password recovery process.')
 
 @section('content')
 <section class="user-wrapper">
@@ -14,19 +17,9 @@
 			</div>
 
 			<div class="input-field col s12">
-				<input type="text" name="email" id="email-address" value="sayan.das94@gmail.com">
+				<input type="text" name="email" id="email-address">
 				<label for="email-address">Email Address</label>
 			</div>
-
-			{{-- <div class="input-field col s12">
-				<input type="password" name="password" id="password" value="Admin@123">
-				<label for="email-address">Password</label>
-			</div>
-
-			<div class="input-field col s12">
-				<input type="text" name="customer_name" id="customer_name" value="Sayan Das">
-				<label for="customer_name">Customer name</label>
-			</div> --}}
 
 			<div class="input-field col s12"><br></div>
 			

@@ -1,13 +1,16 @@
 @extends('includes.in')
 
-@section('title', 'iHost - Search For Available Domain Names')
+@section('title', 'Domain Registration in India - Secure & Affordable | iHost')
+
+@section('keywords', 'buy domain India, domain registration India, affordable domains, domain search India, register domain iHost, domain name India')
+@section('description', 'Register your domain name in India with iHost. Choose from a wide range of domain extensions and secure your brand online at affordable prices.')
 
 @section('content')
-
-<style>
-	
-</style>
-
+<h1 class="hide">Affordable Domain Registration Services in India</h1>
+<h2 class="hide">Search for Your Ideal Domain Name</h2>
+<h2 class="hide">Domain Extensions Available in India</h2>
+<h2 class="hide">How to Register a Domain with iHost</h2>
+<h2 class="hide">Secure Your Online Presence</h2>
 <section class="center-align">
 	<div class="container">
 		<div class="row">
@@ -244,7 +247,7 @@
 					alt="domain name discount"
 					class="responsive-img"
 				/> --}}
-				<img src="{{ asset('images/website/manage-your-domain.jpg') }}" alt="" class="responsive-img">
+				<img src="{{ asset('images/website/manage-your-domain.jpg') }}" alt="Register domain name in India" class="responsive-img">
 			</div>
 		</div>
 	</div>

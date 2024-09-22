@@ -25,8 +25,7 @@
 				</p>
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{ asset('images/website/vps.avif') }}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" /> --}}
-				<div class="card-panel grey lighten-1 z-depth-0" style="aspect-ratio: 1.6"></div>
+				<img src="{{ asset('images/website/emails-banner.jpg') }}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" />
 			</div>
 		</div>
 	</div>

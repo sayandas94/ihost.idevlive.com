@@ -1,9 +1,16 @@
 @extends('includes.in')
 
-@section('title', 'iHost - Domain Names & Web Hosting Platform')
+@section('title', 'iHost India - Affordable Web Hosting & Domain Services')
+
+@section('keywords', 'web hosting India, domain registration India, iHost India, cloud hosting, VPS hosting, affordable web hosting India, buy domain India')
+@section('description', 'Get reliable and affordable web hosting, domain registration, and cloud solutions in India with iHost. Explore VPS hosting, domain transfers, and more!')
 
 @section('content')
-<h1 class="hide">hosting platform</h1>
+<h1 class="hide">Reliable Web Hosting and Domain Services in India</h1>
+<h2 class="hide">Affordable Web Hosting Plans in India</h2>
+<h2 class="hide">Domain Registration Made Simple</h2>
+<h2 class="hide">Why Choose iHost for Your Hosting Needs?</h2>
+<h2 class="hide">Cloud Hosting and VPS Solutions</h2>
 <section>
 	<div class="container">
 		<div class="row">
@@ -122,23 +129,10 @@
 			<div class="col s12 m6 l5">
 				<h3 class="header-text">Let there be speed with you</h3>
 				<div class="hide-on-med-and-up" style="margin-bottom: 42px">
-					<img src="http://ihost.test/images/website/let-there-be-speed-320w.avif" alt="how to buy a domain name permanently" class="responsive-img" loading="lazy">
+					<img src="http://ihost.test/images/website/let-there-be-speed-320w.avif" alt="iHost India web hosting services" class="responsive-img" loading="lazy">
 				</div>
 				<table class="features-table">
 					<tbody>
-						{{-- <tr>
-							<td>
-								<i class="material-symbols-sharp primary-text">wifi</i>
-							</td>
-							<td>
-								<p>
-									<span class="semi-bold">Apache Server</span>
-									<br>
-									<span>Maximize performance with optimised virtual hosting on Apache Web Server technology.</span>
-								</p>
-							</td>
-						</tr> --}}
-
 						<tr>
 							<td>
 								<img src="{{ asset('images/icons/cpu.svg') }}" alt="" height="24" width="24">
@@ -205,7 +199,7 @@
 					(max-width: 1024px) 960px,
 					1920px"
 					alt="best hosting for website" /> --}}
-					<img src="{{ asset('images/website/let-there-be-speed.jpg') }}" alt="" class="responsive-img">
+					<img src="{{ asset('images/website/let-there-be-speed.jpg') }}" alt="Affordable domain registration India" class="responsive-img">
 			</div>
 		</div>
 	</div>
@@ -227,10 +221,10 @@
 					(max-width: 1024px) 960px,
 					1920px"
 					alt="best web hosting for beginners" /> --}}
-					<img src="{{ asset('images/website/host-your-website.jpg') }}" alt="" class="responsive-img">
+					<img src="{{ asset('images/website/host-your-website.jpg') }}" alt="Cloud hosting solutions India" class="responsive-img">
 			</div>
 			<div class="hide-on-med-and-up">
-				<img src="{{ asset('images/website/host-your-website-320w.png') }}" alt="buy hosting for small business" class="responsive-img" loading="lazy">
+				<img src="{{ asset('images/website/host-your-website-320w.png') }}" alt="Cloud hosting solutions India" class="responsive-img" loading="lazy">
 				<br><br>
 			</div>
 			<div class="col s12 m6 l5">

@@ -1,8 +1,17 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'WordPress Hosting USA - Optimized & Fast | iHost')
+
+@section('keywords', 'WordPress hosting USA, fast WordPress hosting, optimized hosting USA, iHost WordPress USA, WordPress site hosting')
+@section('description', 'Host your WordPress site with iHost USA. Enjoy fast, secure, and optimized WordPress hosting services tailored for performance.')
 
 @section('content')
+
+<h1 class="hide">Optimized WordPress Hosting Services in the USA</h1>
+<h2 class="hide">Why Choose iHost for WordPress Hosting?</h2>
+<h2 class="hide">Fast and Secure WordPress Hosting</h2>
+<h2 class="hide">How to Set Up WordPress Hosting</h2>
+
 <section class="center-on-small-only">
 	<div class="container">
 		<div class="row">

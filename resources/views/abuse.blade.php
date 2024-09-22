@@ -1,8 +1,15 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Report Abuse')
+@section('title', 'Report Abuse - iHost Policy Violations')
+
+@section('keywords', 'report abuse, report policy violations, iHost abuse policy, domain abuse, hosting abuse, iHost report')
+@section('description', 'Report abuse or violations of iHost policies. Help us maintain a safe online environment by reporting misuse of our services.')
 
 @section('content')
+<h1 class="hide">Report Abuse and Policy Violations</h1>
+<h2 class="hide">How to Report Abuse</h2>
+<h2 class="hide">What Violates iHost Policies?</h2>
+<h2 class="hide">Frequently Asked Questions About Abuse Reports</h2>
 
 <section class="center-align">
 	<div class="container">

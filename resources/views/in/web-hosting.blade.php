@@ -1,8 +1,16 @@
 @extends('includes.in')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'Web Hosting India - Secure & Scalable Solutions | iHost')
+
+@section('keywords', 'web hosting India, secure hosting solutions, scalable hosting, iHost India hosting, best web hosting plans')
+@section('description', 'Get secure and scalable web hosting solutions with iHost India. Choose the best plan for your website and enjoy excellent performance.')
 
 @section('content')
+<h1 class="hide">Secure and Scalable Web Hosting Solutions in India</h1>
+<h2 class="hide">Choose a Web Hosting Plan</h2>
+<h2 class="hide">Why iHost for Web Hosting?</h2>
+<h2 class="hide">Benefits of Scalable Hosting</h2>
+
 <section class="center-on-small-only scrollspy" id="top">
 	<div class="container">
 		<div class="row">

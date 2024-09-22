@@ -1,12 +1,16 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Search For Available Domain Names')
+@section('title', 'Domain Registration in the USA - Secure & Affordable | iHost')
+
+@section('keywords', 'buy domain USA, domain registration USA, cheap domains, domain search USA, register domain iHost, domain name USA')
+@section('description', 'Register your domain name in the USA with iHost. Choose from a wide range of domain extensions and secure your brand online at affordable prices.')
 
 @section('content')
-
-<style>
-	
-</style>
+<h1 class="hide">Affordable Domain Registration Services in the USA</h1>
+<h2 class="hide">Search for Your Ideal Domain Name</h2>
+<h2 class="hide">Domain Extensions Available in the USA</h2>
+<h2 class="hide">How to Register a Domain with iHost</h2>
+<h2 class="hide">Secure Your Online Presence</h2>
 
 <section class="center-align">
 	<div class="container">

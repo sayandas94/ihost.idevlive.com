@@ -1,6 +1,9 @@
 @extends('includes.in')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'Email Hosting Services - Reliable & Affordable from iHost')
+
+@section('keywords', 'email hosting, business email, professional email, secure email hosting')
+@section('description', 'iHost offers reliable and affordable email hosting services for individuals and businesses. Get a professional email address, ample storage, and robust security features.')
 
 @section('content')
 <section>
@@ -25,8 +28,7 @@
 				</p>
 			</div>
 			<div class="col s12 m6 l7">
-				{{-- <img src="{{ asset('images/website/vps.avif') }}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" /> --}}
-				<div class="card-panel grey lighten-1 z-depth-0" style="aspect-ratio: 1.6"></div>
+				<img src="{{ asset('images/website/emails-banner.jpg') }}" class="responsive-img hide-on-small-only" alt="how to buy domain name in india" loading="lazy" />
 			</div>
 		</div>
 	</div>

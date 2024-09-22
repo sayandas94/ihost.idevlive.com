@@ -1,8 +1,17 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'Web Hosting USA - Secure & Scalable Solutions | iHost')
+
+@section('keywords', 'web hosting USA, secure hosting solutions, scalable hosting, iHost USA hosting, best web hosting plans')
+@section('description', 'Get secure and scalable web hosting solutions with iHost USA. Choose the best plan for your website and enjoy excellent performance.')
 
 @section('content')
+
+<h1 class="hide">Secure and Scalable Web Hosting Solutions in the USA</h1>
+<h2 class="hide">Choose a Web Hosting Plan</h2>
+<h2 class="hide">Why iHost for Web Hosting?</h2>
+<h2 class="hide">Benefits of Scalable Hosting</h2>
+
 <section class="center-on-small-only scrollspy" id="top">
 	<div class="container">
 		<div class="row">

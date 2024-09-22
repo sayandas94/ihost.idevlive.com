@@ -1,8 +1,16 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Help Center')
+@section('title', 'Help Center - Get Support for iHost Services')
+
+@section('keywords', 'help center, iHost support, customer support India, hosting help, domain support iHost, technical support iHost')
+@section('description', 'Visit the iHost Help Center for assistance with hosting, domain registration, transfers, and more. Our support team is here to help.')
 
 @section('content')
+<h1 class="hide">Help Center: Support for iHost Services</h1>
+<h2 class="hide">Get Help with Hosting</h2>
+<h2 class="hide">Domain Support and FAQs</h2>
+<h2 class="hide">Contact Our Support Team</h2>
+
 <section class="center-align">
 	<div class="container">
 		<div class="row">

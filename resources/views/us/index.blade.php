@@ -1,9 +1,16 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Domain Names & Web Hosting Platform')
+@section('title', 'iHost USA - Affordable Web Hosting & Domain Services')
+
+@section('keywords', 'web hosting USA, domain registration USA, iHost USA, cloud hosting, VPS hosting, cheap web hosting USA, buy domain USA')
+@section('description', 'Get reliable and affordable web hosting, domain registration, and cloud solutions in the USA with iHost. Explore VPS hosting, domain transfers, and more!')
 
 @section('content')
-<h1 class="hide">hosting platform</h1>
+<h1 class="hide">Reliable Web Hosting and Domain Services in the USA</h1>
+<h2 class="hide">Affordable Web Hosting Plans in the USA</h2>
+<h2 class="hide">Domain Registration Made Simple</h2>
+<h2 class="hide">Why Choose iHost for Your Hosting Needs?</h2>
+<h2 class="hide">Cloud Hosting and VPS Solutions</h2>
 <section>
 	<div class="container">
 		<div class="row">

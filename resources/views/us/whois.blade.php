@@ -1,8 +1,17 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Whois Lookup')
+@section('title', 'WHOIS Lookup for Domains - Check Domain Information | iHost USA')
+
+@section('keywords', 'WHOIS lookup USA, domain information, domain ownership, WHOIS tool, find domain owner, check domain details')
+@section('description', 'Use the iHost WHOIS lookup tool to check domain ownership and registration details. Discover domain information quickly and easily in the USA.')
 
 @section('content')
+
+<h1 class="hide">WHOIS Lookup: Check Domain Information in the USA</h1>
+<h2 class="hide">How WHOIS Lookup Works</h2>
+<h2 class="hide">Why Use WHOIS Lookup?</h2>
+<h2 class="hide">Check Domain Ownership and Registration Details</h2>
+
 <!-- Header (Start) -->
 <section>
 	<div class="container">

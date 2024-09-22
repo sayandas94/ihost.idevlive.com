@@ -1,11 +1,17 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Domain Transfer Made Easy')
+@section('title', 'Domain Transfer Services in the USA - Fast & Secure | iHost')
+
+@section('keywords', 'domain transfer USA, transfer domain, move domain to iHost, secure domain transfer, change domain registrar USA')
+@section('description', 'Transfer your domain to iHost quickly and securely. Enjoy hassle-free domain transfer services in the USA with no hidden fees.')
 
 @section('content')
-<style>
-	
-</style>
+
+<h1 class="hide">Fast and Secure Domain Transfer Services in the USA</h1>
+<h2 class="hide">How to Transfer Your Domain</h2>
+<h2 class="hide">Why Transfer Your Domain to iHost?</h2>
+<h2 class="hide">Safe and Secure Domain Transfers</h2>
+
 <!-- Header (Start) -->
 <section>
 	<div class="container">

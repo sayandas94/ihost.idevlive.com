@@ -1,8 +1,17 @@
 @extends('includes.us')
 
-@section('title', 'iHost - Domain Name Extensions Provided By iHost')
+@section('title', 'Domain Name Extensions - Choose the Right One | iHost USA')
+
+@section('keywords', 'domain extensions USA, domain name extensions, choose domain extension, top-level domains, register TLD USA')
+@section('description', 'Explore a variety of domain name extensions available with iHost USA. Choose the right one to represent your brand online.')
 
 @section('content')
+
+<h1 class="hide">Choose the Right Domain Name Extension in the USA</h1>
+<h2 class="hide">Popular Domain Name Extensions in the USA</h2>
+<h2 class="hide">Which Domain Extension is Right for You?</h2>
+<h2 class="hide">Register a Domain with Your Chosen Extension</h2>
+
 <!-- Header (Start) -->
 <section>
 	<div class="container">

@@ -1,8 +1,16 @@
 @extends('includes.in')
 
-@section('title', 'iHost - Secure, Fast & Reliable Web Hosting Solution')
+@section('title', 'WordPress Hosting India - Optimized & Fast | iHost')
+
+@section('keywords', 'WordPress hosting India, fast WordPress hosting, optimized hosting India, iHost WordPress, WordPress site hosting')
+@section('description', 'Host your WordPress site with iHost India. Enjoy fast, secure, and optimized WordPress hosting services tailored for performance.')
 
 @section('content')
+<h1 class="hide">Optimized WordPress Hosting Services in India</h1>
+<h2 class="hide">Why Choose iHost for WordPress Hosting?</h2>
+<h2 class="hide">Fast and Secure WordPress Hosting</h2>
+<h2 class="hide">How to Set Up WordPress Hosting</h2>
+
 <section class="center-on-small-only">
 	<div class="container">
 		<div class="row">
