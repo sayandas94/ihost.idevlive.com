@@ -3,12 +3,35 @@
 @section('title', 'iHost - Sign Up')
 
 @section('content')
+<style>
+	.error-box {
+		background-color: #ffebee;
+		color: #f44336;
+		padding: 8px;
+		display: flex;
+		align-items: center;
+		border-radius: 4px;
+		font-size: 13px;
+		column-gap: 8px;
+	}
+
+	.error-box > i {
+		font-size: 18px;
+	}
+</style>
 <section class="user-wrapper">
 	<div class="card-panel">
 		<form action="{{ url('sign-up') }}" method="POST" class="row" autocomplete="off" name="register-form">
 			@csrf
 			<div class="col s12 left-align">
 				<h4 class="header-text left-align">Sign Up</h4><br>
+			</div>
+
+			<div class="input-field col s12">
+				<div class="error-box hide" data-id="error-box">
+					<i class="material-symbols-rounded">error</i>
+					<span></span>
+				</div>
 			</div>
 
 			<div class="input-field col s12">

@@ -109,7 +109,7 @@
 			
 							<br><div class="divider"></div>
 			
-							<div class="flexbox space-between" style="align-items: center">
+							<div class="flexbox space-between align-center">
 								<p class="medium regular">Add Privacy Protection</p>
 								
 								<div class="switch">
@@ -126,7 +126,7 @@
 			
 							<br><div class="divider"></div>
 			
-							<div class="flexbox space-between" style="align-items: center">
+							<div class="flexbox space-between align-center">
 								<p class="medium regular">Add Domain Lock</p>
 								
 								<div class="switch">
@@ -143,7 +143,7 @@
 			
 							<br><div class="divider"></div>
 			
-							<div class="flexbox space-between" style="align-items: center">
+							<div class="flexbox space-between align-center">
 								<p class="medium">Auto-renew</p>
 								
 								<div class="switch">

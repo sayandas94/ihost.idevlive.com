@@ -1,3 +1,14 @@
+import {
+	HostingRender as HostingRender,
+	PaymentMethodRender as PaymentMethodRender,
+	HostingPlans as HostingPlans,
+	PriceIdRender as PriceIdRender,
+	LoadingBtn as LoadingBtn,
+	PriceUpdate as PriceUpdate,
+	BillingAddressRender as BillingAddressRender,
+	AmountRender as AmountRender
+} from './functions/hosting.function.js';
+
 document.addEventListener('DOMContentLoaded', async () => {
 	document.querySelectorAll('.nav-btn').forEach(element => {
 		element.classList.remove('active')
@@ -12,92 +23,25 @@ document.onreadystatechange = async () => {
 
 		const userHosting = await get(appUrl('accounts/active-subscriptions?product=hosting'))
 
-		if (userHosting.data.length != 0) hosting_render(userHosting.data)
+		if (userHosting.data.length != 0) HostingRender(userHosting.data)
+		// if (userHosting.data.length != 0) hosting_render(userHosting.data)
 		document.querySelector('[data-id="loading-wrapper"]').classList.remove('active')
 	}
 }
 
-const hosting_render = (data) => {
-	document.querySelector('[data-id="hosting-table"] tbody').innerHTML = ''
-	for (const hosting of data) {
-
-		if (hosting.status == 'Setup') {
-			badge = `<p class="regular">Status<br><span class="badges blue">Setup</span></p>`
-		} else if (hosting.status == 'Active') {
-			badge = `<p class="regular">Status<br><span class="badges green">Active</span></p>`
-		}
-
-		switch (hosting.status) {
-			case 'Active':
-				badge = `<span class="badges green">Active</span>`
-				button = `<a
-					href="${ appUrl('user/ipanel?hostingId=' + hosting.id) }"
-					data-serverip=""
-					data-id="open-ipanel"
-					class="btn primary hover truncate"
-					style="width: 90%; max-width: 100%">
-					Open iPanel
-				</a>`
-				break
-
-			case 'Setup':
-				badge = `<span class="badges blue">Setup</span>`
-				button = `<a
-					href="#setup-hosting-popup"
-					class="btn primary hover truncate popup-trigger"
-					data-hosting-setup
-					data-productname="${ hosting.product_name }"
-					data-hostingID="${ hosting.id }"
-					data-invoiceID="${ hosting.invoice_id }">Setup Hosting
-				</a>`
-				break
-		
-			default:
-				badge = `<span class="badges grey">Unknown</span>`
-				break
-		}
-
-		document.querySelector('[data-id="hosting-table"] tbody').innerHTML += `<tr>
-			<td>
-				<span class="regular-text">${ hosting.product_name }</span>
-				<br>
-				<span class="small-text grey-text truncate-1">${ (hosting.status == 'Setup') ? 'Setup Required' : hosting.primary_domain }</span>
-			</td>
-			<td>
-				${ badge }
-			</td>
-			<td>
-				<span>${hosting.expiring_at}</span>
-			</td>
-			<td>
-				<div class="switch">
-					<label>
-						${ (hosting.auto_renew) ? '<input type="checkbox" class="auto-renew-checkbox" data-id="" data-product="hosting" checked><span class="lever"></span>' : '<input type="checkbox" class="auto-renew-checkbox" data-id="" data-product="hosting"><span class="lever"></span>' }
-					</label>
-				</div>
-			</td>
-			<td>
-				${ button }
-			</td>
-		</tr>`
-	}
-}
-
-document.addEventListener('click', (e) => {
-	const open_setup_panel = e.target.closest('[href*="#setup-hosting-popup"]')
-	if (open_setup_panel) {
+document.addEventListener('click', async (e) => {
+	const OpenSetupPanel = e.target.closest('[href*="#setup-hosting-popup"]')
+	if (OpenSetupPanel) {
 		e.preventDefault()
 
 		const input = document.createElement('input')
 		input.type = 'hidden'
 		input.name = 'hosting_id'
-		input.value = open_setup_panel.dataset.hostingid
+		input.value = OpenSetupPanel.dataset.hostingid
 
 		document.forms['setup-hosting-form'].appendChild(input)
 
-		console.log(input.value)
-
-		const id = open_setup_panel.getAttribute('href')
+		const id = OpenSetupPanel.getAttribute('href')
 		document.querySelector(id).classList.add('active')
 	}
 
@@ -127,6 +71,125 @@ document.addEventListener('click', (e) => {
 			element.classList.remove('active')
 		})
 		document.querySelector(id).classList.add('active')
+	}
+
+	const HostingDropdown = e.target.closest('[data-id="hosting-dropdown"]')
+	if (HostingDropdown) {
+
+		LoadingBtn(HostingDropdown, true)
+
+		const HostingDetails = await get(appUrl(`hosting/details?id=${ HostingDropdown.dataset.hosting }`))
+		console.log(HostingDetails)
+
+		if (!HostingDetails.status) {
+			M.toast({
+				html: HostingDetails.message
+			})
+			LoadingBtn(HostingDropdown, false)
+			return
+		}
+
+		const items = [
+			{
+				name: 'Renew',
+				url: '#renew-hosting'
+			},
+			{
+				name: 'Upgrade Plan',
+				url: '#!'
+			},
+			{
+				name: 'Resource Usage',
+				url: '#!'
+			},
+			{
+				name: 'Plan Details',
+				url: '#!'
+			}
+		]
+
+		document.querySelector('#hosting-dropdown').innerHTML = ''
+
+		if (!HostingDetails.data.status) {
+			document.querySelector('#hosting-dropdown').innerHTML += `<li><a href="#setup-hosting-popup" data-price="${ HostingDetails.data.price_id }">Setup</a></li>`
+			// console.log('setup required')
+		}
+
+		items.forEach(item => {
+			// console.log(item.name)
+
+			document.querySelector('#hosting-dropdown').innerHTML += `<li><a href="${ item.url }" data-price="${ HostingDetails.data.price_id }">${ item.name }</a></li>`
+		})
+
+		const instance = M.Dropdown.init(HostingDropdown)
+		instance.options = {
+			constrainWidth: false,
+			alignment: 'right',
+			coverTrigger: true,
+			closeOnClick: true,
+			onCloseStart: function () {
+				instance.destroy()
+			}
+		}
+		instance.open()
+		LoadingBtn(HostingDropdown, false)
+	}
+
+	const RenewHosting = e.target.closest('[href*="#renew-hosting"]')
+	if (RenewHosting) {
+		e.preventDefault()
+
+		// set the hosting id in the form
+		document.querySelector('#RenewHostingForm')['hosting_id'].value = RenewHosting.dataset.hosting
+
+		// Get the price details
+		const PriceInfo = await get(apiUrl(`ihost/hosting/get-price-info?price_id=${ RenewHosting.dataset.price }`))
+		if (!PriceInfo.status) {
+			M.toast({
+				html: `Can't fetch the price details for renewal. Contact the support team`
+			})
+			return
+		}
+
+		const ProductInfo = await get(apiUrl(`ihost/hosting/choose-plan?product_id=${ PriceInfo.data.product_id }&region=${ PriceInfo.data.region }`))
+
+		if (!ProductInfo.status) {
+			M.toast({
+				html: `Can't fetch the price details for renewal. Contact the support team`
+			})
+		}
+
+		const PriceData = {
+			prices: ProductInfo.data.price_info,
+			current: RenewHosting.dataset.price
+		}
+
+		PriceIdRender(PriceData)
+		PriceUpdate(PriceInfo.data)
+
+		const id = RenewHosting.getAttribute('href')
+		const instance = M.Modal.getInstance(document.querySelector(id))
+		instance.open()
+	}
+
+	const ChangeHostingDuration = e.target.closest('[data-id="hosting-term"] .with-gap')
+	if (ChangeHostingDuration) {
+		document.querySelector('[data-id="PricePanel"] .loader-container').classList.remove('hide')
+		const PriceInfo = await get(apiUrl(`ihost/hosting/get-price-info?price_id=${ ChangeHostingDuration.value }`))
+
+		PriceUpdate(PriceInfo.data)
+		document.querySelector('[data-id="PricePanel"] .loader-container').classList.add('hide')
+	}
+
+	const SelectPaymentMethod = e.target.closest('[href*="#SelectPaymentMethod"]')
+	if (SelectPaymentMethod) {
+		e.preventDefault()
+		const PaymentId = SelectPaymentMethod.dataset.value
+		const CardNumber = SelectPaymentMethod.dataset.last4
+		document.forms['RenewHostingForm']['payment_method'].value = PaymentId
+		document.querySelector('[data-id="last4"]').innerText = CardNumber
+
+		// document.querySelector('[data-id="last4"]').innerHTML = PaymentMethod.card.last4
 	}
 })
 
@@ -200,7 +263,95 @@ document.forms['setup-hosting-form'].addEventListener('submit', async (e) => {
 	}
 })
 
+document.querySelector('#RenewHostingForm').addEventListener('submit', async (e) => {
+	e.preventDefault()
+	let check = true
+	const form = document.querySelector('#RenewHostingForm')
 
+	if (document.querySelector('.form-part#PartOne').classList.contains('active')) {
+		LoadingBtn(form['checkout-btn'], true)
+		
+		if (!form['hosting_id'].value || !form['term_length'].value) {
+			check = false
+		}
+
+		if (!check) {
+			M.toast({
+				html: '<p>Parameters Missing.</p>'
+			})
+		}
+
+		const [BillingAddress, PaymentMethods] = await Promise.all([
+			get(appUrl('accounts/fetch-address')),
+			get(appUrl('accounts/payment-methods'))
+		])
+
+
+		if (!BillingAddress.status) {
+			M.toast({
+				html: BillingAddress.message
+			})
+		}
+
+		const TaxRate = await get(apiUrl(`accounts/get-taxes?country=${ BillingAddress.data.country }&postal_code=${ BillingAddress.data.postal_code }`))
+
+		BillingAddressRender(BillingAddress.data)
+
+		PaymentMethodRender(PaymentMethods.data)
+
+		const PriceInfo = await get(apiUrl(`ihost/hosting/get-price-info?price_id=${ form['term_length'].value }`))
+		const PriceData = {
+			UnitAmount: PriceInfo.data.unit_amount,
+			Currency: TaxRate.data.currency,
+			TaxId: TaxRate.data.tax_id,
+			TaxRate: TaxRate.data.rate
+		}
+
+		if (TaxRate.data.tax_id != undefined) {
+			document.forms['RenewHostingForm']['tax_id'].value = TaxRate.data.tax_id
+		}
+
+		AmountRender(PriceData)
+
+		LoadingBtn(form['checkout-btn'], false)
+
+		document.querySelector('.form-part#PartOne').classList.remove('active')
+		document.querySelector('.form-part#PartTwo').classList.add('active')
+		return
+	}
+
+	if (document.querySelector('.form-part#PartTwo').classList.contains('active')) {
+		LoadingBtn(form['submit-btn'], true)
+		const response = await post(form)
+		LoadingBtn(form['submit-btn'], false)
+
+		if (!response.status) {
+			M.toast({
+				html: `<p>Can\'t renew the Hosting Subscription. Please contact the support team</p>`
+			})
+		}
+
+		const instance = M.Modal.getInstance(document.querySelector('#renew-hosting'))
+		instance.close()
+	}
+
+})
+
+const currency_selector = (currency) => {
+	switch (currency) {
+		case 'usd': return '$'
+		case 'inr': return '₹'
+		default: return '$'
+	}
+}
+
+const per_month = (price) => {
+	// if (price.discount_type == 'percent') return (((price.unit_amount * ((100 - price.discount_info.percent_off) / 100)) / 100) / price.duration).toFixed(2);
+
+	// if (price.discount_type == 'amount') return null;
+
+	if (price.discount_type == null) return ((price.unit_amount / price.duration) / 100).toFixed(2)
+}
 
 // document.addEventListener('click', (e) => {
 // 	const popup_trigger = e.target.closest('.popup-trigger')

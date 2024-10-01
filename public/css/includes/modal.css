@@ -71,3 +71,7 @@ OVERLAY (POPUP) FOR SETUP HOSTING
 .overlay-popup.active {
 	left: 0;
 }
+
+.round-modal {
+	border-radius: 8px;
+}

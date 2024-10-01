@@ -53,10 +53,36 @@
 
 		<div class="col s12" id="payment-methods">
 			<br><br>
-			<a href="#new-card" class="btn primary hover">Add a new card</a>
-			<br><br>
+			{{-- <a href="#new-card" class="btn primary hover">Add a new card</a>
+			<br><br> --}}
 	
-			<h2 style="font-weight: 400">Due to compliances, we are not saving your payment details.</h2>
+			{{-- <h2 style="font-weight: 400">Due to compliances, we are not saving your payment details.</h2> --}}
+
+			<p>You have 1 active payment method</p>
+			{{-- <br>
+			<a href="#!" class="btn-flat primary" style="font-weight: 400">Add payment method</a> --}}
+			<table data-id="payment-methods">
+				<tbody>
+					<tr>
+						<td style="text-align: center">
+							<div class="flexbox" style="justify-content: flex-start; align-items: center; gap: 24px">
+								<div class="preloader-wrapper tiny active"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
+								<span>Loading...</span>
+							</div>
+						</td>
+					</tr>
+					{{-- <tr>
+						<td>
+							<span class="medium">&bull;&bull;&bull;&bull; 5365</span>
+							<br>
+							<span class="small-text grey-text">05/23</span>
+							<br>
+							<span class="small-text grey-text">VISA</span>
+						</td>
+					</tr> --}}
+				</tbody>
+			</table>
+
 		</div>
 	
 		<div class="col s12" id="payment-history">

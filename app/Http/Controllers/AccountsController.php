@@ -70,6 +70,15 @@ class AccountsController extends Controller
 		return redirect('sign-in');
 	}
 
+	public function reset_password($token = null)
+	{
+		if (!$token) {
+			return view('reset-password');
+		}
+
+		return 'step 2';
+	}
+
 	public function active_subscriptions(Request $request)
 	{
 		$profile = $this->profile()->data;
@@ -135,6 +144,15 @@ class AccountsController extends Controller
 
 		$response = $this->curl_post_header($url, $inputData);
 		
+		return response()->json($response);
+	}
+
+	public function payment_methods()
+	{
+		$url = 'accounts/payment-methods';
+
+		$response = $this->curl_get_header($url);
+
 		return response()->json($response);
 	}
 }

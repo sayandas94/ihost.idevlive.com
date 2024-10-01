@@ -17,10 +17,10 @@ form.addEventListener('submit', async (e) => {
 	}
 
 	if (!check) {
-		M.toast({
-			html: '<p>Please fill all the required fields.</p>'
-		})
-		form['submit'].classList.remove('disabled')
+		document.querySelector('[data-id="error-box"]').classList.remove('hide')
+		document.querySelector('[data-id="error-box"] span').innerHTML = 'Please fill all the required fields.'
+
+		disable_btn(form['submit'], false)
 		return
 	}
 
@@ -30,9 +30,9 @@ form.addEventListener('submit', async (e) => {
 	if (!response.status) {
 		for (const key in response.data) {
 			form[key].classList.add('invalid')
-			M.toast({
-				html: `<p>${response.data[key][0]}</p>`
-			})
+
+			document.querySelector('[data-id="error-box"]').classList.remove('hide')
+			document.querySelector('[data-id="error-box"] span').innerHTML = response.data[key][0]
 		}
 		disable_btn(form['submit'], false)
 		return;

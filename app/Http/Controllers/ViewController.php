@@ -74,7 +74,7 @@ class ViewController extends Controller
 
 		switch ($address->data->country) {
 			case 'India':
-				$data['tax'] = number_format((array_sum($request->session()->get('cart.sub_total')) * 0.18) / 100, 2, '.', '');
+				$data['tax'] = number_format(($request->session()->get('cart.sub_total') * 0.18) / 100, 2, '.', '');
 				break;
 
 			case 'United States':

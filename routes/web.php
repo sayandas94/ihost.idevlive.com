@@ -339,7 +339,11 @@ Route::group(['middleware' => DetectRegion::class], function () {
 Route::post('sign-up', [AccountsController::class, 'register']);
 Route::view('sign-in', 'login');
 Route::post('sign-in', [AccountsController::class, 'login']);
-Route::view('reset-password', 'reset-password');
+Route::get('reset-password/{token?}', [AccountsController::class, 'reset_password']);
+
+Route::get('payment-success', function () {
+	return view('success');
+});
 
 Route::get('domain/get-tld-info', [DomainController::class, 'tld_info']);
 Route::post('domain/search', [DomainController::class, 'search']);
@@ -379,6 +383,7 @@ Route::group(['middleware' => AuthorisedUser::class], function () {
 		Route::get('fetch-address', [AccountsController::class, 'fetch_address']);
 		Route::get('invoices', [AccountsController::class, 'invoices']);
 		Route::get('update-autorenew', [AccountsController::class, 'update_autorenew']);
+		Route::get('payment-methods', [AccountsController::class, 'payment_methods']);
 		
 		Route::post('update-address', [AccountsController::class, 'update_address']);
 		Route::post('update-password', [AccountsController::class, 'update_password']);
@@ -403,7 +408,10 @@ Route::group(['middleware' => AuthorisedUser::class], function () {
 	});
 
 	Route::group(['prefix' => 'hosting'], function () {
+		Route::get('details', [HostingController::class, 'details']);
+
 		Route::post('setup', [HostingController::class, 'setup']);
+		Route::post('renew', [HostingController::class, 'renew']);
 	});
 });
 

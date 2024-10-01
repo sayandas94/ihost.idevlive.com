@@ -12,6 +12,10 @@
 		width: 25%;
 	}
 
+	[data-id="hosting-table"] > thead > tr > th:first-child {
+		padding-left: 21px;
+	}
+
 	[data-id="hosting-table"] > thead > tr > th:first-child, [data-id="hosting-table"] > tbody > tr > td:first-child {
 		text-align: left;
 	}
@@ -32,10 +36,28 @@
 		font-size: 0.85rem
 	}
 
+	/* table.user-hosting tbody tr {
+		border-bottom: 1px solid #
+	} */
+
+	table.user-hosting tbody tr td .card-panel {
+		padding: 8px 16px;
+		border-radius: 8px;
+	}
+
+	table.user-hosting tbody tr:hover td .card-panel {
+		background-color: #f5f5f5;
+	}
+
+	table.user-hosting tbody tr td .card-panel:hover {
+		cursor: pointer;
+		background-color: var(--primary-300);
+	}
+
 </style>
 
 <section style="margin-top: 10%">
-	<table class="responsive-table regular-border centered" data-id="hosting-table">
+	<table class="responsive-table centered user-hosting" data-id="hosting-table">
 		<thead>
 			<tr>
 				<th>Hosting Plan</th>
@@ -47,14 +69,16 @@
 		</thead>
 
 		<tbody>
-			{{-- <tr>
+			<tr>
 				<td>
-					<span class="regular-text">Economy Hosting</span>
-					<br>
-					<span class="small-text grey-text truncate-1">idevlive.com</span>
+					<div class="card-panel z-depth-0">
+						<span class="regular-text">Economy Hosting</span>
+						<br>
+						<span class="small-text grey-text truncate-1">idevlive.com</span>
+					</div>
 				</td>
 				<td>
-					<span class="badges green">Active</span>
+					<span class="badges red">Expired</span>
 				</td>
 				<td>
 					<span>Aug 19, 2024</span>
@@ -67,13 +91,40 @@
 					</div>
 				</td>
 				<td>
-					<a
+					{{-- <a
 						href="#setup-hosting-popup"
 						class="btn primary hover popup-trigger truncate">
 						Setup Hosting
-					</a>
+					</a> --}}
+					<button class="btn-flat"><i class="material-symbols-rounded">more_vert</i></button>
 				</td>
-			</tr> --}}
+			</tr>
+
+			<tr>
+				<td>
+					<div class="card-panel z-depth-0">
+						<span class="regular-text">Premium Hosting</span>
+						<br>
+						<span class="small-text grey-text truncate-1">Click here to setup</span>
+					</div>
+				</td>
+				<td>
+					<span class="badges blue">Setup</span>
+				</td>
+				<td>
+					<span>Aug 19, 2024</span>
+				</td>
+				<td>
+					<div class="switch">
+						<label>
+							<input type="checkbox" class="auto-renew-checkbox" data-id="" data-product="hosting" checked><span class="lever"></span>
+						</label>
+					</div>
+				</td>
+				<td>
+					<button class="btn-flat"><i class="material-symbols-rounded">more_vert</i></button>
+				</td>
+			</tr>
 		</tbody>
 	</table>
 </section>
@@ -159,247 +210,110 @@
 	}
 </style>
 
-<div id="setup-hosting-popup" class="overlay-popup">
-	<nav class="overlay-header">
-		<div class="nav-wrapper container">
-			<ul class="left">
-				<li><a href="#!" class="medium" style="pointer-events: none; padding-left: 0">Setup Hosting</a></li>
-			</ul>
-			<ul class="right">
-				<li><a href="#!" class="btn-flat"><i class="material-symbols-rounded" style="height: 36px; line-height: 36px">contact_support</i></a></li>
-				<li><a href="#close-hosting-popup" class="btn-flat popup-close"><i class="material-symbols-rounded" style="height: 36px; line-height: 36px">close</i></a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="overlay-body">
-		<form action="{{ url('hosting/setup') }}" method="post" style="padding: 2% 0" name="setup-hosting-form" autocomplete="off">
+@component('components.SetupHosting') @endcomponent
+
+<ul id="hosting-dropdown" class="dropdown-content" style="border-radius: 8px"></ul>
+
+<style>
+	.renew-table tr {
+		border-bottom: none !important;
+	}
+
+	.renew-table > tbody > tr > td {
+		padding: 24px 5px !important;
+	}
+</style>
+
+<div id="renew-hosting" class="modal small-modal round-modal modal-fixed-footer">
+	<div class="modal-content" style="height: 100% !important">
+		<form action="{{ url('hosting/renew') }}" method="POST" id="RenewHostingForm" style="height: 100%">
 			@csrf
-			<div class="container">
-				<div class="form-part active" id="part-one">
-					<nav class="white z-depth-0 breadcrumb-nav">
-						<div class="nav-wrapper">
-							<div class="col s12">
-								<a href="#part-one" class="breadcrumb">Choose a domain</a>
-							</div>
-						</div>
-					</nav>
-					<br>
+			<input type="hidden" name="hosting_id">
+			<input type="hidden" name="payment_method">
+			<input type="hidden" name="tax_id">
+			<div class="form-part flexbox active" id="PartOne" style="flex-direction: column; justify-content: space-between; height: 100%">
+				<div>
 					<p>
-						<label>
-							<input class="with-gap domain-select" name="domain_select" value="ihost" type="radio" checked />
-							<span class="grey-text text-darken-4">The domain is in my iHost Account</span>
-						</label>
+						<span class="small-text grey-text">Web Hosting</span>
 						<br>
-						<span class="small-text grey-text">We will also configure your domain's DNS Records.</span>
+						<span class="medium">Premium Web Hosting</span>
 					</p>
-					<div class="setup-domain" id="ihost-domain">
-						<div>
-							<input type="text" name="ihost_domain_name" placeholder="Enter your domain name" value="idevlive.buzz">
-						</div>
-					</div>
-
-					<div class="divider" style="margin-top: 12px; margin-bottom: 48px"></div>
-
-					<p>
-						<label>
-							<input class="with-gap domain-select" name="domain_select" value="third-party" type="radio" />
-							<span class="grey-text text-darken-4">The domain is with some other provider</span>
-						</label>
-						<br>
-						<span class="small-text grey-text">You will have to manually configure the DNS Records for the domain.</span>
-					</p>
-					<div class="setup-domain" id="outside-domain" style="visibility: hidden">
-						<div>
-							<input type="text" name="outside_domain_name" placeholder="Enter your domain name">
-						</div>
-					</div>
-
-					<br><br>
-
-					<button class="btn-large primary hover" style="border-radius: 200px"><i class="material-symbols-rounded right">arrow_forward</i>Next</button>
+					<div data-id="hosting-term"></div>
 				</div>
-				<div class="form-part" id="part-two">
-					<nav class="white z-depth-0 breadcrumb-nav">
-						<div class="nav-wrapper">
-							<div class="col s12">
-								<a href="#part-one" class="breadcrumb">Choose a domain</a>
-								<a href="#part-two" class="breadcrumb">Select a datacenter</a>
-							</div>
-						</div>
-					</nav>
-					<br>
-
-					<div class="flexbox" style="column-gap: 24px">
-						<div class="radio-wrapper">
-							<input type="radio" id="datacenter-usa" class="custom-radio" name="datacenter" value="us">
-							<label for="datacenter-usa">
-								<img src="{{ asset('images/country-flags/united-states.png') }}" class="country-icon" alt="" width="48">
-								<span class="medium">United States</span>
-								<br>
-								<span class="grey-text">New York</span>
-							</label>
-						</div>
-
-						<div class="radio-wrapper">
-							<input type="radio" id="datacenter-canada" class="custom-radio" name="datacenter" value="ca">
-							<label for="datacenter-canada">
-								<img src="{{ asset('images/country-flags/canada.png') }}" class="country-icon" alt="" width="48">
-								<span class="medium">Canada</span>
-								<br>
-								<span class="grey-text">Toronto</span>
-							</label>
-						</div>
-
-						<div class="radio-wrapper">
-							<input type="radio" id="datacenter-india" class="custom-radio" name="datacenter" value="in">
-							<label for="datacenter-india">
-								<img src="{{ asset('images/country-flags/india.png') }}" class="country-icon" alt="" width="48">
-								<span class="medium">India</span>
-								<br>
-								<span class="grey-text">Bangalore</span>
-							</label>
-						</div>
-					</div>
-
-					{{-- <div class="flexbox" style="column-gap: 24px; align-content: strech">
-						<div class="card-panel hosting-setup-card">
-							<img src="{{ asset('images/country-flags/united-states.png') }}" class="country-icon" alt="" width="48">
-							<p>
-								<span class="medium">United States</span>
-								<br>
-								<span class="grey-text">New York</span>
-							</p>
-							<button data-value="usa" name="datacenter-btn" value="usa" class="btn-flat primary full-width">Select</button>
-						</div>
-
-						<div class="card-panel hosting-setup-card">
-							<img src="{{ asset('images/country-flags/canada.png') }}" alt="" class="country-icon" width="48">
-							<p>
-								<span class="medium">Canada</span>
-								<br>
-								<span class="grey-text">Toronto</span>
-							</p>
-							<button data-value="canada" name="datacenter-btn" value="canada" class="btn-flat primary full-width">Select</button>
-						</div>
-
-						<div class="card-panel hosting-setup-card">
-							<img src="{{ asset('images/country-flags/india.png') }}" alt="" class="country-icon" width="48">
-							<p>
-								<span class="medium">India</span>
-								<br>
-								<span class="grey-text">Bangalore</span>
-							</p>
-							<button data-value="india" name="datacenter-btn" value="india" class="btn-flat primary full-width">Select</button>
-						</div>
-					</div>
-					<input type="hidden" name="datacenter"> --}}
-					{{-- <div class="flexbox" style="column-gap: 48px"> --}}
-						{{-- <p>
-							<label>
-								<input class="with-gap domain-select" name="domain_select" value="ihost" type="radio" checked />
-								<span class="grey-text text-darken-4">United States</span>
-								<br>
-								<span class="small-text grey-text" style="padding-left: 35px">New York</span>
-							</label>
+				<div>
+					<div data-id="PricePanel" style="position: relative">
+						<h6 class="small-text grey-text" data-id="RenewalDate"></h6>
+						<p class="flexbox space-between">
+							<span class="small-text medium">Sub Total</span>
+							<span class="small-text" id="sub_total">Rs 25.00</span>
 						</p>
-						
-						<div class="divider" style="margin: 24px 0"></div>
+						<div class="loader-container white hide" style="position: absolute; height: 100%; width: 100%; top: 0; left: 0">
+							<div class="preloader-wrapper tiny active" style="position: absolute; top: calc(50% - 8px); left: calc(50% - 8px)"><div class="spinner-layer spinner-primary-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>
+						</div>
+					</div>
+					<br>
+					<div class="card-panel grey lighten-4 z-depth-0 left-align" style="border-radius: 8px">
+						<span class="small-text">Subtotal does not includes taxes and fees. Taxes and fees will be calculated during checkout, based on your location.</span>
+					</div>
+					<button class="btn-flat btn-large primary full-width" name="checkout-btn" value="checkout" style="font-weight: 500">Checkout</button>
+				</div>
+			</div>
 
-						<p>
-							<label>
-								<input class="with-gap domain-select" name="domain_select" value="third-party" type="radio" />
-								<span class="grey-text text-darken-4">Canada</span>
-								<br>
-								<span class="small-text grey-text" style="padding-left: 35px">Toronto</span>
-							</label>
+			<div class="form-part flexbox" id="PartTwo" style="flex-direction: column; justify-content: space-between; height: 100%">
+				<div>
+					<p class="small-text medium">
+						<span>Billing Address</span>
+						<a href="#!" class="right">Edit</a>
+					</p>
+
+					<p data-id="BillingAddress"></p>
+				</div>
+
+				<div>
+					<div class="divider"></div>
+					<p class="small-text medium">Payment Methods</p>
+					{{-- <div class="input-field">
+						<input type="text" class="payment-input" value="&bull;&bull;&bull;&bull; 4242" />
+					</div> --}}
+					<a href="#!" class="btn select-duration-btn" data-target="payment-methods">
+						<i class="material-icons right">keyboard_arrow_down</i>
+						&bull;&bull;&bull;&bull;
+						<span data-id="last4"></span>
+					</a>
+					<ul id="payment-methods" class="dropdown-content" style="border-radius: 8px"></ul>
+					{{-- <select name="payment_method" id="payment-methods"> --}}
+						{{-- <option value="hello">&bull;&bull;&bull;&bull; 4242</option> --}}
+					{{-- </select> --}}
+				</div>
+
+				<div>
+					<div data-id="price-wrapper">
+						<div class="divider"></div>
+						<p class="flexbox space-between">
+							<span class="small-text medium">Sub Total</span>
+							<span class="small-text" id="sub_total">Rs 25.00</span>
 						</p>
 
-						<div class="divider" style="margin: 24px 0"></div>
+						<p class="flexbox space-between">
+							<span class="small-text medium">Taxes & Fees</span>
+							<span class="small-text" id="sub_total">Rs 25.00</span>
+						</p>
 
-						<p>
-							<label>
-								<input class="with-gap domain-select" name="domain_select" value="third-party" type="radio" />
-								<span class="grey-text text-darken-4">India</span>
-								<br>
-								<span class="small-text grey-text" style="padding-left: 35px">Bangalore</span>
-							</label>
-						</p> --}}
-					{{-- </div> --}}
-					
+						<p class="flexbox space-between">
+							<span class="small-text medium">Amount to Pay</span>
+							<span class="small-text" id="sub_total">Rs 25.00</span>
+						</p>
+					</div>
 
-					<br><br>
-
-					<button class="btn-large primary hover" style="border-radius: 200px"><i class="material-symbols-rounded right">arrow_forward</i>Next</button>
+					<button class="btn-flat btn-large primary full-width" name="submit-btn" value="pay now" style="font-weight: 500">Pay Now</button>
 				</div>
-				<div class="form-part" id="part-three">
-					<nav class="white z-depth-0 breadcrumb-nav">
-						<div class="nav-wrapper">
-							<div class="col s12">
-								<a href="#part-one" class="breadcrumb">Choose a domain</a>
-								<a href="#part-two" class="breadcrumb">Select a datacenter</a>
-								<a href="#part-three" class="breadcrumb">Install Wordpress</a>
-							</div>
-						</div>
-					</nav>
-					<br>
-					<p>
-						<label>
-							<input class="with-gap" name="wordpress" value="yes" type="radio" />
-							<span>Yes</span>
-						</label>
-					</p>
-
-					<p>
-						<label>
-							<input class="with-gap" name="wordpress" value="no" type="radio" />
-							<span>No</span>
-						</label>
-					</p>
-					<br>
-					<p>
-						<button class="btn-large primary hover" style="border-radius: 200px"><i class="material-symbols-rounded right">arrow_forward</i>Start Setup</button>
-					</p>
-				</div>
-				{{-- <div class="form-part" id="part-four">
-					<h5 class="medium hosting-setup-header">
-						<a href="#part-three" class="left back"><i class="material-symbols-outlined">arrow_back</i></a>
-						<span>Check your settings</span>
-					</h5>
-					<br>
-					<p>
-						<span class="medium">Website name</span>
-						<br>
-						<span class="grey-text">quickprobooks.info</span>
-						<br>
-						<a href="#part-one" class="small-text medium back">Edit</a>
-					</p>
-					<br>
-					<p>
-						<span class="medium">Datacenter</span>
-						<br>
-						<span class="grey-text">India</span>
-						<br>
-						<a href="#part-two" class="small-text medium back">Edit</a>
-					</p>
-					<br>
-					<p>
-						<span class="medium">Wordpress</span>
-						<br>
-						<span class="grey-text">No</span>
-						<br>
-						<a href="#part-three" class="small-text medium back">Edit</a>
-					</p>
-					<br>
-					<p>
-						<button class="btn-large primary hover" style="border-radius: 200px"><i class="material-symbols-rounded right">arrow_forward</i>Start Setup</button>
-					</p>
-				</div> --}}
 			</div>
 		</form>
 	</div>
 </div>
+
 @endsection
 
 @section('script')
-<script type="text/javascript" src="{{ asset('js/user/hosting.js') }}"></script>
+<script type="module" src="{{ asset('js/user/hosting.js') }}"></script>
 @endsection

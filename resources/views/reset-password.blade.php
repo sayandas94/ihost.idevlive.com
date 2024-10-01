@@ -12,7 +12,7 @@
 			@csrf
 			<div class="col s12 left-align">
 				<h4 class="header-text left-align">Reset Password</h4>
-				<p class="small-text grey-text text-darken-2">By clicking on sending email, you will receive an email with a 6 digit OTP which will be valid for 10 minutes. Enter that OTP here to set your new password.</p>
+				<p class="small-text grey-text text-darken-2">By clicking on "Send Verification Email", you will receive an email with a link to reset your password. The link will be valid for 10 minutes only. Open the link received in your email to set your new password.</p>
 				<br><br>
 			</div>
 

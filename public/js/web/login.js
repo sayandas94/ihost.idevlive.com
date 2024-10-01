@@ -27,9 +27,9 @@ form.addEventListener('submit', async (e) => {
 	}
 
 	if (!check) {
-		M.toast({
-			html: '<p>Please fill all the required fields.</p>'
-		})
+		document.querySelector('[data-id="error-box"]').classList.remove('hide')
+		document.querySelector('[data-id="error-box"] span').innerHTML = 'Please fill all the required fields.'
+
 		LoadingButton(form['submit'], false)
 		return
 	}

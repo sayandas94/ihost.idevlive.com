@@ -177,9 +177,7 @@
 				<p>iHost blocks the email trackers that tell senders and advertisers what you read and click on, and can follow you around the web.</p>
 			</div>
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/no-more-trackers.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 
@@ -187,9 +185,7 @@
 
 		<div class="flex-row align-center gap-48">
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/better-security.jpg') }}" alt="" class="responsive-img">
 			</div>
 
 			<div class="col l6 left-align">
@@ -206,9 +202,7 @@
 				<p>Hide your real email address by creating aliases when you sign up for new websites so that your email is concealed.</p>
 			</div>
 			<div class="col l6">
-				<div class="card-panel z-depth-0 grey" style="aspect-ratio: 1.2">
-
-				</div>
+				<img src="{{ asset('images/website/hide-my-email.jpg') }}" alt="" class="responsive-img">
 			</div>
 		</div>
 	</div>

@@ -4,6 +4,26 @@ document.addEventListener('DOMContentLoaded', async () => {
 	})
 	document.querySelector('[data-id="billing"]').classList.add('active')
 	document.querySelector('[data-id="loading-wrapper"]').classList.remove('active')
+
+	const PaymentMethods = await get(appUrl(`accounts/payment-methods`))
+
+	if (PaymentMethods.data.length == 0) {
+		return
+	}
+
+	document.querySelector('[data-id="payment-methods"] tbody').innerHTML = ''
+
+	for (const PaymentMethod of PaymentMethods.data) {
+		document.querySelector('[data-id="payment-methods"] tbody').innerHTML += `<tr>
+			<td>
+				<span class="medium">&bull;&bull;&bull;&bull; ${ PaymentMethod.card.last4 }</span>
+				<br>
+				<span class="small-text grey-text">${ PaymentMethod.card.exp_month }/${ PaymentMethod.card.exp_year }</span>
+				<br>
+				<span class="small-text grey-text" style="text-transform: capitalize">${ PaymentMethod.card.brand }</span>
+			</td>
+		</tr>`
+	}
 })
 
 let profile

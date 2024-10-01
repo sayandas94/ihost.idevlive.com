@@ -53,3 +53,11 @@ table.domain-suggestion-table > tbody > tr > td:last-child {
 table.domain-suggestion-table > tbody > tr:last-child {
 	border-bottom: none;
 }
+
+/* table.user-hosting tbody tr {
+	border-bottom: 1px solid #
+}
+
+table.user-hosting tbody tr:hover {
+
+} */

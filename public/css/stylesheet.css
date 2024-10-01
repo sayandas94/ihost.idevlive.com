@@ -48,6 +48,10 @@ section {
 	display: flex;
 }
 
+.flexbox.justify-center {
+	justify-content: center;
+}
+
 .flexbox.space-between {
 	justify-content: space-between;
 }

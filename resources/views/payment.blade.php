@@ -18,11 +18,33 @@
 		top: calc(50% - 8px);
 		left: calc(50% - 8px);
 	}
+
+	.error-box {
+		background-color: #ffebee;
+		color: #f44336;
+		padding: 8px;
+		display: flex;
+		align-items: center;
+		border-radius: 4px;
+		font-size: 13px;
+		column-gap: 8px;
+
+	}
+
+	.error-box > i {
+		font-size: 18px;
+	}
 </style>
 
 <section style="padding-top: 5%">
 	<div class="container">
 		<div class="row">
+			<div class="col s12 hide" data-id="error-wrapper">
+				<div class="error-box" data-id="error-box">
+					<i class="material-symbols-rounded">error</i>
+					<span>Payment failed. Please contact the support team.</span>
+				</div>
+			</div>
 			<div class="col s12 m6 l6">
 				<form action="#!" method="post" name="payment-form">
 					<div class="row">
@@ -78,6 +100,7 @@
 										</div>
 									</div> --}}
 								</button>
+
 								<p class="small-text grey-text center-align">By clicking on Submit Payment, you allow iDevlive (parent company) to charge your card on behalf of iHost for this payment and future payments with accordance to their <a href="{{ url('terms-of-service') }}" style="text-decoration: underline">Terms of Service</a> and <a href="{{ url('privacy-policy') }}" style="text-decoration: underline">Privacy policy</a>.</p>
 							</div>
 						</div>
@@ -100,18 +123,18 @@
 							</tr>
 							<tr style="border-bottom: none">
 								<td>Subtotal</td>
-								<td class="right-align">{{ session()->get('cart.currency') }} <span data-id="subtotal">{{ number_format(array_sum(session('cart.sub_total')) / 100, 2, '.', '') }}</span></td>
+								<td class="right-align">{{ strtoupper(session('cart.currency')['symbol']) }} <span data-id="subtotal">{{ number_format(session()->get('cart.sub_total') / 100, 2, '.', '') }}</span></td>
 							</tr>
 							<tr>
 								<td>Taxes & Fees</td>
-								<td class="right-align"><span data-id="currency">{{ session()->get('cart.currency') }}</span> <span data-id="tax-amount">{{ $tax }}</span></td>
+								<td class="right-align"><span data-id="currency">{{ session()->get('cart.currency')['symbol'] }}</span> <span data-id="tax-amount">{{ $tax }}</span></td>
 							</tr>
 							<tr style="border-bottom: none">
 								<td>
 									<p class="medium">Total</p>
 								</td>
 								<td class="right-align">
-									<p class="medium">{{ session()->get('cart.currency') }} {{ number_format(array_sum(session('cart.sub_total')) / 100 + $tax, 2, '.', '') }}</p>
+									<p class="medium">{{ session()->get('cart.currency')['symbol'] }} {{ number_format(session()->get('cart.sub_total') / 100, 2, '.', '') }}</p>
 								</td>
 							</tr>
 						</tbody>

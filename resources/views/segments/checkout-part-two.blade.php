@@ -1,3 +1,19 @@
+<style>
+	.error-box {
+		background-color: #ffebee;
+		color: #f44336;
+		padding: 8px;
+		display: flex;
+		align-items: center;
+		border-radius: 4px;
+		font-size: 13px;
+		column-gap: 8px;
+	}
+
+	.error-box > i {
+		font-size: 18px;
+	}
+</style>
 <div class="form-part row" data-id="part-two">
 	<div class="col s12">
 		<nav class="breadcrumb-container">
@@ -57,6 +73,12 @@
 						</div>
 					</div>
 				</button>
+				
+				<div class="error-box" data-id="error-box">
+					<i class="material-symbols-rounded">error</i>
+					<span>Payment failed. Please contact the support team.</span>
+				</div>
+
 				<p class="small-text grey-text center-align">By clicking on Submit Payment, you allow iDevlive (parent company) to charge your card on behalf of iHost for this payment and future payments with accordance to their <a href="{{ url('terms-of-service') }}" style="text-decoration: underline">Terms of Service</a> and <a href="{{ url('privacy-policy') }}" style="text-decoration: underline">Privacy policy</a>.</p>
 			</div>
 		</div>

@@ -108,8 +108,8 @@
 					<h5 class="semi-bold">Order Summary</h5>
 					<p class="regular">{{ count(session('cart.contents')) }} {{ (count(session('cart.contents')) > 1) ? 'items' : 'item' }}</p>
 					<p><div class="divider"></div></p>
-					<p style="font-size: 18px">Subtotal ({{ strtoupper(session('cart.contents')[0]->currency) }}) <span class="right primary-text medium">{{ session()->get('cart.currency') }} {{ number_format(array_sum(session('cart.sub_total')) / 100, 2, '.', '') }}</span></p>
-					{{-- <p style="font-size: 18px">Subtotal (INR) <span class="right primary-text medium">{{ session()->get('cart.currency') }} {{ number_format(array_sum(session('cart.sub_total')) / 100, 2, '.', '') }}</span></p> --}}
+					{{-- <p style="font-size: 18px">Subtotal ({{ strtoupper(session('cart.currency')[0]->currency) }}) <span class="right primary-text medium">{{ session()->get('cart.currency') }} {{ number_format(array_sum(session('cart.sub_total')) / 100, 2, '.', '') }}</span></p> --}}
+					<p style="font-size: 18px">Subtotal ({{ strtoupper(session('cart.currency')['iso']) }}) <span class="right primary-text medium">{{ session()->get('cart.currency')['symbol'] }} {{ number_format(session()->get('cart.sub_total') / 100, 2, '.', '') }}</span></p>
 					<p class="small-text grey-text text-darken-1 center-align">Subtotal does not includes taxes and fees. Taxes and fees will be calculated during checkout, based on your location.</p>
 
 					<br>
@@ -123,6 +123,7 @@
 					<p class="small-text center-align">Wow! You are saving <span class="medium primary-text">{{ session()->get('cart.currency') }} {{ number_format(array_sum(session('cart.discount')) / 100, 2, '.', '') }}</span> on this order.</p>
 					@endif --}}
 					<a href="{{ url('checkout/payment') }}" class="primary solid btn-large full-width disabled" style="position: relative" data-id="pay-now-btn">Pay Now</a>
+
 					<br><br>
 					<div class="center-align">
 						<h6 class="small-text">Secured Payments</h6>
