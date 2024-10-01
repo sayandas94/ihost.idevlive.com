@@ -98,7 +98,7 @@ document.addEventListener('click', async (e) => {
 	if (configure_web_hosting) {
 		e.preventDefault()
 		disable_btn(configure_web_hosting, true)
-		const prices = await get(appUrl(`hosting/choose-plan?product_id=${ configure_web_hosting.dataset.product }&region=${ configure_web_hosting.dataset.region }`))
+		const prices = await get(apiUrl(`ihost/hosting/choose-plan?product_id=${ configure_web_hosting.dataset.product }&region=${ configure_web_hosting.dataset.region }`))
 
 		if (!prices.status) {
 			console.error(prices)
