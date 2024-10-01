@@ -37,29 +37,29 @@ form.addEventListener('submit', async (e) => {
 	e.preventDefault()
 
 	disableBtn(form['submit-btn'])
-
-	console.log('submitting')
 	
 	// creating an incoice
 	const invoice = await create_invoice_function()
-
-	console.log(invoice)
-
-	return
 	
 	// confirming the payment
 	const confirmPayment = await confirm_payment_function(invoice)
 
 	if (confirmPayment.error) {
-		console.error(confirmPayment)
+		document.querySelector('[data-id="error-wrapper"]').classList.remove('hide')
 		return
 	}
 
 	// delivering the cart items
 	const deliverProducts = await deliver_products_function(invoice)
-	console.log(deliverProducts)
 
 	activeBtn(form['submit-btn'])
+
+	if (!deliverProducts.status) {
+		document.querySelector('[data-id="error-wrapper"]').classList.remove('hide')
+	}
+
+	// redirect to payment success screen
+	
 })
 
 const activeBtn = (button) => {
