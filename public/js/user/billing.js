@@ -7,11 +7,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 	const PaymentMethods = await get(appUrl(`accounts/payment-methods`))
 
+	document.querySelector('[data-id="payment-methods"] tbody').innerHTML = ''
 	if (PaymentMethods.data.length == 0) {
+		document.querySelector('[data-id="pm-count"]').innerText = 'You don\'t have any saved payment methods.'
 		return
 	}
 
-	document.querySelector('[data-id="payment-methods"] tbody').innerHTML = ''
+	document.querySelector('[data-id="pm-count"]').innerText = `You have ${ PaymentMethods.data.length } active payment ${ (PaymentMethods.data.length == 1) ? 'method' : 'methods' }`
 
 	for (const PaymentMethod of PaymentMethods.data) {
 		document.querySelector('[data-id="payment-methods"] tbody').innerHTML += `<tr>

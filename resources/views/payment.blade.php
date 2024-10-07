@@ -134,7 +134,7 @@
 									<p class="medium">Total</p>
 								</td>
 								<td class="right-align">
-									<p class="medium">{{ session()->get('cart.currency')['symbol'] }} {{ number_format(session()->get('cart.sub_total') / 100, 2, '.', '') }}</p>
+									<p class="medium">{{ session()->get('cart.currency')['symbol'] }} {{ number_format(session()->get('cart.sub_total') / 100 + $tax, 2, '.', '') }}</p>
 								</td>
 							</tr>
 						</tbody>

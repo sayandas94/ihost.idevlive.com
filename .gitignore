@@ -21,3 +21,4 @@ yarn-error.log
 /public/js/common.js
 /public/js/user.js
 public/images/.DS_Store
+.DS_Store

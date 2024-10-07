@@ -45,6 +45,7 @@ form.addEventListener('submit', async (e) => {
 	const confirmPayment = await confirm_payment_function(invoice)
 
 	if (confirmPayment.error) {
+		document.querySelector('[data-id="error-box"] span').innerText = confirmPayment.error
 		document.querySelector('[data-id="error-wrapper"]').classList.remove('hide')
 		return
 	}
@@ -53,15 +54,16 @@ form.addEventListener('submit', async (e) => {
 	const deliverProducts = await deliver_products_function(invoice)
 
 	activeBtn(form['submit-btn'])
-
+	console.log(deliverProducts)
 	if (!deliverProducts.status) {
+		document.querySelector('[data-id="error-box"] span').innerText = 'Delivery failed'
 		document.querySelector('[data-id="error-wrapper"]').classList.remove('hide')
 	}
 
 	// redirect to payment success screen
-	
-})
+	window.location = appUrl('payment-success')
 
+})
 const activeBtn = (button) => {
 	button.classList.remove('disabled')
 	button.removeChild(button.firstElementChild)

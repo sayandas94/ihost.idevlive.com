@@ -58,7 +58,8 @@
 	
 			{{-- <h2 style="font-weight: 400">Due to compliances, we are not saving your payment details.</h2> --}}
 
-			<p>You have 1 active payment method</p>
+			<p data-id="pm-count"></p>
+			{{-- <p data-id="pm-count">You have 1 active payment method</p> --}}
 			{{-- <br>
 			<a href="#!" class="btn-flat primary" style="font-weight: 400">Add payment method</a> --}}
 			<table data-id="payment-methods">
