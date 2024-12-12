@@ -312,6 +312,15 @@
 	</div>
 </div>
 
+<div id="plan-details" class="modal small-modal round-modal modal-fixed-footer">
+	<div class="modal-content">
+		<h4 class="medium">Plan Details</h4>
+		<div data-id="hosting-features-wrapper">
+			
+		</div>
+	</div>
+</div>
+
 @endsection
 
 @section('script')

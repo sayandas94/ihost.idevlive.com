@@ -104,7 +104,7 @@ document.addEventListener('click', async (e) => {
 			},
 			{
 				name: 'Plan Details',
-				url: '#!'
+				url: '#plan-details'
 			}
 		]
 
@@ -190,6 +190,30 @@ document.addEventListener('click', async (e) => {
 		document.querySelector('[data-id="last4"]').innerText = CardNumber
 
 		// document.querySelector('[data-id="last4"]').innerHTML = PaymentMethod.card.last4
+	}
+
+	const PlanDetails = e.target.closest('[href*="#plan-details"]')
+	if (PlanDetails) {
+		e.preventDefault()
+
+		const PriceId = PlanDetails.dataset.price
+
+		const Features = await get(apiUrl(`ihost/hosting/product-info?price_id=${ PriceId }`))
+
+		const id = PlanDetails.getAttribute('href')
+		const instance = M.Modal.getInstance(document.querySelector(id))
+
+		const features = JSON.parse(Features.data.features)
+
+		document.querySelector('[data-id="hosting-features-wrapper"]').innerHTML = ''
+		features.forEach(feature => {
+			document.querySelector('[data-id="hosting-features-wrapper"]').innerHTML += `<img src="${ appUrl('images/icons/' + feature.icon) }" alt="" width="24">
+			<p>${ feature.feature }</p>
+			<br>`
+		})
+
+		instance.open()
+		console.log(JSON.parse(Features.data.features))
 	}
 })
 
