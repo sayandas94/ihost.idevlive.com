@@ -72,7 +72,7 @@ document.querySelector('[data-id="pay-now-btn"]').addEventListener('click', asyn
 
 	if (!response.status) {
 		M.toast({
-			html: '<p>Billing ddress couldn\'t be updated. Contact the support team.</p>'
+			html: '<p>Billing address couldn\'t be updated. Contact the support team.</p>'
 		})
 		disable_primary_btn(document.querySelector('[data-id="pay-now-btn"]'), false)
 		return

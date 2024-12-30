@@ -37,7 +37,7 @@ document.addEventListener('click', async (e) => {
 		const input = document.createElement('input')
 		input.type = 'hidden'
 		input.name = 'hosting_id'
-		input.value = OpenSetupPanel.dataset.hostingid
+		input.value = OpenSetupPanel.dataset.hosting
 
 		document.forms['setup-hosting-form'].appendChild(input)
 
